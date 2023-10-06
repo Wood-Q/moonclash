@@ -59,7 +59,14 @@ async def getRules(attr: int, qx=False):
         rule = rule.replace("DOMAIN-SUFFIX,","HOST-SUFFIX,")
         rule = rule.replace("DOMAIN-KEYWORD,","HOST-KEYWORD,")
         for line in rule.split("\n"):
-            if line != "":
+            if line == "":
+                continue
+            params = line.split(",")
+            if(params[0] == 'PROCESS-NAME'):
+                continue
+            if(len(params) == 3):
+                resStr += f"{params[0]},{params[1]},{tag},no-resolve\n"
+            else:
                 resStr += line+","+tag+"\n"
         return resStr
     return rule
