@@ -49,7 +49,7 @@ async def getProxies(attr: int):
 
 async def getRules(attr: int, qx=False):
     fn = ['globalDirect', 'pselect', 'ms', 'apple', 'openai',
-          'game', 'globalmedia', 'cnmeida', 'cqu'][attr]
+          'game', 'globalmedia', 'cnmedia', 'cqu'][attr]
     rule = file_get(f"./rule/{fn}.list")
     if qx:
         rule = rule.replace("IP-CIDR6,","IP6-CIDR,")
