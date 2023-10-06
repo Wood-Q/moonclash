@@ -59,7 +59,8 @@ async def getRules(attr: int, qx=False):
         rule = rule.replace("DOMAIN-SUFFIX,","HOST-SUFFIX,")
         rule = rule.replace("DOMAIN-KEYWORD,","HOST-KEYWORD,")
         for line in rule.split("\n"):
-            resStr += line+","+tag+"\n"
+            if line != "":
+                resStr += line+","+tag+"\n"
         return resStr
     return rule
 
