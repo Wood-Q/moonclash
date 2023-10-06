@@ -52,10 +52,15 @@ async def getRules(attr: int, qx=False):
           'game', 'globalmedia', 'cnmedia', 'cqu'][attr]
     rule = file_get(f"./rule/{fn}.list")
     if qx:
+        tag = ['🎯 全球直连','🚀 节点选择','Ⓜ️ 微软服务',' 苹果服务','💬 OpenAI','🎮 游戏平台','🌍 国外媒体','📺 国内媒体','🕋 重大服务'][attr]
+        resStr = ""
         rule = rule.replace("IP-CIDR6,","IP6-CIDR,")
         rule = rule.replace("DOMAIN,","HOST,")
         rule = rule.replace("DOMAIN-SUFFIX,","HOST-SUFFIX,")
         rule = rule.replace("DOMAIN-KEYWORD,","HOST-KEYWORD,")
+        for line in rule.split("\n"):
+            resStr += line+","+tag+"\n"
+        return resStr
     return rule
 
 app = FastAPI()
