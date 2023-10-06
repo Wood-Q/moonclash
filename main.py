@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 def file_get(path):
-    if(not os.path.exists(path)):
+    if (not os.path.exists(path)):
         print(f"{path} does not exist")
         return ""
     fs = open(path, "r")
@@ -35,20 +35,27 @@ async def getProxies(attr: int):
     res = await httpGet(url)
     data = yaml.safe_load(res)
 
-    rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国', '标准.*日本','标准.*台湾','标准.*日本','标准.*韩国','阿根廷'][attr]
+    rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
+            '标准.*日本', '标准.*台湾', '标准.*日本', '标准.*韩国', '阿根廷'][attr]
     res = list()
     for v in data['proxies']:
         if re.search(rstr, v['name']) != None:
-            v["skip-cert-verify"]=True
+            v["skip-cert-verify"] = True
             res.append(v)
 
     yamls = yaml.dump({"proxies": res}, allow_unicode=True)
     return yamls
 
 
-async def getRules(attr: int):
-    fn = ['globalDirect','pselect','ms','apple','openai','game','globalmedia','cnmeida','cqu'][attr]
+async def getRules(attr: int, qx=False):
+    fn = ['globalDirect', 'pselect', 'ms', 'apple', 'openai',
+          'game', 'globalmedia', 'cnmeida', 'cqu'][attr]
     rule = file_get(f"./rule/{fn}.list")
+    if qx:
+        rule = rule.replace("IP-CIDR6,","IP6-CIDR,")
+        rule = rule.replace("DOMAIN,","HOST,")
+        rule = rule.replace("DOMAIN-SUFFIX,","HOST-SUFFIX,")
+        rule = rule.replace("DOMAIN-KEYWORD,","HOST-KEYWORD,")
     return rule
 
 app = FastAPI()
@@ -74,3 +81,8 @@ async def read_root(attr: int):
 @app.get("/rule")
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr))
+
+
+@app.get("/qrule")
+async def read_root(attr: int):
+    return PlainTextResponse(content=await getRules(attr, True))
