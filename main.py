@@ -3,10 +3,21 @@ import asyncio
 import yaml
 import re
 import json
+import os
 from typing import Union
 from fastapi import FastAPI, Response, status
 from fastapi.responses import RedirectResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
+
+
+def file_get(path):
+    if(not os.path.exists(path)):
+        print(f"{path} does not exist")
+        return ""
+    fs = open(path, "r")
+    res = fs.read()
+    fs.close()
+    return res
 
 
 async def httpGet(url):
@@ -36,30 +47,8 @@ async def getProxies(attr: int):
 
 
 async def getRules(attr: int):
-    fs = open("./rules.json", "r")
-    data = json.loads(fs.read())
-    fs.close()
-    rule = ""
-    for url in data[attr]['urls']:
-        resp = await httpGet(url)
-        resp = resp.replace("IP6-CIDR","IP-CIDR6")
-        for line in resp.split("\n"):
-            params = line.split(",")
-
-            # 一些例外需要调整的情况
-            if (len(params) < 2):
-                continue
-            if (params[0] == "USER-AGENT"):
-                continue
-            if (params[1] == "10.0.0.0/8"):
-                continue
-            if (params[1] == "172.16.0.0/12"):
-                continue
-            # 例外结束
-            if (len(params) == 4):
-                rule += f"{params[0]},{params[1]},{params[3]}\n"
-            else:
-                rule += f"{params[0]},{params[1]}\n"
+    fn = ['globalDirect','pselect','ms','apple','openai','game','globalmedia','cnmeida','cqu'][attr]
+    rule = file_get(f"./rule/{fn}.list")
     return rule
 
 app = FastAPI()
