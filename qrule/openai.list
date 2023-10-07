@@ -1,13 +1,13 @@
-HOST-SUFFIX,ai.com,tag
-HOST-SUFFIX,auth0.com,tag
-HOST-SUFFIX,challenges.cloudflare.com,tag
-HOST-SUFFIX,client-api.arkoselabs.com,tag
-HOST-SUFFIX,events.statsigapi.net,tag
-HOST-SUFFIX,featuregates.org,tag
-HOST-SUFFIX,identrust.com,tag
-HOST-SUFFIX,intercom.io,tag
-HOST-SUFFIX,intercomcdn.com,tag
-HOST-SUFFIX,poe.com,tag
-HOST-SUFFIX,sentry.io,tag
-HOST-SUFFIX,stripe.com,tag
-HOST-KEYWORD,openai,tag
+HOST-SUFFIX,ai.com,💬 OpenAI
+HOST-SUFFIX,auth0.com,💬 OpenAI
+HOST-SUFFIX,challenges.cloudflare.com,💬 OpenAI
+HOST-SUFFIX,client-api.arkoselabs.com,💬 OpenAI
+HOST-SUFFIX,events.statsigapi.net,💬 OpenAI
+HOST-SUFFIX,featuregates.org,💬 OpenAI
+HOST-SUFFIX,identrust.com,💬 OpenAI
+HOST-SUFFIX,intercom.io,💬 OpenAI
+HOST-SUFFIX,intercomcdn.com,💬 OpenAI
+HOST-SUFFIX,poe.com,💬 OpenAI
+HOST-SUFFIX,sentry.io,💬 OpenAI
+HOST-SUFFIX,stripe.com,💬 OpenAI
+HOST-KEYWORD,openai,💬 OpenAI

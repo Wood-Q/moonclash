@@ -278,7 +278,7 @@ async def qhandle():
             if(len(params) == 3):
                 resStr += f"{params[0]},{params[1]},{tag},no-resolve\n"
             else:
-                resStr += f"{line},tag\n"
+                resStr += f"{line},{tag}\n"
         fs = open(f"./qrule/{fn}.list","w")
         fs.write(resStr)
         fs.close()

@@ -1,546 +1,546 @@
-HOST,eaasserts-a.akamaihd.net,tag
-HOST,originasserts.akamaized.net,tag
-HOST,dlgarenanow-a.akamaihd.net,tag
-HOST,gog.salesmanago.com,tag
-HOST,f3b7q2p3.ssl.hwcdn.net,tag
-HOST,steammobile.akamaized.net,tag
-HOST,steampipe-kr.akamaized.net,tag
-HOST,steampipe-partner.akamaized.net,tag
-HOST,xz.pphimalayanrt.com,tag
-HOST,img-prod-cms-rt-microsoft-com.akamaized.net,tag
-HOST,login.live.com,tag
-HOST,logincdn.msauth.net,tag
-HOST,store-images.s-microsoft.com,tag
-HOST-SUFFIX,battle.net,tag
-HOST-SUFFIX,blizzard.com,tag
-HOST-SUFFIX,battlenet.com,tag
-HOST-SUFFIX,battlenet.com.cn,tag
-HOST-SUFFIX,blizzard.cn,tag
-HOST-SUFFIX,blizzard.nefficient.co.kr,tag
-HOST-SUFFIX,blizzardgames.cn,tag
-HOST-SUFFIX,blizzardgearstore.com,tag
-HOST-SUFFIX,blizzcon-a.akamaihd.net,tag
-HOST-SUFFIX,blz-contentstack.com,tag
-HOST-SUFFIX,blz.nosdn.127.net,tag
-HOST-SUFFIX,blzddist1-a.akamaihd.net,tag
-HOST-SUFFIX,blzddistkr1-a.akamaihd.net,tag
-HOST-SUFFIX,blzmedia-a.akamaihd.net,tag
-HOST-SUFFIX,blznav.akamaized.net,tag
-HOST-SUFFIX,blzstatic.cn,tag
-HOST-SUFFIX,bnet.163.com,tag
-HOST-SUFFIX,bnetcmsus-a.akamaihd.net,tag
-HOST-SUFFIX,bnetproduct-a.akamaihd.net,tag
-HOST-SUFFIX,bnetshopus.akamaized.net,tag
-HOST-SUFFIX,cdp.cloud.unity3d.com,tag
-HOST-SUFFIX,di.res.netease.com,tag
-HOST-SUFFIX,diablo3.com,tag
-HOST-SUFFIX,diablo3.nosdn.127.net,tag
-HOST-SUFFIX,diabloimmortal.com,tag
-HOST-SUFFIX,firesidegatherings.com,tag
-HOST-SUFFIX,hearthstone.nosdn.127.net,tag
-HOST-SUFFIX,heroes.nos.netease.com,tag
-HOST-SUFFIX,heroesofthestorm.com,tag
-HOST-SUFFIX,overwatch.nosdn.127.net,tag
-HOST-SUFFIX,playhearthstone.com,tag
-HOST-SUFFIX,playoverwatch.com,tag
-HOST-SUFFIX,playwarcraft3.com,tag
-HOST-SUFFIX,sc2.nosdn.127.net,tag
-HOST-SUFFIX,starcraft.com,tag
-HOST-SUFFIX,starcraft2.com,tag
-HOST-SUFFIX,worldofwarcraft.com,tag
-HOST-SUFFIX,wow.nosdn.127.net,tag
-HOST-SUFFIX,wowchina.com,tag
-HOST-SUFFIX,anthemgame.com,tag
-HOST-SUFFIX,anthemthegame.com,tag
-HOST-SUFFIX,apexlegends.com,tag
-HOST-SUFFIX,awayoutgame.com,tag
-HOST-SUFFIX,battlefield.com,tag
-HOST-SUFFIX,battlefield1943.com,tag
-HOST-SUFFIX,battlefield3.com,tag
-HOST-SUFFIX,battlefield4.com,tag
-HOST-SUFFIX,battlefield5.com,tag
-HOST-SUFFIX,battlefieldbadcompany2.com,tag
-HOST-SUFFIX,battlefieldheroes.com,tag
-HOST-SUFFIX,battlefieldv.com,tag
-HOST-SUFFIX,battlefront2.com,tag
-HOST-SUFFIX,battlefrontii.com,tag
-HOST-SUFFIX,battlelog.com,tag
-HOST-SUFFIX,bejeweledstars.com,tag
-HOST-SUFFIX,bejewled-stars.com,tag
-HOST-SUFFIX,bioware.com,tag
-HOST-SUFFIX,biowarestore.com,tag
-HOST-SUFFIX,blackboxgames.com,tag
-HOST-SUFFIX,camelot-europe.com,tag
-HOST-SUFFIX,camelotherald.com,tag
-HOST-SUFFIX,camelotherald.net,tag
-HOST-SUFFIX,capitalgames.com,tag
-HOST-SUFFIX,chillingo.com,tag
-HOST-SUFFIX,cloudsync-prod.s3.amazonaws.com,tag
-HOST-SUFFIX,cncrivals.com,tag
-HOST-SUFFIX,commandandconquer.com,tag
-HOST-SUFFIX,conquerwithcharacter.com,tag
-HOST-SUFFIX,crysis.jp,tag
-HOST-SUFFIX,daoc.net,tag
-HOST-SUFFIX,darkageofcamelot.com,tag
-HOST-SUFFIX,darkness-risen.com,tag
-HOST-SUFFIX,dawngate.com,tag
-HOST-SUFFIX,dawngatechronicles.com,tag
-HOST-SUFFIX,deadspacegame.com,tag
-HOST-SUFFIX,dice.se,tag
-HOST-SUFFIX,dicela.com,tag
-HOST-SUFFIX,dicela.net,tag
-HOST-SUFFIX,dragonage.com,tag
-HOST-SUFFIX,dragonagekeep.com,tag
-HOST-SUFFIX,dragonagemovie.com,tag
-HOST-SUFFIX,dungeonkeeper.cn,tag
-HOST-SUFFIX,dungeonkeeper.com,tag
-HOST-SUFFIX,dungeonkeeper.com.cn,tag
-HOST-SUFFIX,ea-anz-press.com,tag
-HOST-SUFFIX,ea.com,tag
-HOST-SUFFIX,ea.tt.omtrdc.net,tag
-HOST-SUFFIX,eaaccess.com,tag
-HOST-SUFFIX,eaassets-a.akamaihd.net,tag
-HOST-SUFFIX,eablackbox.com,tag
-HOST-SUFFIX,eacashcard.com,tag
-HOST-SUFFIX,eacodigos.com,tag
-HOST-SUFFIX,eafootballworld.com,tag
-HOST-SUFFIX,eakorea.co.kr,tag
-HOST-SUFFIX,eamirrorsedge.com,tag
-HOST-SUFFIX,eamobile.com,tag
-HOST-SUFFIX,eamythic.com,tag
-HOST-SUFFIX,eamythic.net,tag
-HOST-SUFFIX,eanordic.com,tag
-HOST-SUFFIX,eaplay.com,tag
-HOST-SUFFIX,easports.com,tag
-HOST-SUFFIX,easports.jp,tag
-HOST-SUFFIX,easportsactive.com,tag
-HOST-SUFFIX,easportsactiveonline.com,tag
-HOST-SUFFIX,easportsfootball.com,tag
-HOST-SUFFIX,easportsfootballclub.com,tag
-HOST-SUFFIX,easportsmma.com,tag
-HOST-SUFFIX,easportsworld.com,tag
-HOST-SUFFIX,eastore.com,tag
-HOST-SUFFIX,electronicarts.com,tag
-HOST-SUFFIX,electronicarts.fr,tag
-HOST-SUFFIX,fifastreet.com,tag
-HOST-SUFFIX,fifastreet3.com,tag
-HOST-SUFFIX,frostbite.com,tag
-HOST-SUFFIX,futpromos.com,tag
-HOST-SUFFIX,futunited.com,tag
-HOST-SUFFIX,ghostgames.com,tag
-HOST-SUFFIX,heroesofdragonage.com,tag
-HOST-SUFFIX,hutpromos.com,tag
-HOST-SUFFIX,industrialtoys.com,tag
-HOST-SUFFIX,lordofultima.com,tag
-HOST-SUFFIX,maddenchampionship.com,tag
-HOST-SUFFIX,maddenrewards.com,tag
-HOST-SUFFIX,maddenseason.info,tag
-HOST-SUFFIX,maddenseason.net,tag
-HOST-SUFFIX,maddenseason.org,tag
-HOST-SUFFIX,masseffect.com,tag
-HOST-SUFFIX,masseffectarchives.com,tag
-HOST-SUFFIX,maxis.com,tag
-HOST-SUFFIX,mirrorsedge.com,tag
-HOST-SUFFIX,mirrorsedge.jp,tag
-HOST-SUFFIX,mirrorsedge.net,tag
-HOST-SUFFIX,mirrorsedge2.com,tag
-HOST-SUFFIX,mirrorsedge2d.com,tag
-HOST-SUFFIX,mysims.com,tag
-HOST-SUFFIX,mysimsracing.com,tag
-HOST-SUFFIX,mythicentertainment.com,tag
-HOST-SUFFIX,mythicentertainment.net,tag
-HOST-SUFFIX,mythicgames.com,tag
-HOST-SUFFIX,needforspeed.com,tag
-HOST-SUFFIX,needforspeedboost.com,tag
-HOST-SUFFIX,needforspeeddriftkings.com,tag
-HOST-SUFFIX,needforspeedeliminator.com,tag
-HOST-SUFFIX,needforspeedlightning.com,tag
-HOST-SUFFIX,needforspeedoverdrive.com,tag
-HOST-SUFFIX,needforspeedproven.com,tag
-HOST-SUFFIX,needforspeedredline.com,tag
-HOST-SUFFIX,needforspeedshowdown.com,tag
-HOST-SUFFIX,needforspeedstreetkings.com,tag
-HOST-SUFFIX,needforspeedtakedown.com,tag
-HOST-SUFFIX,needforspeedtherun.com,tag
-HOST-SUFFIX,needforspeedtimeattack.com,tag
-HOST-SUFFIX,needforspeedundergroundeast.com,tag
-HOST-SUFFIX,nfsworld.com,tag
-HOST-SUFFIX,origin-a.akamaihd.net,tag
-HOST-SUFFIX,origin.com,tag
-HOST-SUFFIX,origin.tv,tag
-HOST-SUFFIX,plantsvszombies2.com,tag
-HOST-SUFFIX,play4free.com,tag
-HOST-SUFFIX,playapex.com,tag
-HOST-SUFFIX,pogo.com,tag
-HOST-SUFFIX,pogobeta.com,tag
-HOST-SUFFIX,popcap.com,tag
-HOST-SUFFIX,projectapex.com,tag
-HOST-SUFFIX,pvzgw2.com,tag
-HOST-SUFFIX,pvzheroes.com,tag
-HOST-SUFFIX,seaofsolitude.com,tag
-HOST-SUFFIX,simcity-buildit.com,tag
-HOST-SUFFIX,simcity.com,tag
-HOST-SUFFIX,skate2.com,tag
-HOST-SUFFIX,spearhead.kr,tag
-HOST-SUFFIX,speedhunters.com,tag
-HOST-SUFFIX,spore.com,tag
-HOST-SUFFIX,ssx3.com,tag
-HOST-SUFFIX,starwarsbattlefront.com,tag
-HOST-SUFFIX,starwarsbattlefront2.com,tag
-HOST-SUFFIX,starwarsfallenorder.com,tag
-HOST-SUFFIX,starwarsjedifallenorder.com,tag
-HOST-SUFFIX,starwarstheoldrepublic.com,tag
-HOST-SUFFIX,swjedifallenorder.com,tag
-HOST-SUFFIX,swjfo.com,tag
-HOST-SUFFIX,swtor.com,tag
-HOST-SUFFIX,swtor.net,tag
-HOST-SUFFIX,teamneedforspeed.com,tag
-HOST-SUFFIX,thedreadwolfrises.com,tag
-HOST-SUFFIX,thesims.com,tag
-HOST-SUFFIX,thesims3.com,tag
-HOST-SUFFIX,thesims4.com,tag
-HOST-SUFFIX,thesimssocial.com,tag
-HOST-SUFFIX,tiberiumalliances.com,tag
-HOST-SUFFIX,tiburon.com,tag
-HOST-SUFFIX,titanfall.com,tag
-HOST-SUFFIX,tnt-ea.com,tag
-HOST-SUFFIX,ultimaforever.com,tag
-HOST-SUFFIX,ultimaonline.com,tag
-HOST-SUFFIX,unravel2.com,tag
-HOST-SUFFIX,unraveltwo.com,tag
-HOST-SUFFIX,uo.com,tag
-HOST-SUFFIX,uoherald.com,tag
-HOST-SUFFIX,visceralgames.com,tag
-HOST-SUFFIX,xdsummit.com,tag
-HOST-SUFFIX,yogify.com,tag
-HOST-SUFFIX,battlebreakers.com,tag
-HOST-SUFFIX,eac-cdn.com,tag
-HOST-SUFFIX,easy.ac,tag
-HOST-SUFFIX,easyanticheat.net,tag
-HOST-SUFFIX,epicgames.com,tag
-HOST-SUFFIX,epicgames.dev,tag
-HOST-SUFFIX,fortnite.com,tag
-HOST-SUFFIX,helpshift.com,tag
-HOST-SUFFIX,paragon.com,tag
-HOST-SUFFIX,playparagon.com,tag
-HOST-SUFFIX,roborecall.com,tag
-HOST-SUFFIX,shadowcomplex.com,tag
-HOST-SUFFIX,spyjinx.com,tag
-HOST-SUFFIX,unrealengine.com,tag
-HOST-SUFFIX,unrealtournament.com,tag
-HOST-SUFFIX,sony.com,tag
-HOST-SUFFIX,avatargarenanow-a.akamaihd.net,tag
-HOST-SUFFIX,cdngarenanow-a.akamaihd.net,tag
-HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,tag
-HOST-SUFFIX,garena.co.id,tag
-HOST-SUFFIX,garena.co.th,tag
-HOST-SUFFIX,garena.com,tag
-HOST-SUFFIX,garena.live,tag
-HOST-SUFFIX,garena.my,tag
-HOST-SUFFIX,garena.ph,tag
-HOST-SUFFIX,garena.sg,tag
-HOST-SUFFIX,garena.tv,tag
-HOST-SUFFIX,garena.tw,tag
-HOST-SUFFIX,garena.vn,tag
-HOST-SUFFIX,garenanow.com,tag
-HOST-SUFFIX,seagroup.com,tag
-HOST-SUFFIX,gog-statics.com,tag
-HOST-SUFFIX,gog.com,tag
-HOST-SUFFIX,gog.qtlglb.com,tag
-HOST-SUFFIX,100classicbooks.com,tag
-HOST-SUFFIX,ac-pocketcamp.com,tag
-HOST-SUFFIX,amiibo.com,tag
-HOST-SUFFIX,ayudanintendo.com,tag
-HOST-SUFFIX,bowsersinsidestory.com,tag
-HOST-SUFFIX,dialga.com,tag
-HOST-SUFFIX,diddykongracing.com,tag
-HOST-SUFFIX,dkr.com,tag
-HOST-SUFFIX,donkeykongcountryreturns.com,tag
-HOST-SUFFIX,drmario-world.com,tag
-HOST-SUFFIX,excitebots.com,tag
-HOST-SUFFIX,fire-emblem-heroes.com,tag
-HOST-SUFFIX,fireemblemawakening.com,tag
-HOST-SUFFIX,flipnotestudio.com,tag
-HOST-SUFFIX,giratina.com,tag
-HOST-SUFFIX,gloryofheracles.com,tag
-HOST-SUFFIX,hackyourconsole.com,tag
-HOST-SUFFIX,kirbysepicyarn.com,tag
-HOST-SUFFIX,kirbysuperstarultra.com,tag
-HOST-SUFFIX,kyurem.com,tag
-HOST-SUFFIX,legendofzelda.cn,tag
-HOST-SUFFIX,legendofzelda.com.cn,tag
-HOST-SUFFIX,marioandluigidreamteam.com,tag
-HOST-SUFFIX,mariobroswii.com,tag
-HOST-SUFFIX,mariokart.cn,tag
-HOST-SUFFIX,mariokart.com.cn,tag
-HOST-SUFFIX,mariokart7.com,tag
-HOST-SUFFIX,mariokart8.com,tag
-HOST-SUFFIX,mariosupersluggers.com,tag
-HOST-SUFFIX,miitomo.com,tag
-HOST-SUFFIX,miitomo.com.cn,tag
-HOST-SUFFIX,miiverse.com,tag
-HOST-SUFFIX,nentindo.net,tag
-HOST-SUFFIX,newsupermariobrosu.com,tag
-HOST-SUFFIX,nintendo-europe-sales.com,tag
-HOST-SUFFIX,nintendo-europe.com,tag
-HOST-SUFFIX,nintendo.at,tag
-HOST-SUFFIX,nintendo.be,tag
-HOST-SUFFIX,nintendo.ch,tag
-HOST-SUFFIX,nintendo.co.jp,tag
-HOST-SUFFIX,nintendo.co.kr,tag
-HOST-SUFFIX,nintendo.co.uk,tag
-HOST-SUFFIX,nintendo.co.za,tag
-HOST-SUFFIX,nintendo.com,tag
-HOST-SUFFIX,nintendo.com.au,tag
-HOST-SUFFIX,nintendo.com.hk,tag
-HOST-SUFFIX,nintendo.com.pt,tag
-HOST-SUFFIX,nintendo.de,tag
-HOST-SUFFIX,nintendo.dk,tag
-HOST-SUFFIX,nintendo.es,tag
-HOST-SUFFIX,nintendo.eu,tag
-HOST-SUFFIX,nintendo.fi,tag
-HOST-SUFFIX,nintendo.fr,tag
-HOST-SUFFIX,nintendo.it,tag
-HOST-SUFFIX,nintendo.jp,tag
-HOST-SUFFIX,nintendo.net,tag
-HOST-SUFFIX,nintendo.nl,tag
-HOST-SUFFIX,nintendo.no,tag
-HOST-SUFFIX,nintendo.pt,tag
-HOST-SUFFIX,nintendo.ru,tag
-HOST-SUFFIX,nintendo.se,tag
-HOST-SUFFIX,nintendo.tw,tag
-HOST-SUFFIX,nintendo3ds.com,tag
-HOST-SUFFIX,nintendodsi.com,tag
-HOST-SUFFIX,nintendoeurope.com,tag
-HOST-SUFFIX,nintendolabo.cn,tag
-HOST-SUFFIX,nintendonetwork.net,tag
-HOST-SUFFIX,nintendonyc.com,tag
-HOST-SUFFIX,nintendostore.com,tag
-HOST-SUFFIX,nintendoswitch.cn,tag
-HOST-SUFFIX,nintendoswitch.com,tag
-HOST-SUFFIX,nintendoswitch.com.cn,tag
-HOST-SUFFIX,nintendoswitch.net,tag
-HOST-SUFFIX,nintendoswitchtogether.com,tag
-HOST-SUFFIX,nintendowifi.net,tag
-HOST-SUFFIX,nintendowii.com,tag
-HOST-SUFFIX,personaltrainermath.com,tag
-HOST-SUFFIX,playnintendo.com,tag
-HOST-SUFFIX,pokedex3d.com,tag
-HOST-SUFFIX,pokemon-moon.com,tag
-HOST-SUFFIX,pokemon-sun.com,tag
-HOST-SUFFIX,pokemon-sunmoon.com,tag
-HOST-SUFFIX,pokemon-unitepgame.com,tag
-HOST-SUFFIX,pokemon.com,tag
-HOST-SUFFIX,pokemonbank.com,tag
-HOST-SUFFIX,pokemonblackwhite.com,tag
-HOST-SUFFIX,pokemonbw.com,tag
-HOST-SUFFIX,pokemonchampionships.com,tag
-HOST-SUFFIX,pokemongoldsilver.com,tag
-HOST-SUFFIX,pokemonhome.com,tag
-HOST-SUFFIX,pokemonletsgoeevee.com,tag
-HOST-SUFFIX,pokemonletsgopikachu.com,tag
-HOST-SUFFIX,pokemonmysterydungeon.com,tag
-HOST-SUFFIX,pokemonpicross.com,tag
-HOST-SUFFIX,pokemonplatinum.com,tag
-HOST-SUFFIX,pokemonrubysapphire.com,tag
-HOST-SUFFIX,pokemonsunmoon.com,tag
-HOST-SUFFIX,pokemonswordshield.com,tag
-HOST-SUFFIX,pokemonultrasunmoon.com,tag
-HOST-SUFFIX,pokemonvgc.com,tag
-HOST-SUFFIX,pokemonwifi.net,tag
-HOST-SUFFIX,splatoon2tournament.com,tag
-HOST-SUFFIX,starfox.com,tag
-HOST-SUFFIX,supermario.com,tag
-HOST-SUFFIX,supermario3dworld.com,tag
-HOST-SUFFIX,supermariobros.com.cn,tag
-HOST-SUFFIX,supermariogalaxy.com,tag
-HOST-SUFFIX,supermariorun.com,tag
-HOST-SUFFIX,superpapermario.com,tag
-HOST-SUFFIX,supersmashbros.cn,tag
-HOST-SUFFIX,supersmashbros.com.cn,tag
-HOST-SUFFIX,thelegendarystarfy.com,tag
-HOST-SUFFIX,thewonderful101.com,tag
-HOST-SUFFIX,wariolandshakeit.com,tag
-HOST-SUFFIX,wariowarediy.com,tag
-HOST-SUFFIX,wii-u.com,tag
-HOST-SUFFIX,wiifit.com,tag
-HOST-SUFFIX,wiifitu.com,tag
-HOST-SUFFIX,wiipartyu.com,tag
-HOST-SUFFIX,wiisports.com,tag
-HOST-SUFFIX,wiisportsresort.com,tag
-HOST-SUFFIX,wiiugamepad.com,tag
-HOST-SUFFIX,wiivc.net,tag
-HOST-SUFFIX,xenoblade.com,tag
-HOST-SUFFIX,xn--mts47c3w9b1qr.cn,tag
-HOST-SUFFIX,xn--mts47c3w9b1qr.net,tag
-HOST-SUFFIX,yoshisnewisland.com,tag
-HOST-SUFFIX,op.gg,tag
-HOST-SUFFIX,opgg-static.akamaized.net,tag
-HOST-SUFFIX,playstation.com,tag
-HOST-SUFFIX,playstation.net,tag
-HOST-SUFFIX,playstationnetwork.com,tag
-HOST-SUFFIX,sonyentertainmentnetwork.com,tag
-HOST-SUFFIX,api-priconne-redive.cygames.jp,tag
-HOST-SUFFIX,omotenashi.cygames.jp,tag
-HOST-SUFFIX,prd-priconne-redive.akamaized.net,tag
-HOST-SUFFIX,championshipseriesleague.com,tag
-HOST-SUFFIX,convrgencegame.com,tag
-HOST-SUFFIX,historyofdota.com,tag
-HOST-SUFFIX,historyofdota.net,tag
-HOST-SUFFIX,historyofdota.org,tag
-HOST-SUFFIX,instituteofwar.org,tag
-HOST-SUFFIX,lcsmerch.com,tag
-HOST-SUFFIX,leaguehighschool.com,tag
-HOST-SUFFIX,leagueoflegends.ca,tag
-HOST-SUFFIX,leagueoflegends.cn,tag
-HOST-SUFFIX,leagueoflegends.co.kr,tag
-HOST-SUFFIX,leagueoflegends.com,tag
-HOST-SUFFIX,leagueoflegends.info,tag
-HOST-SUFFIX,leagueoflegends.kr,tag
-HOST-SUFFIX,leagueoflegends.net,tag
-HOST-SUFFIX,leagueoflegends.org,tag
-HOST-SUFFIX,leagueoflegendsscripts.com,tag
-HOST-SUFFIX,leaguesharp.info,tag
-HOST-SUFFIX,leaguoflegends.com,tag
-HOST-SUFFIX,learnwithleague.com,tag
-HOST-SUFFIX,lol-europe.com,tag
-HOST-SUFFIX,lolclub.org,tag
-HOST-SUFFIX,lolespor.com,tag
-HOST-SUFFIX,lolesports.com,tag
-HOST-SUFFIX,lolfanart.net,tag
-HOST-SUFFIX,lolpcs.com,tag
-HOST-SUFFIX,lolshop.co.kr,tag
-HOST-SUFFIX,lolstatic-a.akamaihd.net,tag
-HOST-SUFFIX,lolstatic.com,tag
-HOST-SUFFIX,lolusercontent.com,tag
-HOST-SUFFIX,lpl.com.cn,tag
-HOST-SUFFIX,molesports.com,tag
-HOST-SUFFIX,playvalorant.com,tag
-HOST-SUFFIX,pvp.tv,tag
-HOST-SUFFIX,rgpub.io,tag
-HOST-SUFFIX,riot-games.com,tag
-HOST-SUFFIX,riot.com,tag
-HOST-SUFFIX,riot.net,tag
-HOST-SUFFIX,riotforgegames.com,tag
-HOST-SUFFIX,riotgames.co.kr,tag
-HOST-SUFFIX,riotgames.info,tag
-HOST-SUFFIX,riotgames.jp,tag
-HOST-SUFFIX,riotgames.net,tag
-HOST-SUFFIX,riotgames.tv,tag
-HOST-SUFFIX,riotgames.zendesk.com,tag
-HOST-SUFFIX,riotpin.com,tag
-HOST-SUFFIX,riotpoints.com,tag
-HOST-SUFFIX,rstatic.net,tag
-HOST-SUFFIX,ruinedking.com,tag
-HOST-SUFFIX,supremacy.com,tag
-HOST-SUFFIX,supremacy.net,tag
-HOST-SUFFIX,ulol.com,tag
-HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,media-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,rockstargames.com,tag
-HOST-SUFFIX,rsg.sc,tag
-HOST-SUFFIX,videos-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,csgo.wmsj.cn,tag
-HOST-SUFFIX,dl.steam.clngaa.com,tag
-HOST-SUFFIX,dl.steam.ksyna.com,tag
-HOST-SUFFIX,dota2.wmsj.cn,tag
-HOST-SUFFIX,edge.steam-dns.top.comcast.net,tag
-HOST-SUFFIX,fanatical.com,tag
-HOST-SUFFIX,humblebundle.com,tag
-HOST-SUFFIX,playartifact.com,tag
-HOST-SUFFIX,s.team,tag
-HOST-SUFFIX,st.dl.bscstorage.net,tag
-HOST-SUFFIX,st.dl.eccdnx.com,tag
-HOST-SUFFIX,st.dl.pinyuncloud.com,tag
-HOST-SUFFIX,steam-api.com,tag
-HOST-SUFFIX,steam-chat.com,tag
-HOST-SUFFIX,steam.apac.qtlglb.com,tag
-HOST-SUFFIX,steam.cdn.on.net,tag
-HOST-SUFFIX,steam.cdn.orcon.net.nz,tag
-HOST-SUFFIX,steam.cdn.slingshot.co.nz,tag
-HOST-SUFFIX,steam.cdn.webra.ru,tag
-HOST-SUFFIX,steam.eca.qtlglb.com,tag
-HOST-SUFFIX,steam.naeu.qtlglb.com,tag
-HOST-SUFFIX,steam.ru.qtlglb.com,tag
-HOST-SUFFIX,steambroadcast.akamaized.net,tag
-HOST-SUFFIX,steamcdn-a.akamaihd.net,tag
-HOST-SUFFIX,steamcommunity-a.akamaihd.net,tag
-HOST-SUFFIX,steamcommunity.com,tag
-HOST-SUFFIX,steamcontent.tnkjmec.com,tag
-HOST-SUFFIX,steamdeck.com,tag
-HOST-SUFFIX,steamgames.com,tag
-HOST-SUFFIX,steampipe.akamaized.net,tag
-HOST-SUFFIX,steampowered.com,tag
-HOST-SUFFIX,steampowered.com.8686c.com,tag
-HOST-SUFFIX,steamstat.us,tag
-HOST-SUFFIX,steamstatic.com,tag
-HOST-SUFFIX,steamstatic.com.8686c.com,tag
-HOST-SUFFIX,steamstore-a.akamaihd.net,tag
-HOST-SUFFIX,steamunlocked.net,tag
-HOST-SUFFIX,steamusercontent-a.akamaihd.net,tag
-HOST-SUFFIX,steamuserimages-a.akamaihd.net,tag
-HOST-SUFFIX,steamvideo-a.akamaihd.net,tag
-HOST-SUFFIX,underlords.com,tag
-HOST-SUFFIX,valvesoftware.com,tag
-HOST-SUFFIX,wmsjsteam.com,tag
-HOST-SUFFIX,steamchina.com,tag
-HOST-SUFFIX,steamcontent.com,tag
-HOST-SUFFIX,steamserver.net,tag
-HOST-SUFFIX,steamusercontent.com,tag
-HOST-SUFFIX,brawlstars.com,tag
-HOST-SUFFIX,brawlstarsgame.com,tag
-HOST-SUFFIX,ubi.com,tag
-HOST-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,tag
-HOST-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,tag
-HOST-SUFFIX,ubisoft.com,tag
-HOST-SUFFIX,uplay.com,tag
-HOST-SUFFIX,pvp.net,tag
-HOST-SUFFIX,riotcdn.net,tag
-HOST-SUFFIX,riotgames.com,tag
-HOST-SUFFIX,beth.games,tag
-HOST-SUFFIX,bethesda.net,tag
-HOST-SUFFIX,bethesdagamestudios.com,tag
-HOST-SUFFIX,bethsoft.com,tag
-HOST-SUFFIX,callersbane.com,tag
-HOST-SUFFIX,doom.com,tag
-HOST-SUFFIX,elderscrolls.com,tag
-HOST-SUFFIX,forzamotorsport.net,tag
-HOST-SUFFIX,forzaracingchampionship.com,tag
-HOST-SUFFIX,forzarc.com,tag
-HOST-SUFFIX,gamepass.com,tag
-HOST-SUFFIX,minecraft.net,tag
-HOST-SUFFIX,minecraftshop.com,tag
-HOST-SUFFIX,mojang.com,tag
-HOST-SUFFIX,msgamestudios.com,tag
-HOST-SUFFIX,orithegame.com,tag
-HOST-SUFFIX,renovacionxboxlive.com,tag
-HOST-SUFFIX,tellmewhygame.com,tag
-HOST-SUFFIX,xbox.co,tag
-HOST-SUFFIX,xbox.com,tag
-HOST-SUFFIX,xbox.eu,tag
-HOST-SUFFIX,xbox.org,tag
-HOST-SUFFIX,xbox360.co,tag
-HOST-SUFFIX,xbox360.com,tag
-HOST-SUFFIX,xbox360.eu,tag
-HOST-SUFFIX,xbox360.org,tag
-HOST-SUFFIX,xboxab.com,tag
-HOST-SUFFIX,xboxab.net,tag
-HOST-SUFFIX,xboxgamepass.com,tag
-HOST-SUFFIX,xboxgamestudios.com,tag
-HOST-SUFFIX,xboxlive.cn,tag
-HOST-SUFFIX,xboxlive.com,tag
-HOST-SUFFIX,xboxone.co,tag
-HOST-SUFFIX,xboxone.com,tag
-HOST-SUFFIX,xboxone.eu,tag
-HOST-SUFFIX,xboxplayanywhere.com,tag
-HOST-SUFFIX,xboxservice.com,tag
-HOST-SUFFIX,xboxservices.com,tag
-HOST-SUFFIX,xboxstudios.com,tag
-HOST-SUFFIX,xbx.lv,tag
-HOST-KEYWORD,epicgames,tag
-HOST-KEYWORD,steambroadcast,tag
-HOST-KEYWORD,steamstore,tag
-HOST-KEYWORD,steamuserimages,tag
+HOST,eaasserts-a.akamaihd.net,🎮 游戏平台
+HOST,originasserts.akamaized.net,🎮 游戏平台
+HOST,dlgarenanow-a.akamaihd.net,🎮 游戏平台
+HOST,gog.salesmanago.com,🎮 游戏平台
+HOST,f3b7q2p3.ssl.hwcdn.net,🎮 游戏平台
+HOST,steammobile.akamaized.net,🎮 游戏平台
+HOST,steampipe-kr.akamaized.net,🎮 游戏平台
+HOST,steampipe-partner.akamaized.net,🎮 游戏平台
+HOST,xz.pphimalayanrt.com,🎮 游戏平台
+HOST,img-prod-cms-rt-microsoft-com.akamaized.net,🎮 游戏平台
+HOST,login.live.com,🎮 游戏平台
+HOST,logincdn.msauth.net,🎮 游戏平台
+HOST,store-images.s-microsoft.com,🎮 游戏平台
+HOST-SUFFIX,battle.net,🎮 游戏平台
+HOST-SUFFIX,blizzard.com,🎮 游戏平台
+HOST-SUFFIX,battlenet.com,🎮 游戏平台
+HOST-SUFFIX,battlenet.com.cn,🎮 游戏平台
+HOST-SUFFIX,blizzard.cn,🎮 游戏平台
+HOST-SUFFIX,blizzard.nefficient.co.kr,🎮 游戏平台
+HOST-SUFFIX,blizzardgames.cn,🎮 游戏平台
+HOST-SUFFIX,blizzardgearstore.com,🎮 游戏平台
+HOST-SUFFIX,blizzcon-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blz-contentstack.com,🎮 游戏平台
+HOST-SUFFIX,blz.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,blzddist1-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blzddistkr1-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blzmedia-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blznav.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,blzstatic.cn,🎮 游戏平台
+HOST-SUFFIX,bnet.163.com,🎮 游戏平台
+HOST-SUFFIX,bnetcmsus-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,bnetproduct-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,bnetshopus.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,cdp.cloud.unity3d.com,🎮 游戏平台
+HOST-SUFFIX,di.res.netease.com,🎮 游戏平台
+HOST-SUFFIX,diablo3.com,🎮 游戏平台
+HOST-SUFFIX,diablo3.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,diabloimmortal.com,🎮 游戏平台
+HOST-SUFFIX,firesidegatherings.com,🎮 游戏平台
+HOST-SUFFIX,hearthstone.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,heroes.nos.netease.com,🎮 游戏平台
+HOST-SUFFIX,heroesofthestorm.com,🎮 游戏平台
+HOST-SUFFIX,overwatch.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,playhearthstone.com,🎮 游戏平台
+HOST-SUFFIX,playoverwatch.com,🎮 游戏平台
+HOST-SUFFIX,playwarcraft3.com,🎮 游戏平台
+HOST-SUFFIX,sc2.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,starcraft.com,🎮 游戏平台
+HOST-SUFFIX,starcraft2.com,🎮 游戏平台
+HOST-SUFFIX,worldofwarcraft.com,🎮 游戏平台
+HOST-SUFFIX,wow.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,wowchina.com,🎮 游戏平台
+HOST-SUFFIX,anthemgame.com,🎮 游戏平台
+HOST-SUFFIX,anthemthegame.com,🎮 游戏平台
+HOST-SUFFIX,apexlegends.com,🎮 游戏平台
+HOST-SUFFIX,awayoutgame.com,🎮 游戏平台
+HOST-SUFFIX,battlefield.com,🎮 游戏平台
+HOST-SUFFIX,battlefield1943.com,🎮 游戏平台
+HOST-SUFFIX,battlefield3.com,🎮 游戏平台
+HOST-SUFFIX,battlefield4.com,🎮 游戏平台
+HOST-SUFFIX,battlefield5.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldbadcompany2.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldheroes.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldv.com,🎮 游戏平台
+HOST-SUFFIX,battlefront2.com,🎮 游戏平台
+HOST-SUFFIX,battlefrontii.com,🎮 游戏平台
+HOST-SUFFIX,battlelog.com,🎮 游戏平台
+HOST-SUFFIX,bejeweledstars.com,🎮 游戏平台
+HOST-SUFFIX,bejewled-stars.com,🎮 游戏平台
+HOST-SUFFIX,bioware.com,🎮 游戏平台
+HOST-SUFFIX,biowarestore.com,🎮 游戏平台
+HOST-SUFFIX,blackboxgames.com,🎮 游戏平台
+HOST-SUFFIX,camelot-europe.com,🎮 游戏平台
+HOST-SUFFIX,camelotherald.com,🎮 游戏平台
+HOST-SUFFIX,camelotherald.net,🎮 游戏平台
+HOST-SUFFIX,capitalgames.com,🎮 游戏平台
+HOST-SUFFIX,chillingo.com,🎮 游戏平台
+HOST-SUFFIX,cloudsync-prod.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,cncrivals.com,🎮 游戏平台
+HOST-SUFFIX,commandandconquer.com,🎮 游戏平台
+HOST-SUFFIX,conquerwithcharacter.com,🎮 游戏平台
+HOST-SUFFIX,crysis.jp,🎮 游戏平台
+HOST-SUFFIX,daoc.net,🎮 游戏平台
+HOST-SUFFIX,darkageofcamelot.com,🎮 游戏平台
+HOST-SUFFIX,darkness-risen.com,🎮 游戏平台
+HOST-SUFFIX,dawngate.com,🎮 游戏平台
+HOST-SUFFIX,dawngatechronicles.com,🎮 游戏平台
+HOST-SUFFIX,deadspacegame.com,🎮 游戏平台
+HOST-SUFFIX,dice.se,🎮 游戏平台
+HOST-SUFFIX,dicela.com,🎮 游戏平台
+HOST-SUFFIX,dicela.net,🎮 游戏平台
+HOST-SUFFIX,dragonage.com,🎮 游戏平台
+HOST-SUFFIX,dragonagekeep.com,🎮 游戏平台
+HOST-SUFFIX,dragonagemovie.com,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.cn,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.com,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.com.cn,🎮 游戏平台
+HOST-SUFFIX,ea-anz-press.com,🎮 游戏平台
+HOST-SUFFIX,ea.com,🎮 游戏平台
+HOST-SUFFIX,ea.tt.omtrdc.net,🎮 游戏平台
+HOST-SUFFIX,eaaccess.com,🎮 游戏平台
+HOST-SUFFIX,eaassets-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,eablackbox.com,🎮 游戏平台
+HOST-SUFFIX,eacashcard.com,🎮 游戏平台
+HOST-SUFFIX,eacodigos.com,🎮 游戏平台
+HOST-SUFFIX,eafootballworld.com,🎮 游戏平台
+HOST-SUFFIX,eakorea.co.kr,🎮 游戏平台
+HOST-SUFFIX,eamirrorsedge.com,🎮 游戏平台
+HOST-SUFFIX,eamobile.com,🎮 游戏平台
+HOST-SUFFIX,eamythic.com,🎮 游戏平台
+HOST-SUFFIX,eamythic.net,🎮 游戏平台
+HOST-SUFFIX,eanordic.com,🎮 游戏平台
+HOST-SUFFIX,eaplay.com,🎮 游戏平台
+HOST-SUFFIX,easports.com,🎮 游戏平台
+HOST-SUFFIX,easports.jp,🎮 游戏平台
+HOST-SUFFIX,easportsactive.com,🎮 游戏平台
+HOST-SUFFIX,easportsactiveonline.com,🎮 游戏平台
+HOST-SUFFIX,easportsfootball.com,🎮 游戏平台
+HOST-SUFFIX,easportsfootballclub.com,🎮 游戏平台
+HOST-SUFFIX,easportsmma.com,🎮 游戏平台
+HOST-SUFFIX,easportsworld.com,🎮 游戏平台
+HOST-SUFFIX,eastore.com,🎮 游戏平台
+HOST-SUFFIX,electronicarts.com,🎮 游戏平台
+HOST-SUFFIX,electronicarts.fr,🎮 游戏平台
+HOST-SUFFIX,fifastreet.com,🎮 游戏平台
+HOST-SUFFIX,fifastreet3.com,🎮 游戏平台
+HOST-SUFFIX,frostbite.com,🎮 游戏平台
+HOST-SUFFIX,futpromos.com,🎮 游戏平台
+HOST-SUFFIX,futunited.com,🎮 游戏平台
+HOST-SUFFIX,ghostgames.com,🎮 游戏平台
+HOST-SUFFIX,heroesofdragonage.com,🎮 游戏平台
+HOST-SUFFIX,hutpromos.com,🎮 游戏平台
+HOST-SUFFIX,industrialtoys.com,🎮 游戏平台
+HOST-SUFFIX,lordofultima.com,🎮 游戏平台
+HOST-SUFFIX,maddenchampionship.com,🎮 游戏平台
+HOST-SUFFIX,maddenrewards.com,🎮 游戏平台
+HOST-SUFFIX,maddenseason.info,🎮 游戏平台
+HOST-SUFFIX,maddenseason.net,🎮 游戏平台
+HOST-SUFFIX,maddenseason.org,🎮 游戏平台
+HOST-SUFFIX,masseffect.com,🎮 游戏平台
+HOST-SUFFIX,masseffectarchives.com,🎮 游戏平台
+HOST-SUFFIX,maxis.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.jp,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.net,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge2.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge2d.com,🎮 游戏平台
+HOST-SUFFIX,mysims.com,🎮 游戏平台
+HOST-SUFFIX,mysimsracing.com,🎮 游戏平台
+HOST-SUFFIX,mythicentertainment.com,🎮 游戏平台
+HOST-SUFFIX,mythicentertainment.net,🎮 游戏平台
+HOST-SUFFIX,mythicgames.com,🎮 游戏平台
+HOST-SUFFIX,needforspeed.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedboost.com,🎮 游戏平台
+HOST-SUFFIX,needforspeeddriftkings.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedeliminator.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedlightning.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedoverdrive.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedproven.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedredline.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedshowdown.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedstreetkings.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtakedown.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtherun.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtimeattack.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedundergroundeast.com,🎮 游戏平台
+HOST-SUFFIX,nfsworld.com,🎮 游戏平台
+HOST-SUFFIX,origin-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,origin.com,🎮 游戏平台
+HOST-SUFFIX,origin.tv,🎮 游戏平台
+HOST-SUFFIX,plantsvszombies2.com,🎮 游戏平台
+HOST-SUFFIX,play4free.com,🎮 游戏平台
+HOST-SUFFIX,playapex.com,🎮 游戏平台
+HOST-SUFFIX,pogo.com,🎮 游戏平台
+HOST-SUFFIX,pogobeta.com,🎮 游戏平台
+HOST-SUFFIX,popcap.com,🎮 游戏平台
+HOST-SUFFIX,projectapex.com,🎮 游戏平台
+HOST-SUFFIX,pvzgw2.com,🎮 游戏平台
+HOST-SUFFIX,pvzheroes.com,🎮 游戏平台
+HOST-SUFFIX,seaofsolitude.com,🎮 游戏平台
+HOST-SUFFIX,simcity-buildit.com,🎮 游戏平台
+HOST-SUFFIX,simcity.com,🎮 游戏平台
+HOST-SUFFIX,skate2.com,🎮 游戏平台
+HOST-SUFFIX,spearhead.kr,🎮 游戏平台
+HOST-SUFFIX,speedhunters.com,🎮 游戏平台
+HOST-SUFFIX,spore.com,🎮 游戏平台
+HOST-SUFFIX,ssx3.com,🎮 游戏平台
+HOST-SUFFIX,starwarsbattlefront.com,🎮 游戏平台
+HOST-SUFFIX,starwarsbattlefront2.com,🎮 游戏平台
+HOST-SUFFIX,starwarsfallenorder.com,🎮 游戏平台
+HOST-SUFFIX,starwarsjedifallenorder.com,🎮 游戏平台
+HOST-SUFFIX,starwarstheoldrepublic.com,🎮 游戏平台
+HOST-SUFFIX,swjedifallenorder.com,🎮 游戏平台
+HOST-SUFFIX,swjfo.com,🎮 游戏平台
+HOST-SUFFIX,swtor.com,🎮 游戏平台
+HOST-SUFFIX,swtor.net,🎮 游戏平台
+HOST-SUFFIX,teamneedforspeed.com,🎮 游戏平台
+HOST-SUFFIX,thedreadwolfrises.com,🎮 游戏平台
+HOST-SUFFIX,thesims.com,🎮 游戏平台
+HOST-SUFFIX,thesims3.com,🎮 游戏平台
+HOST-SUFFIX,thesims4.com,🎮 游戏平台
+HOST-SUFFIX,thesimssocial.com,🎮 游戏平台
+HOST-SUFFIX,tiberiumalliances.com,🎮 游戏平台
+HOST-SUFFIX,tiburon.com,🎮 游戏平台
+HOST-SUFFIX,titanfall.com,🎮 游戏平台
+HOST-SUFFIX,tnt-ea.com,🎮 游戏平台
+HOST-SUFFIX,ultimaforever.com,🎮 游戏平台
+HOST-SUFFIX,ultimaonline.com,🎮 游戏平台
+HOST-SUFFIX,unravel2.com,🎮 游戏平台
+HOST-SUFFIX,unraveltwo.com,🎮 游戏平台
+HOST-SUFFIX,uo.com,🎮 游戏平台
+HOST-SUFFIX,uoherald.com,🎮 游戏平台
+HOST-SUFFIX,visceralgames.com,🎮 游戏平台
+HOST-SUFFIX,xdsummit.com,🎮 游戏平台
+HOST-SUFFIX,yogify.com,🎮 游戏平台
+HOST-SUFFIX,battlebreakers.com,🎮 游戏平台
+HOST-SUFFIX,eac-cdn.com,🎮 游戏平台
+HOST-SUFFIX,easy.ac,🎮 游戏平台
+HOST-SUFFIX,easyanticheat.net,🎮 游戏平台
+HOST-SUFFIX,epicgames.com,🎮 游戏平台
+HOST-SUFFIX,epicgames.dev,🎮 游戏平台
+HOST-SUFFIX,fortnite.com,🎮 游戏平台
+HOST-SUFFIX,helpshift.com,🎮 游戏平台
+HOST-SUFFIX,paragon.com,🎮 游戏平台
+HOST-SUFFIX,playparagon.com,🎮 游戏平台
+HOST-SUFFIX,roborecall.com,🎮 游戏平台
+HOST-SUFFIX,shadowcomplex.com,🎮 游戏平台
+HOST-SUFFIX,spyjinx.com,🎮 游戏平台
+HOST-SUFFIX,unrealengine.com,🎮 游戏平台
+HOST-SUFFIX,unrealtournament.com,🎮 游戏平台
+HOST-SUFFIX,sony.com,🎮 游戏平台
+HOST-SUFFIX,avatargarenanow-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,cdngarenanow-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,garena.co.id,🎮 游戏平台
+HOST-SUFFIX,garena.co.th,🎮 游戏平台
+HOST-SUFFIX,garena.com,🎮 游戏平台
+HOST-SUFFIX,garena.live,🎮 游戏平台
+HOST-SUFFIX,garena.my,🎮 游戏平台
+HOST-SUFFIX,garena.ph,🎮 游戏平台
+HOST-SUFFIX,garena.sg,🎮 游戏平台
+HOST-SUFFIX,garena.tv,🎮 游戏平台
+HOST-SUFFIX,garena.tw,🎮 游戏平台
+HOST-SUFFIX,garena.vn,🎮 游戏平台
+HOST-SUFFIX,garenanow.com,🎮 游戏平台
+HOST-SUFFIX,seagroup.com,🎮 游戏平台
+HOST-SUFFIX,gog-statics.com,🎮 游戏平台
+HOST-SUFFIX,gog.com,🎮 游戏平台
+HOST-SUFFIX,gog.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,100classicbooks.com,🎮 游戏平台
+HOST-SUFFIX,ac-pocketcamp.com,🎮 游戏平台
+HOST-SUFFIX,amiibo.com,🎮 游戏平台
+HOST-SUFFIX,ayudanintendo.com,🎮 游戏平台
+HOST-SUFFIX,bowsersinsidestory.com,🎮 游戏平台
+HOST-SUFFIX,dialga.com,🎮 游戏平台
+HOST-SUFFIX,diddykongracing.com,🎮 游戏平台
+HOST-SUFFIX,dkr.com,🎮 游戏平台
+HOST-SUFFIX,donkeykongcountryreturns.com,🎮 游戏平台
+HOST-SUFFIX,drmario-world.com,🎮 游戏平台
+HOST-SUFFIX,excitebots.com,🎮 游戏平台
+HOST-SUFFIX,fire-emblem-heroes.com,🎮 游戏平台
+HOST-SUFFIX,fireemblemawakening.com,🎮 游戏平台
+HOST-SUFFIX,flipnotestudio.com,🎮 游戏平台
+HOST-SUFFIX,giratina.com,🎮 游戏平台
+HOST-SUFFIX,gloryofheracles.com,🎮 游戏平台
+HOST-SUFFIX,hackyourconsole.com,🎮 游戏平台
+HOST-SUFFIX,kirbysepicyarn.com,🎮 游戏平台
+HOST-SUFFIX,kirbysuperstarultra.com,🎮 游戏平台
+HOST-SUFFIX,kyurem.com,🎮 游戏平台
+HOST-SUFFIX,legendofzelda.cn,🎮 游戏平台
+HOST-SUFFIX,legendofzelda.com.cn,🎮 游戏平台
+HOST-SUFFIX,marioandluigidreamteam.com,🎮 游戏平台
+HOST-SUFFIX,mariobroswii.com,🎮 游戏平台
+HOST-SUFFIX,mariokart.cn,🎮 游戏平台
+HOST-SUFFIX,mariokart.com.cn,🎮 游戏平台
+HOST-SUFFIX,mariokart7.com,🎮 游戏平台
+HOST-SUFFIX,mariokart8.com,🎮 游戏平台
+HOST-SUFFIX,mariosupersluggers.com,🎮 游戏平台
+HOST-SUFFIX,miitomo.com,🎮 游戏平台
+HOST-SUFFIX,miitomo.com.cn,🎮 游戏平台
+HOST-SUFFIX,miiverse.com,🎮 游戏平台
+HOST-SUFFIX,nentindo.net,🎮 游戏平台
+HOST-SUFFIX,newsupermariobrosu.com,🎮 游戏平台
+HOST-SUFFIX,nintendo-europe-sales.com,🎮 游戏平台
+HOST-SUFFIX,nintendo-europe.com,🎮 游戏平台
+HOST-SUFFIX,nintendo.at,🎮 游戏平台
+HOST-SUFFIX,nintendo.be,🎮 游戏平台
+HOST-SUFFIX,nintendo.ch,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.jp,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.kr,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.uk,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.za,🎮 游戏平台
+HOST-SUFFIX,nintendo.com,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.au,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.hk,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.pt,🎮 游戏平台
+HOST-SUFFIX,nintendo.de,🎮 游戏平台
+HOST-SUFFIX,nintendo.dk,🎮 游戏平台
+HOST-SUFFIX,nintendo.es,🎮 游戏平台
+HOST-SUFFIX,nintendo.eu,🎮 游戏平台
+HOST-SUFFIX,nintendo.fi,🎮 游戏平台
+HOST-SUFFIX,nintendo.fr,🎮 游戏平台
+HOST-SUFFIX,nintendo.it,🎮 游戏平台
+HOST-SUFFIX,nintendo.jp,🎮 游戏平台
+HOST-SUFFIX,nintendo.net,🎮 游戏平台
+HOST-SUFFIX,nintendo.nl,🎮 游戏平台
+HOST-SUFFIX,nintendo.no,🎮 游戏平台
+HOST-SUFFIX,nintendo.pt,🎮 游戏平台
+HOST-SUFFIX,nintendo.ru,🎮 游戏平台
+HOST-SUFFIX,nintendo.se,🎮 游戏平台
+HOST-SUFFIX,nintendo.tw,🎮 游戏平台
+HOST-SUFFIX,nintendo3ds.com,🎮 游戏平台
+HOST-SUFFIX,nintendodsi.com,🎮 游戏平台
+HOST-SUFFIX,nintendoeurope.com,🎮 游戏平台
+HOST-SUFFIX,nintendolabo.cn,🎮 游戏平台
+HOST-SUFFIX,nintendonetwork.net,🎮 游戏平台
+HOST-SUFFIX,nintendonyc.com,🎮 游戏平台
+HOST-SUFFIX,nintendostore.com,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.cn,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.com,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.com.cn,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.net,🎮 游戏平台
+HOST-SUFFIX,nintendoswitchtogether.com,🎮 游戏平台
+HOST-SUFFIX,nintendowifi.net,🎮 游戏平台
+HOST-SUFFIX,nintendowii.com,🎮 游戏平台
+HOST-SUFFIX,personaltrainermath.com,🎮 游戏平台
+HOST-SUFFIX,playnintendo.com,🎮 游戏平台
+HOST-SUFFIX,pokedex3d.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-moon.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-sun.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-sunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-unitepgame.com,🎮 游戏平台
+HOST-SUFFIX,pokemon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonbank.com,🎮 游戏平台
+HOST-SUFFIX,pokemonblackwhite.com,🎮 游戏平台
+HOST-SUFFIX,pokemonbw.com,🎮 游戏平台
+HOST-SUFFIX,pokemonchampionships.com,🎮 游戏平台
+HOST-SUFFIX,pokemongoldsilver.com,🎮 游戏平台
+HOST-SUFFIX,pokemonhome.com,🎮 游戏平台
+HOST-SUFFIX,pokemonletsgoeevee.com,🎮 游戏平台
+HOST-SUFFIX,pokemonletsgopikachu.com,🎮 游戏平台
+HOST-SUFFIX,pokemonmysterydungeon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonpicross.com,🎮 游戏平台
+HOST-SUFFIX,pokemonplatinum.com,🎮 游戏平台
+HOST-SUFFIX,pokemonrubysapphire.com,🎮 游戏平台
+HOST-SUFFIX,pokemonsunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonswordshield.com,🎮 游戏平台
+HOST-SUFFIX,pokemonultrasunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonvgc.com,🎮 游戏平台
+HOST-SUFFIX,pokemonwifi.net,🎮 游戏平台
+HOST-SUFFIX,splatoon2tournament.com,🎮 游戏平台
+HOST-SUFFIX,starfox.com,🎮 游戏平台
+HOST-SUFFIX,supermario.com,🎮 游戏平台
+HOST-SUFFIX,supermario3dworld.com,🎮 游戏平台
+HOST-SUFFIX,supermariobros.com.cn,🎮 游戏平台
+HOST-SUFFIX,supermariogalaxy.com,🎮 游戏平台
+HOST-SUFFIX,supermariorun.com,🎮 游戏平台
+HOST-SUFFIX,superpapermario.com,🎮 游戏平台
+HOST-SUFFIX,supersmashbros.cn,🎮 游戏平台
+HOST-SUFFIX,supersmashbros.com.cn,🎮 游戏平台
+HOST-SUFFIX,thelegendarystarfy.com,🎮 游戏平台
+HOST-SUFFIX,thewonderful101.com,🎮 游戏平台
+HOST-SUFFIX,wariolandshakeit.com,🎮 游戏平台
+HOST-SUFFIX,wariowarediy.com,🎮 游戏平台
+HOST-SUFFIX,wii-u.com,🎮 游戏平台
+HOST-SUFFIX,wiifit.com,🎮 游戏平台
+HOST-SUFFIX,wiifitu.com,🎮 游戏平台
+HOST-SUFFIX,wiipartyu.com,🎮 游戏平台
+HOST-SUFFIX,wiisports.com,🎮 游戏平台
+HOST-SUFFIX,wiisportsresort.com,🎮 游戏平台
+HOST-SUFFIX,wiiugamepad.com,🎮 游戏平台
+HOST-SUFFIX,wiivc.net,🎮 游戏平台
+HOST-SUFFIX,xenoblade.com,🎮 游戏平台
+HOST-SUFFIX,xn--mts47c3w9b1qr.cn,🎮 游戏平台
+HOST-SUFFIX,xn--mts47c3w9b1qr.net,🎮 游戏平台
+HOST-SUFFIX,yoshisnewisland.com,🎮 游戏平台
+HOST-SUFFIX,op.gg,🎮 游戏平台
+HOST-SUFFIX,opgg-static.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,playstation.com,🎮 游戏平台
+HOST-SUFFIX,playstation.net,🎮 游戏平台
+HOST-SUFFIX,playstationnetwork.com,🎮 游戏平台
+HOST-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+HOST-SUFFIX,api-priconne-redive.cygames.jp,🎮 游戏平台
+HOST-SUFFIX,omotenashi.cygames.jp,🎮 游戏平台
+HOST-SUFFIX,prd-priconne-redive.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,championshipseriesleague.com,🎮 游戏平台
+HOST-SUFFIX,convrgencegame.com,🎮 游戏平台
+HOST-SUFFIX,historyofdota.com,🎮 游戏平台
+HOST-SUFFIX,historyofdota.net,🎮 游戏平台
+HOST-SUFFIX,historyofdota.org,🎮 游戏平台
+HOST-SUFFIX,instituteofwar.org,🎮 游戏平台
+HOST-SUFFIX,lcsmerch.com,🎮 游戏平台
+HOST-SUFFIX,leaguehighschool.com,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.ca,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.cn,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.co.kr,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.com,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.info,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.kr,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.net,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.org,🎮 游戏平台
+HOST-SUFFIX,leagueoflegendsscripts.com,🎮 游戏平台
+HOST-SUFFIX,leaguesharp.info,🎮 游戏平台
+HOST-SUFFIX,leaguoflegends.com,🎮 游戏平台
+HOST-SUFFIX,learnwithleague.com,🎮 游戏平台
+HOST-SUFFIX,lol-europe.com,🎮 游戏平台
+HOST-SUFFIX,lolclub.org,🎮 游戏平台
+HOST-SUFFIX,lolespor.com,🎮 游戏平台
+HOST-SUFFIX,lolesports.com,🎮 游戏平台
+HOST-SUFFIX,lolfanart.net,🎮 游戏平台
+HOST-SUFFIX,lolpcs.com,🎮 游戏平台
+HOST-SUFFIX,lolshop.co.kr,🎮 游戏平台
+HOST-SUFFIX,lolstatic-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,lolstatic.com,🎮 游戏平台
+HOST-SUFFIX,lolusercontent.com,🎮 游戏平台
+HOST-SUFFIX,lpl.com.cn,🎮 游戏平台
+HOST-SUFFIX,molesports.com,🎮 游戏平台
+HOST-SUFFIX,playvalorant.com,🎮 游戏平台
+HOST-SUFFIX,pvp.tv,🎮 游戏平台
+HOST-SUFFIX,rgpub.io,🎮 游戏平台
+HOST-SUFFIX,riot-games.com,🎮 游戏平台
+HOST-SUFFIX,riot.com,🎮 游戏平台
+HOST-SUFFIX,riot.net,🎮 游戏平台
+HOST-SUFFIX,riotforgegames.com,🎮 游戏平台
+HOST-SUFFIX,riotgames.co.kr,🎮 游戏平台
+HOST-SUFFIX,riotgames.info,🎮 游戏平台
+HOST-SUFFIX,riotgames.jp,🎮 游戏平台
+HOST-SUFFIX,riotgames.net,🎮 游戏平台
+HOST-SUFFIX,riotgames.tv,🎮 游戏平台
+HOST-SUFFIX,riotgames.zendesk.com,🎮 游戏平台
+HOST-SUFFIX,riotpin.com,🎮 游戏平台
+HOST-SUFFIX,riotpoints.com,🎮 游戏平台
+HOST-SUFFIX,rstatic.net,🎮 游戏平台
+HOST-SUFFIX,ruinedking.com,🎮 游戏平台
+HOST-SUFFIX,supremacy.com,🎮 游戏平台
+HOST-SUFFIX,supremacy.net,🎮 游戏平台
+HOST-SUFFIX,ulol.com,🎮 游戏平台
+HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,media-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,rockstargames.com,🎮 游戏平台
+HOST-SUFFIX,rsg.sc,🎮 游戏平台
+HOST-SUFFIX,videos-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,csgo.wmsj.cn,🎮 游戏平台
+HOST-SUFFIX,dl.steam.clngaa.com,🎮 游戏平台
+HOST-SUFFIX,dl.steam.ksyna.com,🎮 游戏平台
+HOST-SUFFIX,dota2.wmsj.cn,🎮 游戏平台
+HOST-SUFFIX,edge.steam-dns.top.comcast.net,🎮 游戏平台
+HOST-SUFFIX,fanatical.com,🎮 游戏平台
+HOST-SUFFIX,humblebundle.com,🎮 游戏平台
+HOST-SUFFIX,playartifact.com,🎮 游戏平台
+HOST-SUFFIX,s.team,🎮 游戏平台
+HOST-SUFFIX,st.dl.bscstorage.net,🎮 游戏平台
+HOST-SUFFIX,st.dl.eccdnx.com,🎮 游戏平台
+HOST-SUFFIX,st.dl.pinyuncloud.com,🎮 游戏平台
+HOST-SUFFIX,steam-api.com,🎮 游戏平台
+HOST-SUFFIX,steam-chat.com,🎮 游戏平台
+HOST-SUFFIX,steam.apac.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.on.net,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.orcon.net.nz,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.slingshot.co.nz,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.webra.ru,🎮 游戏平台
+HOST-SUFFIX,steam.eca.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.naeu.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.ru.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steambroadcast.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,steamcdn-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamcommunity-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamcommunity.com,🎮 游戏平台
+HOST-SUFFIX,steamcontent.tnkjmec.com,🎮 游戏平台
+HOST-SUFFIX,steamdeck.com,🎮 游戏平台
+HOST-SUFFIX,steamgames.com,🎮 游戏平台
+HOST-SUFFIX,steampipe.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,steampowered.com,🎮 游戏平台
+HOST-SUFFIX,steampowered.com.8686c.com,🎮 游戏平台
+HOST-SUFFIX,steamstat.us,🎮 游戏平台
+HOST-SUFFIX,steamstatic.com,🎮 游戏平台
+HOST-SUFFIX,steamstatic.com.8686c.com,🎮 游戏平台
+HOST-SUFFIX,steamstore-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamunlocked.net,🎮 游戏平台
+HOST-SUFFIX,steamusercontent-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamuserimages-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamvideo-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,underlords.com,🎮 游戏平台
+HOST-SUFFIX,valvesoftware.com,🎮 游戏平台
+HOST-SUFFIX,wmsjsteam.com,🎮 游戏平台
+HOST-SUFFIX,steamchina.com,🎮 游戏平台
+HOST-SUFFIX,steamcontent.com,🎮 游戏平台
+HOST-SUFFIX,steamserver.net,🎮 游戏平台
+HOST-SUFFIX,steamusercontent.com,🎮 游戏平台
+HOST-SUFFIX,brawlstars.com,🎮 游戏平台
+HOST-SUFFIX,brawlstarsgame.com,🎮 游戏平台
+HOST-SUFFIX,ubi.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft.com,🎮 游戏平台
+HOST-SUFFIX,uplay.com,🎮 游戏平台
+HOST-SUFFIX,pvp.net,🎮 游戏平台
+HOST-SUFFIX,riotcdn.net,🎮 游戏平台
+HOST-SUFFIX,riotgames.com,🎮 游戏平台
+HOST-SUFFIX,beth.games,🎮 游戏平台
+HOST-SUFFIX,bethesda.net,🎮 游戏平台
+HOST-SUFFIX,bethesdagamestudios.com,🎮 游戏平台
+HOST-SUFFIX,bethsoft.com,🎮 游戏平台
+HOST-SUFFIX,callersbane.com,🎮 游戏平台
+HOST-SUFFIX,doom.com,🎮 游戏平台
+HOST-SUFFIX,elderscrolls.com,🎮 游戏平台
+HOST-SUFFIX,forzamotorsport.net,🎮 游戏平台
+HOST-SUFFIX,forzaracingchampionship.com,🎮 游戏平台
+HOST-SUFFIX,forzarc.com,🎮 游戏平台
+HOST-SUFFIX,gamepass.com,🎮 游戏平台
+HOST-SUFFIX,minecraft.net,🎮 游戏平台
+HOST-SUFFIX,minecraftshop.com,🎮 游戏平台
+HOST-SUFFIX,mojang.com,🎮 游戏平台
+HOST-SUFFIX,msgamestudios.com,🎮 游戏平台
+HOST-SUFFIX,orithegame.com,🎮 游戏平台
+HOST-SUFFIX,renovacionxboxlive.com,🎮 游戏平台
+HOST-SUFFIX,tellmewhygame.com,🎮 游戏平台
+HOST-SUFFIX,xbox.co,🎮 游戏平台
+HOST-SUFFIX,xbox.com,🎮 游戏平台
+HOST-SUFFIX,xbox.eu,🎮 游戏平台
+HOST-SUFFIX,xbox.org,🎮 游戏平台
+HOST-SUFFIX,xbox360.co,🎮 游戏平台
+HOST-SUFFIX,xbox360.com,🎮 游戏平台
+HOST-SUFFIX,xbox360.eu,🎮 游戏平台
+HOST-SUFFIX,xbox360.org,🎮 游戏平台
+HOST-SUFFIX,xboxab.com,🎮 游戏平台
+HOST-SUFFIX,xboxab.net,🎮 游戏平台
+HOST-SUFFIX,xboxgamepass.com,🎮 游戏平台
+HOST-SUFFIX,xboxgamestudios.com,🎮 游戏平台
+HOST-SUFFIX,xboxlive.cn,🎮 游戏平台
+HOST-SUFFIX,xboxlive.com,🎮 游戏平台
+HOST-SUFFIX,xboxone.co,🎮 游戏平台
+HOST-SUFFIX,xboxone.com,🎮 游戏平台
+HOST-SUFFIX,xboxone.eu,🎮 游戏平台
+HOST-SUFFIX,xboxplayanywhere.com,🎮 游戏平台
+HOST-SUFFIX,xboxservice.com,🎮 游戏平台
+HOST-SUFFIX,xboxservices.com,🎮 游戏平台
+HOST-SUFFIX,xboxstudios.com,🎮 游戏平台
+HOST-SUFFIX,xbx.lv,🎮 游戏平台
+HOST-KEYWORD,epicgames,🎮 游戏平台
+HOST-KEYWORD,steambroadcast,🎮 游戏平台
+HOST-KEYWORD,steamstore,🎮 游戏平台
+HOST-KEYWORD,steamuserimages,🎮 游戏平台
 IP-CIDR,182.162.135.1/32,🎮 游戏平台,no-resolve
 IP-CIDR,210.242.235.6/32,🎮 游戏平台,no-resolve
 IP-CIDR,54.94.196.47/32,🎮 游戏平台,no-resolve
@@ -587,45 +587,45 @@ IP-CIDR,103.4.115.248/32,🎮 游戏平台,no-resolve
 IP-CIDR,137.221.105.2/32,🎮 游戏平台,no-resolve
 IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
 IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
-HOST-SUFFIX,battle.net,tag
-HOST-SUFFIX,blizzard.com,tag
-HOST-SUFFIX,battlenet.com,tag
-HOST-SUFFIX,battlenet.com.cn,tag
-HOST-SUFFIX,blizzard.cn,tag
-HOST-SUFFIX,blizzard.nefficient.co.kr,tag
-HOST-SUFFIX,blizzardgames.cn,tag
-HOST-SUFFIX,blizzardgearstore.com,tag
-HOST-SUFFIX,blizzcon-a.akamaihd.net,tag
-HOST-SUFFIX,blz-contentstack.com,tag
-HOST-SUFFIX,blz.nosdn.127.net,tag
-HOST-SUFFIX,blzddist1-a.akamaihd.net,tag
-HOST-SUFFIX,blzddistkr1-a.akamaihd.net,tag
-HOST-SUFFIX,blzmedia-a.akamaihd.net,tag
-HOST-SUFFIX,blznav.akamaized.net,tag
-HOST-SUFFIX,blzstatic.cn,tag
-HOST-SUFFIX,bnet.163.com,tag
-HOST-SUFFIX,bnetcmsus-a.akamaihd.net,tag
-HOST-SUFFIX,bnetproduct-a.akamaihd.net,tag
-HOST-SUFFIX,bnetshopus.akamaized.net,tag
-HOST-SUFFIX,cdp.cloud.unity3d.com,tag
-HOST-SUFFIX,di.res.netease.com,tag
-HOST-SUFFIX,diablo3.com,tag
-HOST-SUFFIX,diablo3.nosdn.127.net,tag
-HOST-SUFFIX,diabloimmortal.com,tag
-HOST-SUFFIX,firesidegatherings.com,tag
-HOST-SUFFIX,hearthstone.nosdn.127.net,tag
-HOST-SUFFIX,heroes.nos.netease.com,tag
-HOST-SUFFIX,heroesofthestorm.com,tag
-HOST-SUFFIX,overwatch.nosdn.127.net,tag
-HOST-SUFFIX,playhearthstone.com,tag
-HOST-SUFFIX,playoverwatch.com,tag
-HOST-SUFFIX,playwarcraft3.com,tag
-HOST-SUFFIX,sc2.nosdn.127.net,tag
-HOST-SUFFIX,starcraft.com,tag
-HOST-SUFFIX,starcraft2.com,tag
-HOST-SUFFIX,worldofwarcraft.com,tag
-HOST-SUFFIX,wow.nosdn.127.net,tag
-HOST-SUFFIX,wowchina.com,tag
+HOST-SUFFIX,battle.net,🎮 游戏平台
+HOST-SUFFIX,blizzard.com,🎮 游戏平台
+HOST-SUFFIX,battlenet.com,🎮 游戏平台
+HOST-SUFFIX,battlenet.com.cn,🎮 游戏平台
+HOST-SUFFIX,blizzard.cn,🎮 游戏平台
+HOST-SUFFIX,blizzard.nefficient.co.kr,🎮 游戏平台
+HOST-SUFFIX,blizzardgames.cn,🎮 游戏平台
+HOST-SUFFIX,blizzardgearstore.com,🎮 游戏平台
+HOST-SUFFIX,blizzcon-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blz-contentstack.com,🎮 游戏平台
+HOST-SUFFIX,blz.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,blzddist1-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blzddistkr1-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blzmedia-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,blznav.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,blzstatic.cn,🎮 游戏平台
+HOST-SUFFIX,bnet.163.com,🎮 游戏平台
+HOST-SUFFIX,bnetcmsus-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,bnetproduct-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,bnetshopus.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,cdp.cloud.unity3d.com,🎮 游戏平台
+HOST-SUFFIX,di.res.netease.com,🎮 游戏平台
+HOST-SUFFIX,diablo3.com,🎮 游戏平台
+HOST-SUFFIX,diablo3.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,diabloimmortal.com,🎮 游戏平台
+HOST-SUFFIX,firesidegatherings.com,🎮 游戏平台
+HOST-SUFFIX,hearthstone.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,heroes.nos.netease.com,🎮 游戏平台
+HOST-SUFFIX,heroesofthestorm.com,🎮 游戏平台
+HOST-SUFFIX,overwatch.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,playhearthstone.com,🎮 游戏平台
+HOST-SUFFIX,playoverwatch.com,🎮 游戏平台
+HOST-SUFFIX,playwarcraft3.com,🎮 游戏平台
+HOST-SUFFIX,sc2.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,starcraft.com,🎮 游戏平台
+HOST-SUFFIX,starcraft2.com,🎮 游戏平台
+HOST-SUFFIX,worldofwarcraft.com,🎮 游戏平台
+HOST-SUFFIX,wow.nosdn.127.net,🎮 游戏平台
+HOST-SUFFIX,wowchina.com,🎮 游戏平台
 IP-CIDR,182.162.135.1/32,🎮 游戏平台,no-resolve
 IP-CIDR,210.242.235.6/32,🎮 游戏平台,no-resolve
 IP-CIDR,54.94.196.47/32,🎮 游戏平台,no-resolve
@@ -649,89 +649,89 @@ IP-CIDR,103.4.115.248/32,🎮 游戏平台,no-resolve
 IP-CIDR,137.221.105.2/32,🎮 游戏平台,no-resolve
 IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
 IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
-HOST,f3b7q2p3.ssl.hwcdn.net,tag
-HOST,steammobile.akamaized.net,tag
-HOST,steampipe-kr.akamaized.net,tag
-HOST,steampipe-partner.akamaized.net,tag
-HOST-SUFFIX,cdn-ali.content.steamchina.com,tag
-HOST-SUFFIX,cdn-qc.content.steamchina.com,tag
-HOST-SUFFIX,cdn-ws.content.steamchina.com,tag
-HOST-SUFFIX,csgo.wmsj.cn,tag
-HOST-SUFFIX,dl.steam.clngaa.com,tag
-HOST-SUFFIX,dl.steam.ksyna.com,tag
-HOST-SUFFIX,dota2.wmsj.cn,tag
-HOST-SUFFIX,edge.steam-dns.top.comcast.net,tag
-HOST-SUFFIX,fanatical.com,tag
-HOST-SUFFIX,humblebundle.com,tag
-HOST-SUFFIX,playartifact.com,tag
-HOST-SUFFIX,s.team,tag
-HOST-SUFFIX,st.dl.bscstorage.net,tag
-HOST-SUFFIX,st.dl.eccdnx.com,tag
-HOST-SUFFIX,st.dl.pinyuncloud.com,tag
-HOST-SUFFIX,steam-api.com,tag
-HOST-SUFFIX,steam-chat.com,tag
-HOST-SUFFIX,steam.apac.qtlglb.com,tag
-HOST-SUFFIX,steam.cdn.on.net,tag
-HOST-SUFFIX,steam.cdn.orcon.net.nz,tag
-HOST-SUFFIX,steam.cdn.slingshot.co.nz,tag
-HOST-SUFFIX,steam.cdn.webra.ru,tag
-HOST-SUFFIX,steam.eca.qtlglb.com,tag
-HOST-SUFFIX,steam.naeu.qtlglb.com,tag
-HOST-SUFFIX,steam.ru.qtlglb.com,tag
-HOST-SUFFIX,steambroadcast.akamaized.net,tag
-HOST-SUFFIX,steamcdn-a.akamaihd.net,tag
-HOST-SUFFIX,steamcommunity-a.akamaihd.net,tag
-HOST-SUFFIX,steamcommunity.com,tag
-HOST-SUFFIX,steamcontent.tnkjmec.com,tag
-HOST-SUFFIX,steamdeck.com,tag
-HOST-SUFFIX,steamgames.com,tag
-HOST-SUFFIX,steampipe.akamaized.net,tag
-HOST-SUFFIX,steampowered.com,tag
-HOST-SUFFIX,steampowered.com.8686c.com,tag
-HOST-SUFFIX,steamstat.us,tag
-HOST-SUFFIX,steamstatic.com,tag
-HOST-SUFFIX,steamstatic.com.8686c.com,tag
-HOST-SUFFIX,steamstore-a.akamaihd.net,tag
-HOST-SUFFIX,steamunlocked.net,tag
-HOST-SUFFIX,steamusercontent-a.akamaihd.net,tag
-HOST-SUFFIX,steamuserimages-a.akamaihd.net,tag
-HOST-SUFFIX,steamvideo-a.akamaihd.net,tag
-HOST-SUFFIX,underlords.com,tag
-HOST-SUFFIX,valvesoftware.com,tag
-HOST-SUFFIX,wmsjsteam.com,tag
-HOST-KEYWORD,steambroadcast,tag
-HOST-KEYWORD,steamstore,tag
-HOST-KEYWORD,steamuserimages,tag
-HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,media-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,rockstargames.com,tag
-HOST-SUFFIX,rsg.sc,tag
-HOST-SUFFIX,videos-rockstargames-com.akamaized.net,tag
-HOST-SUFFIX,playstation.com,tag
-HOST-SUFFIX,playstation.net,tag
-HOST-SUFFIX,playstationnetwork.com,tag
-HOST-SUFFIX,sonyentertainmentnetwork.com,tag
-HOST-SUFFIX,battlebreakers.com,tag
-HOST-SUFFIX,eac-cdn.com,tag
-HOST-SUFFIX,easy.ac,tag
-HOST-SUFFIX,easyanticheat.net,tag
-HOST-SUFFIX,epicgames.com,tag
-HOST-SUFFIX,epicgames.dev,tag
-HOST-SUFFIX,fortnite.com,tag
-HOST-SUFFIX,helpshift.com,tag
-HOST-SUFFIX,paragon.com,tag
-HOST-SUFFIX,playparagon.com,tag
-HOST-SUFFIX,roborecall.com,tag
-HOST-SUFFIX,shadowcomplex.com,tag
-HOST-SUFFIX,spyjinx.com,tag
-HOST-SUFFIX,unrealengine.com,tag
-HOST-SUFFIX,unrealtournament.com,tag
-HOST-KEYWORD,epicgames,tag
-HOST-SUFFIX,pvp.net,tag
-HOST-SUFFIX,riotcdn.net,tag
-HOST-SUFFIX,riotgames.com,tag
-HOST-SUFFIX,brawlstars.com,tag
-HOST-SUFFIX,brawlstarsgame.com,tag
+HOST,f3b7q2p3.ssl.hwcdn.net,🎮 游戏平台
+HOST,steammobile.akamaized.net,🎮 游戏平台
+HOST,steampipe-kr.akamaized.net,🎮 游戏平台
+HOST,steampipe-partner.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,cdn-ali.content.steamchina.com,🎮 游戏平台
+HOST-SUFFIX,cdn-qc.content.steamchina.com,🎮 游戏平台
+HOST-SUFFIX,cdn-ws.content.steamchina.com,🎮 游戏平台
+HOST-SUFFIX,csgo.wmsj.cn,🎮 游戏平台
+HOST-SUFFIX,dl.steam.clngaa.com,🎮 游戏平台
+HOST-SUFFIX,dl.steam.ksyna.com,🎮 游戏平台
+HOST-SUFFIX,dota2.wmsj.cn,🎮 游戏平台
+HOST-SUFFIX,edge.steam-dns.top.comcast.net,🎮 游戏平台
+HOST-SUFFIX,fanatical.com,🎮 游戏平台
+HOST-SUFFIX,humblebundle.com,🎮 游戏平台
+HOST-SUFFIX,playartifact.com,🎮 游戏平台
+HOST-SUFFIX,s.team,🎮 游戏平台
+HOST-SUFFIX,st.dl.bscstorage.net,🎮 游戏平台
+HOST-SUFFIX,st.dl.eccdnx.com,🎮 游戏平台
+HOST-SUFFIX,st.dl.pinyuncloud.com,🎮 游戏平台
+HOST-SUFFIX,steam-api.com,🎮 游戏平台
+HOST-SUFFIX,steam-chat.com,🎮 游戏平台
+HOST-SUFFIX,steam.apac.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.on.net,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.orcon.net.nz,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.slingshot.co.nz,🎮 游戏平台
+HOST-SUFFIX,steam.cdn.webra.ru,🎮 游戏平台
+HOST-SUFFIX,steam.eca.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.naeu.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steam.ru.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,steambroadcast.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,steamcdn-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamcommunity-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamcommunity.com,🎮 游戏平台
+HOST-SUFFIX,steamcontent.tnkjmec.com,🎮 游戏平台
+HOST-SUFFIX,steamdeck.com,🎮 游戏平台
+HOST-SUFFIX,steamgames.com,🎮 游戏平台
+HOST-SUFFIX,steampipe.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,steampowered.com,🎮 游戏平台
+HOST-SUFFIX,steampowered.com.8686c.com,🎮 游戏平台
+HOST-SUFFIX,steamstat.us,🎮 游戏平台
+HOST-SUFFIX,steamstatic.com,🎮 游戏平台
+HOST-SUFFIX,steamstatic.com.8686c.com,🎮 游戏平台
+HOST-SUFFIX,steamstore-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamunlocked.net,🎮 游戏平台
+HOST-SUFFIX,steamusercontent-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamuserimages-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,steamvideo-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,underlords.com,🎮 游戏平台
+HOST-SUFFIX,valvesoftware.com,🎮 游戏平台
+HOST-SUFFIX,wmsjsteam.com,🎮 游戏平台
+HOST-KEYWORD,steambroadcast,🎮 游戏平台
+HOST-KEYWORD,steamstore,🎮 游戏平台
+HOST-KEYWORD,steamuserimages,🎮 游戏平台
+HOST-SUFFIX,gamedownloads-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,media-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,rockstargames.com,🎮 游戏平台
+HOST-SUFFIX,rsg.sc,🎮 游戏平台
+HOST-SUFFIX,videos-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,playstation.com,🎮 游戏平台
+HOST-SUFFIX,playstation.net,🎮 游戏平台
+HOST-SUFFIX,playstationnetwork.com,🎮 游戏平台
+HOST-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+HOST-SUFFIX,battlebreakers.com,🎮 游戏平台
+HOST-SUFFIX,eac-cdn.com,🎮 游戏平台
+HOST-SUFFIX,easy.ac,🎮 游戏平台
+HOST-SUFFIX,easyanticheat.net,🎮 游戏平台
+HOST-SUFFIX,epicgames.com,🎮 游戏平台
+HOST-SUFFIX,epicgames.dev,🎮 游戏平台
+HOST-SUFFIX,fortnite.com,🎮 游戏平台
+HOST-SUFFIX,helpshift.com,🎮 游戏平台
+HOST-SUFFIX,paragon.com,🎮 游戏平台
+HOST-SUFFIX,playparagon.com,🎮 游戏平台
+HOST-SUFFIX,roborecall.com,🎮 游戏平台
+HOST-SUFFIX,shadowcomplex.com,🎮 游戏平台
+HOST-SUFFIX,spyjinx.com,🎮 游戏平台
+HOST-SUFFIX,unrealengine.com,🎮 游戏平台
+HOST-SUFFIX,unrealtournament.com,🎮 游戏平台
+HOST-KEYWORD,epicgames,🎮 游戏平台
+HOST-SUFFIX,pvp.net,🎮 游戏平台
+HOST-SUFFIX,riotcdn.net,🎮 游戏平台
+HOST-SUFFIX,riotgames.com,🎮 游戏平台
+HOST-SUFFIX,brawlstars.com,🎮 游戏平台
+HOST-SUFFIX,brawlstarsgame.com,🎮 游戏平台
 IP-CIDR,13.210.25.233/32,🎮 游戏平台,no-resolve
 IP-CIDR,13.212.170.102/32,🎮 游戏平台,no-resolve
 IP-CIDR,13.212.171.212/32,🎮 游戏平台,no-resolve
@@ -754,555 +754,555 @@ IP-CIDR,52.13.42.120/32,🎮 游戏平台,no-resolve
 IP-CIDR,52.50.131.212/32,🎮 游戏平台,no-resolve
 IP-CIDR,54.207.168.84/32,🎮 游戏平台,no-resolve
 IP-CIDR,54.248.64.192/32,🎮 游戏平台,no-resolve
-HOST,eaasserts-a.akamaihd.net,tag
-HOST,originasserts.akamaized.net,tag
-HOST-SUFFIX,anthemgame.com,tag
-HOST-SUFFIX,anthemthegame.com,tag
-HOST-SUFFIX,apexlegends.com,tag
-HOST-SUFFIX,awayoutgame.com,tag
-HOST-SUFFIX,battlefield.com,tag
-HOST-SUFFIX,battlefield1943.com,tag
-HOST-SUFFIX,battlefield3.com,tag
-HOST-SUFFIX,battlefield4.com,tag
-HOST-SUFFIX,battlefield5.com,tag
-HOST-SUFFIX,battlefieldbadcompany2.com,tag
-HOST-SUFFIX,battlefieldheroes.com,tag
-HOST-SUFFIX,battlefieldv.com,tag
-HOST-SUFFIX,battlefront2.com,tag
-HOST-SUFFIX,battlefrontii.com,tag
-HOST-SUFFIX,battlelog.com,tag
-HOST-SUFFIX,bejeweledstars.com,tag
-HOST-SUFFIX,bejewled-stars.com,tag
-HOST-SUFFIX,bioware.com,tag
-HOST-SUFFIX,biowarestore.com,tag
-HOST-SUFFIX,blackboxgames.com,tag
-HOST-SUFFIX,camelot-europe.com,tag
-HOST-SUFFIX,camelotherald.com,tag
-HOST-SUFFIX,camelotherald.net,tag
-HOST-SUFFIX,capitalgames.com,tag
-HOST-SUFFIX,chillingo.com,tag
-HOST-SUFFIX,cloudsync-prod.s3.amazonaws.com,tag
-HOST-SUFFIX,cncrivals.com,tag
-HOST-SUFFIX,commandandconquer.com,tag
-HOST-SUFFIX,conquerwithcharacter.com,tag
-HOST-SUFFIX,crysis.jp,tag
-HOST-SUFFIX,daoc.net,tag
-HOST-SUFFIX,darkageofcamelot.com,tag
-HOST-SUFFIX,darkness-risen.com,tag
-HOST-SUFFIX,dawngate.com,tag
-HOST-SUFFIX,dawngatechronicles.com,tag
-HOST-SUFFIX,deadspacegame.com,tag
-HOST-SUFFIX,dice.se,tag
-HOST-SUFFIX,dicela.com,tag
-HOST-SUFFIX,dicela.net,tag
-HOST-SUFFIX,dragonage.com,tag
-HOST-SUFFIX,dragonagekeep.com,tag
-HOST-SUFFIX,dragonagemovie.com,tag
-HOST-SUFFIX,dungeonkeeper.cn,tag
-HOST-SUFFIX,dungeonkeeper.com,tag
-HOST-SUFFIX,dungeonkeeper.com.cn,tag
-HOST-SUFFIX,ea-anz-press.com,tag
-HOST-SUFFIX,ea.com,tag
-HOST-SUFFIX,ea.tt.omtrdc.net,tag
-HOST-SUFFIX,eaaccess.com,tag
-HOST-SUFFIX,eaassets-a.akamaihd.net,tag
-HOST-SUFFIX,eablackbox.com,tag
-HOST-SUFFIX,eacashcard.com,tag
-HOST-SUFFIX,eacodigos.com,tag
-HOST-SUFFIX,eafootballworld.com,tag
-HOST-SUFFIX,eakorea.co.kr,tag
-HOST-SUFFIX,eamirrorsedge.com,tag
-HOST-SUFFIX,eamobile.com,tag
-HOST-SUFFIX,eamythic.com,tag
-HOST-SUFFIX,eamythic.net,tag
-HOST-SUFFIX,eanordic.com,tag
-HOST-SUFFIX,eaplay.com,tag
-HOST-SUFFIX,easports.com,tag
-HOST-SUFFIX,easports.jp,tag
-HOST-SUFFIX,easportsactive.com,tag
-HOST-SUFFIX,easportsactiveonline.com,tag
-HOST-SUFFIX,easportsfootball.com,tag
-HOST-SUFFIX,easportsfootballclub.com,tag
-HOST-SUFFIX,easportsmma.com,tag
-HOST-SUFFIX,easportsworld.com,tag
-HOST-SUFFIX,eastore.com,tag
-HOST-SUFFIX,electronicarts.com,tag
-HOST-SUFFIX,electronicarts.fr,tag
-HOST-SUFFIX,fifastreet.com,tag
-HOST-SUFFIX,fifastreet3.com,tag
-HOST-SUFFIX,frostbite.com,tag
-HOST-SUFFIX,futpromos.com,tag
-HOST-SUFFIX,futunited.com,tag
-HOST-SUFFIX,ghostgames.com,tag
-HOST-SUFFIX,heroesofdragonage.com,tag
-HOST-SUFFIX,hutpromos.com,tag
-HOST-SUFFIX,industrialtoys.com,tag
-HOST-SUFFIX,lordofultima.com,tag
-HOST-SUFFIX,maddenchampionship.com,tag
-HOST-SUFFIX,maddenrewards.com,tag
-HOST-SUFFIX,maddenseason.info,tag
-HOST-SUFFIX,maddenseason.net,tag
-HOST-SUFFIX,maddenseason.org,tag
-HOST-SUFFIX,masseffect.com,tag
-HOST-SUFFIX,masseffectarchives.com,tag
-HOST-SUFFIX,maxis.com,tag
-HOST-SUFFIX,mirrorsedge.com,tag
-HOST-SUFFIX,mirrorsedge.jp,tag
-HOST-SUFFIX,mirrorsedge.net,tag
-HOST-SUFFIX,mirrorsedge2.com,tag
-HOST-SUFFIX,mirrorsedge2d.com,tag
-HOST-SUFFIX,mysims.com,tag
-HOST-SUFFIX,mysimsracing.com,tag
-HOST-SUFFIX,mythicentertainment.com,tag
-HOST-SUFFIX,mythicentertainment.net,tag
-HOST-SUFFIX,mythicgames.com,tag
-HOST-SUFFIX,needforspeed.com,tag
-HOST-SUFFIX,needforspeedboost.com,tag
-HOST-SUFFIX,needforspeeddriftkings.com,tag
-HOST-SUFFIX,needforspeedeliminator.com,tag
-HOST-SUFFIX,needforspeedlightning.com,tag
-HOST-SUFFIX,needforspeedoverdrive.com,tag
-HOST-SUFFIX,needforspeedproven.com,tag
-HOST-SUFFIX,needforspeedredline.com,tag
-HOST-SUFFIX,needforspeedshowdown.com,tag
-HOST-SUFFIX,needforspeedstreetkings.com,tag
-HOST-SUFFIX,needforspeedtakedown.com,tag
-HOST-SUFFIX,needforspeedtherun.com,tag
-HOST-SUFFIX,needforspeedtimeattack.com,tag
-HOST-SUFFIX,needforspeedundergroundeast.com,tag
-HOST-SUFFIX,nfsworld.com,tag
-HOST-SUFFIX,origin-a.akamaihd.net,tag
-HOST-SUFFIX,origin.com,tag
-HOST-SUFFIX,origin.tv,tag
-HOST-SUFFIX,plantsvszombies2.com,tag
-HOST-SUFFIX,play4free.com,tag
-HOST-SUFFIX,playapex.com,tag
-HOST-SUFFIX,pogo.com,tag
-HOST-SUFFIX,pogobeta.com,tag
-HOST-SUFFIX,popcap.com,tag
-HOST-SUFFIX,projectapex.com,tag
-HOST-SUFFIX,pvzgw2.com,tag
-HOST-SUFFIX,pvzheroes.com,tag
-HOST-SUFFIX,seaofsolitude.com,tag
-HOST-SUFFIX,simcity-buildit.com,tag
-HOST-SUFFIX,simcity.com,tag
-HOST-SUFFIX,skate2.com,tag
-HOST-SUFFIX,spearhead.kr,tag
-HOST-SUFFIX,speedhunters.com,tag
-HOST-SUFFIX,spore.com,tag
-HOST-SUFFIX,ssx3.com,tag
-HOST-SUFFIX,starwarsbattlefront.com,tag
-HOST-SUFFIX,starwarsbattlefront2.com,tag
-HOST-SUFFIX,starwarsfallenorder.com,tag
-HOST-SUFFIX,starwarsjedifallenorder.com,tag
-HOST-SUFFIX,starwarstheoldrepublic.com,tag
-HOST-SUFFIX,swjedifallenorder.com,tag
-HOST-SUFFIX,swjfo.com,tag
-HOST-SUFFIX,swtor.com,tag
-HOST-SUFFIX,swtor.net,tag
-HOST-SUFFIX,teamneedforspeed.com,tag
-HOST-SUFFIX,thedreadwolfrises.com,tag
-HOST-SUFFIX,thesims.com,tag
-HOST-SUFFIX,thesims3.com,tag
-HOST-SUFFIX,thesims4.com,tag
-HOST-SUFFIX,thesimssocial.com,tag
-HOST-SUFFIX,tiberiumalliances.com,tag
-HOST-SUFFIX,tiburon.com,tag
-HOST-SUFFIX,titanfall.com,tag
-HOST-SUFFIX,tnt-ea.com,tag
-HOST-SUFFIX,ultimaforever.com,tag
-HOST-SUFFIX,ultimaonline.com,tag
-HOST-SUFFIX,unravel2.com,tag
-HOST-SUFFIX,unraveltwo.com,tag
-HOST-SUFFIX,uo.com,tag
-HOST-SUFFIX,uoherald.com,tag
-HOST-SUFFIX,visceralgames.com,tag
-HOST-SUFFIX,xdsummit.com,tag
-HOST-SUFFIX,yogify.com,tag
-HOST,dlgarenanow-a.akamaihd.net,tag
-HOST-SUFFIX,avatargarenanow-a.akamaihd.net,tag
-HOST-SUFFIX,cdngarenanow-a.akamaihd.net,tag
-HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,tag
-HOST-SUFFIX,garena.co.id,tag
-HOST-SUFFIX,garena.co.th,tag
-HOST-SUFFIX,garena.com,tag
-HOST-SUFFIX,garena.live,tag
-HOST-SUFFIX,garena.my,tag
-HOST-SUFFIX,garena.ph,tag
-HOST-SUFFIX,garena.sg,tag
-HOST-SUFFIX,garena.tv,tag
-HOST-SUFFIX,garena.tw,tag
-HOST-SUFFIX,garena.vn,tag
-HOST-SUFFIX,garenanow.com,tag
-HOST-SUFFIX,seagroup.com,tag
-HOST,gog.salesmanago.com,tag
-HOST-SUFFIX,gog-statics.com,tag
-HOST-SUFFIX,gog.com,tag
-HOST-SUFFIX,gog.qtlglb.com,tag
-HOST-SUFFIX,100classicbooks.com,tag
-HOST-SUFFIX,ac-pocketcamp.com,tag
-HOST-SUFFIX,amiibo.com,tag
-HOST-SUFFIX,ayudanintendo.com,tag
-HOST-SUFFIX,bowsersinsidestory.com,tag
-HOST-SUFFIX,dialga.com,tag
-HOST-SUFFIX,diddykongracing.com,tag
-HOST-SUFFIX,dkr.com,tag
-HOST-SUFFIX,donkeykongcountryreturns.com,tag
-HOST-SUFFIX,drmario-world.com,tag
-HOST-SUFFIX,excitebots.com,tag
-HOST-SUFFIX,fire-emblem-heroes.com,tag
-HOST-SUFFIX,fireemblemawakening.com,tag
-HOST-SUFFIX,flipnotestudio.com,tag
-HOST-SUFFIX,giratina.com,tag
-HOST-SUFFIX,gloryofheracles.com,tag
-HOST-SUFFIX,hackyourconsole.com,tag
-HOST-SUFFIX,kirbysepicyarn.com,tag
-HOST-SUFFIX,kirbysuperstarultra.com,tag
-HOST-SUFFIX,kyurem.com,tag
-HOST-SUFFIX,legendofzelda.cn,tag
-HOST-SUFFIX,legendofzelda.com.cn,tag
-HOST-SUFFIX,marioandluigidreamteam.com,tag
-HOST-SUFFIX,mariobroswii.com,tag
-HOST-SUFFIX,mariokart.cn,tag
-HOST-SUFFIX,mariokart.com.cn,tag
-HOST-SUFFIX,mariokart7.com,tag
-HOST-SUFFIX,mariokart8.com,tag
-HOST-SUFFIX,mariosupersluggers.com,tag
-HOST-SUFFIX,miitomo.com,tag
-HOST-SUFFIX,miitomo.com.cn,tag
-HOST-SUFFIX,miiverse.com,tag
-HOST-SUFFIX,nentindo.net,tag
-HOST-SUFFIX,newsupermariobrosu.com,tag
-HOST-SUFFIX,nintendo-europe-sales.com,tag
-HOST-SUFFIX,nintendo-europe.com,tag
-HOST-SUFFIX,nintendo.at,tag
-HOST-SUFFIX,nintendo.be,tag
-HOST-SUFFIX,nintendo.ch,tag
-HOST-SUFFIX,nintendo.co.jp,tag
-HOST-SUFFIX,nintendo.co.kr,tag
-HOST-SUFFIX,nintendo.co.uk,tag
-HOST-SUFFIX,nintendo.co.za,tag
-HOST-SUFFIX,nintendo.com,tag
-HOST-SUFFIX,nintendo.com.au,tag
-HOST-SUFFIX,nintendo.com.hk,tag
-HOST-SUFFIX,nintendo.com.pt,tag
-HOST-SUFFIX,nintendo.de,tag
-HOST-SUFFIX,nintendo.dk,tag
-HOST-SUFFIX,nintendo.es,tag
-HOST-SUFFIX,nintendo.eu,tag
-HOST-SUFFIX,nintendo.fi,tag
-HOST-SUFFIX,nintendo.fr,tag
-HOST-SUFFIX,nintendo.it,tag
-HOST-SUFFIX,nintendo.jp,tag
-HOST-SUFFIX,nintendo.net,tag
-HOST-SUFFIX,nintendo.nl,tag
-HOST-SUFFIX,nintendo.no,tag
-HOST-SUFFIX,nintendo.pt,tag
-HOST-SUFFIX,nintendo.ru,tag
-HOST-SUFFIX,nintendo.se,tag
-HOST-SUFFIX,nintendo.tw,tag
-HOST-SUFFIX,nintendo3ds.com,tag
-HOST-SUFFIX,nintendodsi.com,tag
-HOST-SUFFIX,nintendoeurope.com,tag
-HOST-SUFFIX,nintendolabo.cn,tag
-HOST-SUFFIX,nintendonetwork.net,tag
-HOST-SUFFIX,nintendonyc.com,tag
-HOST-SUFFIX,nintendostore.com,tag
-HOST-SUFFIX,nintendoswitch.cn,tag
-HOST-SUFFIX,nintendoswitch.com,tag
-HOST-SUFFIX,nintendoswitch.com.cn,tag
-HOST-SUFFIX,nintendoswitch.net,tag
-HOST-SUFFIX,nintendoswitchtogether.com,tag
-HOST-SUFFIX,nintendowifi.net,tag
-HOST-SUFFIX,nintendowii.com,tag
-HOST-SUFFIX,personaltrainermath.com,tag
-HOST-SUFFIX,playnintendo.com,tag
-HOST-SUFFIX,pokedex3d.com,tag
-HOST-SUFFIX,pokemon-moon.com,tag
-HOST-SUFFIX,pokemon-sun.com,tag
-HOST-SUFFIX,pokemon-sunmoon.com,tag
-HOST-SUFFIX,pokemon-unitepgame.com,tag
-HOST-SUFFIX,pokemon.com,tag
-HOST-SUFFIX,pokemonbank.com,tag
-HOST-SUFFIX,pokemonblackwhite.com,tag
-HOST-SUFFIX,pokemonbw.com,tag
-HOST-SUFFIX,pokemonchampionships.com,tag
-HOST-SUFFIX,pokemongoldsilver.com,tag
-HOST-SUFFIX,pokemonhome.com,tag
-HOST-SUFFIX,pokemonletsgoeevee.com,tag
-HOST-SUFFIX,pokemonletsgopikachu.com,tag
-HOST-SUFFIX,pokemonmysterydungeon.com,tag
-HOST-SUFFIX,pokemonpicross.com,tag
-HOST-SUFFIX,pokemonplatinum.com,tag
-HOST-SUFFIX,pokemonrubysapphire.com,tag
-HOST-SUFFIX,pokemonsunmoon.com,tag
-HOST-SUFFIX,pokemonswordshield.com,tag
-HOST-SUFFIX,pokemonultrasunmoon.com,tag
-HOST-SUFFIX,pokemonvgc.com,tag
-HOST-SUFFIX,pokemonwifi.net,tag
-HOST-SUFFIX,splatoon2tournament.com,tag
-HOST-SUFFIX,starfox.com,tag
-HOST-SUFFIX,supermario.com,tag
-HOST-SUFFIX,supermario3dworld.com,tag
-HOST-SUFFIX,supermariobros.com.cn,tag
-HOST-SUFFIX,supermariogalaxy.com,tag
-HOST-SUFFIX,supermariorun.com,tag
-HOST-SUFFIX,superpapermario.com,tag
-HOST-SUFFIX,supersmashbros.cn,tag
-HOST-SUFFIX,supersmashbros.com.cn,tag
-HOST-SUFFIX,thelegendarystarfy.com,tag
-HOST-SUFFIX,thewonderful101.com,tag
-HOST-SUFFIX,wariolandshakeit.com,tag
-HOST-SUFFIX,wariowarediy.com,tag
-HOST-SUFFIX,wii-u.com,tag
-HOST-SUFFIX,wiifit.com,tag
-HOST-SUFFIX,wiifitu.com,tag
-HOST-SUFFIX,wiipartyu.com,tag
-HOST-SUFFIX,wiisports.com,tag
-HOST-SUFFIX,wiisportsresort.com,tag
-HOST-SUFFIX,wiiugamepad.com,tag
-HOST-SUFFIX,wiivc.net,tag
-HOST-SUFFIX,xenoblade.com,tag
-HOST-SUFFIX,xn--mts47c3w9b1qr.cn,tag
-HOST-SUFFIX,xn--mts47c3w9b1qr.net,tag
-HOST-SUFFIX,yoshisnewisland.com,tag
+HOST,eaasserts-a.akamaihd.net,🎮 游戏平台
+HOST,originasserts.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,anthemgame.com,🎮 游戏平台
+HOST-SUFFIX,anthemthegame.com,🎮 游戏平台
+HOST-SUFFIX,apexlegends.com,🎮 游戏平台
+HOST-SUFFIX,awayoutgame.com,🎮 游戏平台
+HOST-SUFFIX,battlefield.com,🎮 游戏平台
+HOST-SUFFIX,battlefield1943.com,🎮 游戏平台
+HOST-SUFFIX,battlefield3.com,🎮 游戏平台
+HOST-SUFFIX,battlefield4.com,🎮 游戏平台
+HOST-SUFFIX,battlefield5.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldbadcompany2.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldheroes.com,🎮 游戏平台
+HOST-SUFFIX,battlefieldv.com,🎮 游戏平台
+HOST-SUFFIX,battlefront2.com,🎮 游戏平台
+HOST-SUFFIX,battlefrontii.com,🎮 游戏平台
+HOST-SUFFIX,battlelog.com,🎮 游戏平台
+HOST-SUFFIX,bejeweledstars.com,🎮 游戏平台
+HOST-SUFFIX,bejewled-stars.com,🎮 游戏平台
+HOST-SUFFIX,bioware.com,🎮 游戏平台
+HOST-SUFFIX,biowarestore.com,🎮 游戏平台
+HOST-SUFFIX,blackboxgames.com,🎮 游戏平台
+HOST-SUFFIX,camelot-europe.com,🎮 游戏平台
+HOST-SUFFIX,camelotherald.com,🎮 游戏平台
+HOST-SUFFIX,camelotherald.net,🎮 游戏平台
+HOST-SUFFIX,capitalgames.com,🎮 游戏平台
+HOST-SUFFIX,chillingo.com,🎮 游戏平台
+HOST-SUFFIX,cloudsync-prod.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,cncrivals.com,🎮 游戏平台
+HOST-SUFFIX,commandandconquer.com,🎮 游戏平台
+HOST-SUFFIX,conquerwithcharacter.com,🎮 游戏平台
+HOST-SUFFIX,crysis.jp,🎮 游戏平台
+HOST-SUFFIX,daoc.net,🎮 游戏平台
+HOST-SUFFIX,darkageofcamelot.com,🎮 游戏平台
+HOST-SUFFIX,darkness-risen.com,🎮 游戏平台
+HOST-SUFFIX,dawngate.com,🎮 游戏平台
+HOST-SUFFIX,dawngatechronicles.com,🎮 游戏平台
+HOST-SUFFIX,deadspacegame.com,🎮 游戏平台
+HOST-SUFFIX,dice.se,🎮 游戏平台
+HOST-SUFFIX,dicela.com,🎮 游戏平台
+HOST-SUFFIX,dicela.net,🎮 游戏平台
+HOST-SUFFIX,dragonage.com,🎮 游戏平台
+HOST-SUFFIX,dragonagekeep.com,🎮 游戏平台
+HOST-SUFFIX,dragonagemovie.com,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.cn,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.com,🎮 游戏平台
+HOST-SUFFIX,dungeonkeeper.com.cn,🎮 游戏平台
+HOST-SUFFIX,ea-anz-press.com,🎮 游戏平台
+HOST-SUFFIX,ea.com,🎮 游戏平台
+HOST-SUFFIX,ea.tt.omtrdc.net,🎮 游戏平台
+HOST-SUFFIX,eaaccess.com,🎮 游戏平台
+HOST-SUFFIX,eaassets-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,eablackbox.com,🎮 游戏平台
+HOST-SUFFIX,eacashcard.com,🎮 游戏平台
+HOST-SUFFIX,eacodigos.com,🎮 游戏平台
+HOST-SUFFIX,eafootballworld.com,🎮 游戏平台
+HOST-SUFFIX,eakorea.co.kr,🎮 游戏平台
+HOST-SUFFIX,eamirrorsedge.com,🎮 游戏平台
+HOST-SUFFIX,eamobile.com,🎮 游戏平台
+HOST-SUFFIX,eamythic.com,🎮 游戏平台
+HOST-SUFFIX,eamythic.net,🎮 游戏平台
+HOST-SUFFIX,eanordic.com,🎮 游戏平台
+HOST-SUFFIX,eaplay.com,🎮 游戏平台
+HOST-SUFFIX,easports.com,🎮 游戏平台
+HOST-SUFFIX,easports.jp,🎮 游戏平台
+HOST-SUFFIX,easportsactive.com,🎮 游戏平台
+HOST-SUFFIX,easportsactiveonline.com,🎮 游戏平台
+HOST-SUFFIX,easportsfootball.com,🎮 游戏平台
+HOST-SUFFIX,easportsfootballclub.com,🎮 游戏平台
+HOST-SUFFIX,easportsmma.com,🎮 游戏平台
+HOST-SUFFIX,easportsworld.com,🎮 游戏平台
+HOST-SUFFIX,eastore.com,🎮 游戏平台
+HOST-SUFFIX,electronicarts.com,🎮 游戏平台
+HOST-SUFFIX,electronicarts.fr,🎮 游戏平台
+HOST-SUFFIX,fifastreet.com,🎮 游戏平台
+HOST-SUFFIX,fifastreet3.com,🎮 游戏平台
+HOST-SUFFIX,frostbite.com,🎮 游戏平台
+HOST-SUFFIX,futpromos.com,🎮 游戏平台
+HOST-SUFFIX,futunited.com,🎮 游戏平台
+HOST-SUFFIX,ghostgames.com,🎮 游戏平台
+HOST-SUFFIX,heroesofdragonage.com,🎮 游戏平台
+HOST-SUFFIX,hutpromos.com,🎮 游戏平台
+HOST-SUFFIX,industrialtoys.com,🎮 游戏平台
+HOST-SUFFIX,lordofultima.com,🎮 游戏平台
+HOST-SUFFIX,maddenchampionship.com,🎮 游戏平台
+HOST-SUFFIX,maddenrewards.com,🎮 游戏平台
+HOST-SUFFIX,maddenseason.info,🎮 游戏平台
+HOST-SUFFIX,maddenseason.net,🎮 游戏平台
+HOST-SUFFIX,maddenseason.org,🎮 游戏平台
+HOST-SUFFIX,masseffect.com,🎮 游戏平台
+HOST-SUFFIX,masseffectarchives.com,🎮 游戏平台
+HOST-SUFFIX,maxis.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.jp,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge.net,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge2.com,🎮 游戏平台
+HOST-SUFFIX,mirrorsedge2d.com,🎮 游戏平台
+HOST-SUFFIX,mysims.com,🎮 游戏平台
+HOST-SUFFIX,mysimsracing.com,🎮 游戏平台
+HOST-SUFFIX,mythicentertainment.com,🎮 游戏平台
+HOST-SUFFIX,mythicentertainment.net,🎮 游戏平台
+HOST-SUFFIX,mythicgames.com,🎮 游戏平台
+HOST-SUFFIX,needforspeed.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedboost.com,🎮 游戏平台
+HOST-SUFFIX,needforspeeddriftkings.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedeliminator.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedlightning.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedoverdrive.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedproven.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedredline.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedshowdown.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedstreetkings.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtakedown.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtherun.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedtimeattack.com,🎮 游戏平台
+HOST-SUFFIX,needforspeedundergroundeast.com,🎮 游戏平台
+HOST-SUFFIX,nfsworld.com,🎮 游戏平台
+HOST-SUFFIX,origin-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,origin.com,🎮 游戏平台
+HOST-SUFFIX,origin.tv,🎮 游戏平台
+HOST-SUFFIX,plantsvszombies2.com,🎮 游戏平台
+HOST-SUFFIX,play4free.com,🎮 游戏平台
+HOST-SUFFIX,playapex.com,🎮 游戏平台
+HOST-SUFFIX,pogo.com,🎮 游戏平台
+HOST-SUFFIX,pogobeta.com,🎮 游戏平台
+HOST-SUFFIX,popcap.com,🎮 游戏平台
+HOST-SUFFIX,projectapex.com,🎮 游戏平台
+HOST-SUFFIX,pvzgw2.com,🎮 游戏平台
+HOST-SUFFIX,pvzheroes.com,🎮 游戏平台
+HOST-SUFFIX,seaofsolitude.com,🎮 游戏平台
+HOST-SUFFIX,simcity-buildit.com,🎮 游戏平台
+HOST-SUFFIX,simcity.com,🎮 游戏平台
+HOST-SUFFIX,skate2.com,🎮 游戏平台
+HOST-SUFFIX,spearhead.kr,🎮 游戏平台
+HOST-SUFFIX,speedhunters.com,🎮 游戏平台
+HOST-SUFFIX,spore.com,🎮 游戏平台
+HOST-SUFFIX,ssx3.com,🎮 游戏平台
+HOST-SUFFIX,starwarsbattlefront.com,🎮 游戏平台
+HOST-SUFFIX,starwarsbattlefront2.com,🎮 游戏平台
+HOST-SUFFIX,starwarsfallenorder.com,🎮 游戏平台
+HOST-SUFFIX,starwarsjedifallenorder.com,🎮 游戏平台
+HOST-SUFFIX,starwarstheoldrepublic.com,🎮 游戏平台
+HOST-SUFFIX,swjedifallenorder.com,🎮 游戏平台
+HOST-SUFFIX,swjfo.com,🎮 游戏平台
+HOST-SUFFIX,swtor.com,🎮 游戏平台
+HOST-SUFFIX,swtor.net,🎮 游戏平台
+HOST-SUFFIX,teamneedforspeed.com,🎮 游戏平台
+HOST-SUFFIX,thedreadwolfrises.com,🎮 游戏平台
+HOST-SUFFIX,thesims.com,🎮 游戏平台
+HOST-SUFFIX,thesims3.com,🎮 游戏平台
+HOST-SUFFIX,thesims4.com,🎮 游戏平台
+HOST-SUFFIX,thesimssocial.com,🎮 游戏平台
+HOST-SUFFIX,tiberiumalliances.com,🎮 游戏平台
+HOST-SUFFIX,tiburon.com,🎮 游戏平台
+HOST-SUFFIX,titanfall.com,🎮 游戏平台
+HOST-SUFFIX,tnt-ea.com,🎮 游戏平台
+HOST-SUFFIX,ultimaforever.com,🎮 游戏平台
+HOST-SUFFIX,ultimaonline.com,🎮 游戏平台
+HOST-SUFFIX,unravel2.com,🎮 游戏平台
+HOST-SUFFIX,unraveltwo.com,🎮 游戏平台
+HOST-SUFFIX,uo.com,🎮 游戏平台
+HOST-SUFFIX,uoherald.com,🎮 游戏平台
+HOST-SUFFIX,visceralgames.com,🎮 游戏平台
+HOST-SUFFIX,xdsummit.com,🎮 游戏平台
+HOST-SUFFIX,yogify.com,🎮 游戏平台
+HOST,dlgarenanow-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,avatargarenanow-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,cdngarenanow-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,dlmobilegarena-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,garena.co.id,🎮 游戏平台
+HOST-SUFFIX,garena.co.th,🎮 游戏平台
+HOST-SUFFIX,garena.com,🎮 游戏平台
+HOST-SUFFIX,garena.live,🎮 游戏平台
+HOST-SUFFIX,garena.my,🎮 游戏平台
+HOST-SUFFIX,garena.ph,🎮 游戏平台
+HOST-SUFFIX,garena.sg,🎮 游戏平台
+HOST-SUFFIX,garena.tv,🎮 游戏平台
+HOST-SUFFIX,garena.tw,🎮 游戏平台
+HOST-SUFFIX,garena.vn,🎮 游戏平台
+HOST-SUFFIX,garenanow.com,🎮 游戏平台
+HOST-SUFFIX,seagroup.com,🎮 游戏平台
+HOST,gog.salesmanago.com,🎮 游戏平台
+HOST-SUFFIX,gog-statics.com,🎮 游戏平台
+HOST-SUFFIX,gog.com,🎮 游戏平台
+HOST-SUFFIX,gog.qtlglb.com,🎮 游戏平台
+HOST-SUFFIX,100classicbooks.com,🎮 游戏平台
+HOST-SUFFIX,ac-pocketcamp.com,🎮 游戏平台
+HOST-SUFFIX,amiibo.com,🎮 游戏平台
+HOST-SUFFIX,ayudanintendo.com,🎮 游戏平台
+HOST-SUFFIX,bowsersinsidestory.com,🎮 游戏平台
+HOST-SUFFIX,dialga.com,🎮 游戏平台
+HOST-SUFFIX,diddykongracing.com,🎮 游戏平台
+HOST-SUFFIX,dkr.com,🎮 游戏平台
+HOST-SUFFIX,donkeykongcountryreturns.com,🎮 游戏平台
+HOST-SUFFIX,drmario-world.com,🎮 游戏平台
+HOST-SUFFIX,excitebots.com,🎮 游戏平台
+HOST-SUFFIX,fire-emblem-heroes.com,🎮 游戏平台
+HOST-SUFFIX,fireemblemawakening.com,🎮 游戏平台
+HOST-SUFFIX,flipnotestudio.com,🎮 游戏平台
+HOST-SUFFIX,giratina.com,🎮 游戏平台
+HOST-SUFFIX,gloryofheracles.com,🎮 游戏平台
+HOST-SUFFIX,hackyourconsole.com,🎮 游戏平台
+HOST-SUFFIX,kirbysepicyarn.com,🎮 游戏平台
+HOST-SUFFIX,kirbysuperstarultra.com,🎮 游戏平台
+HOST-SUFFIX,kyurem.com,🎮 游戏平台
+HOST-SUFFIX,legendofzelda.cn,🎮 游戏平台
+HOST-SUFFIX,legendofzelda.com.cn,🎮 游戏平台
+HOST-SUFFIX,marioandluigidreamteam.com,🎮 游戏平台
+HOST-SUFFIX,mariobroswii.com,🎮 游戏平台
+HOST-SUFFIX,mariokart.cn,🎮 游戏平台
+HOST-SUFFIX,mariokart.com.cn,🎮 游戏平台
+HOST-SUFFIX,mariokart7.com,🎮 游戏平台
+HOST-SUFFIX,mariokart8.com,🎮 游戏平台
+HOST-SUFFIX,mariosupersluggers.com,🎮 游戏平台
+HOST-SUFFIX,miitomo.com,🎮 游戏平台
+HOST-SUFFIX,miitomo.com.cn,🎮 游戏平台
+HOST-SUFFIX,miiverse.com,🎮 游戏平台
+HOST-SUFFIX,nentindo.net,🎮 游戏平台
+HOST-SUFFIX,newsupermariobrosu.com,🎮 游戏平台
+HOST-SUFFIX,nintendo-europe-sales.com,🎮 游戏平台
+HOST-SUFFIX,nintendo-europe.com,🎮 游戏平台
+HOST-SUFFIX,nintendo.at,🎮 游戏平台
+HOST-SUFFIX,nintendo.be,🎮 游戏平台
+HOST-SUFFIX,nintendo.ch,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.jp,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.kr,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.uk,🎮 游戏平台
+HOST-SUFFIX,nintendo.co.za,🎮 游戏平台
+HOST-SUFFIX,nintendo.com,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.au,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.hk,🎮 游戏平台
+HOST-SUFFIX,nintendo.com.pt,🎮 游戏平台
+HOST-SUFFIX,nintendo.de,🎮 游戏平台
+HOST-SUFFIX,nintendo.dk,🎮 游戏平台
+HOST-SUFFIX,nintendo.es,🎮 游戏平台
+HOST-SUFFIX,nintendo.eu,🎮 游戏平台
+HOST-SUFFIX,nintendo.fi,🎮 游戏平台
+HOST-SUFFIX,nintendo.fr,🎮 游戏平台
+HOST-SUFFIX,nintendo.it,🎮 游戏平台
+HOST-SUFFIX,nintendo.jp,🎮 游戏平台
+HOST-SUFFIX,nintendo.net,🎮 游戏平台
+HOST-SUFFIX,nintendo.nl,🎮 游戏平台
+HOST-SUFFIX,nintendo.no,🎮 游戏平台
+HOST-SUFFIX,nintendo.pt,🎮 游戏平台
+HOST-SUFFIX,nintendo.ru,🎮 游戏平台
+HOST-SUFFIX,nintendo.se,🎮 游戏平台
+HOST-SUFFIX,nintendo.tw,🎮 游戏平台
+HOST-SUFFIX,nintendo3ds.com,🎮 游戏平台
+HOST-SUFFIX,nintendodsi.com,🎮 游戏平台
+HOST-SUFFIX,nintendoeurope.com,🎮 游戏平台
+HOST-SUFFIX,nintendolabo.cn,🎮 游戏平台
+HOST-SUFFIX,nintendonetwork.net,🎮 游戏平台
+HOST-SUFFIX,nintendonyc.com,🎮 游戏平台
+HOST-SUFFIX,nintendostore.com,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.cn,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.com,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.com.cn,🎮 游戏平台
+HOST-SUFFIX,nintendoswitch.net,🎮 游戏平台
+HOST-SUFFIX,nintendoswitchtogether.com,🎮 游戏平台
+HOST-SUFFIX,nintendowifi.net,🎮 游戏平台
+HOST-SUFFIX,nintendowii.com,🎮 游戏平台
+HOST-SUFFIX,personaltrainermath.com,🎮 游戏平台
+HOST-SUFFIX,playnintendo.com,🎮 游戏平台
+HOST-SUFFIX,pokedex3d.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-moon.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-sun.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-sunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemon-unitepgame.com,🎮 游戏平台
+HOST-SUFFIX,pokemon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonbank.com,🎮 游戏平台
+HOST-SUFFIX,pokemonblackwhite.com,🎮 游戏平台
+HOST-SUFFIX,pokemonbw.com,🎮 游戏平台
+HOST-SUFFIX,pokemonchampionships.com,🎮 游戏平台
+HOST-SUFFIX,pokemongoldsilver.com,🎮 游戏平台
+HOST-SUFFIX,pokemonhome.com,🎮 游戏平台
+HOST-SUFFIX,pokemonletsgoeevee.com,🎮 游戏平台
+HOST-SUFFIX,pokemonletsgopikachu.com,🎮 游戏平台
+HOST-SUFFIX,pokemonmysterydungeon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonpicross.com,🎮 游戏平台
+HOST-SUFFIX,pokemonplatinum.com,🎮 游戏平台
+HOST-SUFFIX,pokemonrubysapphire.com,🎮 游戏平台
+HOST-SUFFIX,pokemonsunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonswordshield.com,🎮 游戏平台
+HOST-SUFFIX,pokemonultrasunmoon.com,🎮 游戏平台
+HOST-SUFFIX,pokemonvgc.com,🎮 游戏平台
+HOST-SUFFIX,pokemonwifi.net,🎮 游戏平台
+HOST-SUFFIX,splatoon2tournament.com,🎮 游戏平台
+HOST-SUFFIX,starfox.com,🎮 游戏平台
+HOST-SUFFIX,supermario.com,🎮 游戏平台
+HOST-SUFFIX,supermario3dworld.com,🎮 游戏平台
+HOST-SUFFIX,supermariobros.com.cn,🎮 游戏平台
+HOST-SUFFIX,supermariogalaxy.com,🎮 游戏平台
+HOST-SUFFIX,supermariorun.com,🎮 游戏平台
+HOST-SUFFIX,superpapermario.com,🎮 游戏平台
+HOST-SUFFIX,supersmashbros.cn,🎮 游戏平台
+HOST-SUFFIX,supersmashbros.com.cn,🎮 游戏平台
+HOST-SUFFIX,thelegendarystarfy.com,🎮 游戏平台
+HOST-SUFFIX,thewonderful101.com,🎮 游戏平台
+HOST-SUFFIX,wariolandshakeit.com,🎮 游戏平台
+HOST-SUFFIX,wariowarediy.com,🎮 游戏平台
+HOST-SUFFIX,wii-u.com,🎮 游戏平台
+HOST-SUFFIX,wiifit.com,🎮 游戏平台
+HOST-SUFFIX,wiifitu.com,🎮 游戏平台
+HOST-SUFFIX,wiipartyu.com,🎮 游戏平台
+HOST-SUFFIX,wiisports.com,🎮 游戏平台
+HOST-SUFFIX,wiisportsresort.com,🎮 游戏平台
+HOST-SUFFIX,wiiugamepad.com,🎮 游戏平台
+HOST-SUFFIX,wiivc.net,🎮 游戏平台
+HOST-SUFFIX,xenoblade.com,🎮 游戏平台
+HOST-SUFFIX,xn--mts47c3w9b1qr.cn,🎮 游戏平台
+HOST-SUFFIX,xn--mts47c3w9b1qr.net,🎮 游戏平台
+HOST-SUFFIX,yoshisnewisland.com,🎮 游戏平台
 IP-CIDR,35.192.0.0/12,🎮 游戏平台,no-resolve
-HOST-SUFFIX,op.gg,tag
-HOST-SUFFIX,opgg-static.akamaized.net,tag
-HOST-SUFFIX,api-priconne-redive.cygames.jp,tag
-HOST-SUFFIX,omotenashi.cygames.jp,tag
-HOST-SUFFIX,prd-priconne-redive.akamaized.net,tag
-HOST-SUFFIX,championshipseriesleague.com,tag
-HOST-SUFFIX,convrgencegame.com,tag
-HOST-SUFFIX,historyofdota.com,tag
-HOST-SUFFIX,historyofdota.net,tag
-HOST-SUFFIX,historyofdota.org,tag
-HOST-SUFFIX,instituteofwar.org,tag
-HOST-SUFFIX,lcsmerch.com,tag
-HOST-SUFFIX,leaguehighschool.com,tag
-HOST-SUFFIX,leagueoflegends.ca,tag
-HOST-SUFFIX,leagueoflegends.cn,tag
-HOST-SUFFIX,leagueoflegends.co.kr,tag
-HOST-SUFFIX,leagueoflegends.com,tag
-HOST-SUFFIX,leagueoflegends.info,tag
-HOST-SUFFIX,leagueoflegends.kr,tag
-HOST-SUFFIX,leagueoflegends.net,tag
-HOST-SUFFIX,leagueoflegends.org,tag
-HOST-SUFFIX,leagueoflegendsscripts.com,tag
-HOST-SUFFIX,leaguesharp.info,tag
-HOST-SUFFIX,leaguoflegends.com,tag
-HOST-SUFFIX,learnwithleague.com,tag
-HOST-SUFFIX,lol-europe.com,tag
-HOST-SUFFIX,lolclub.org,tag
-HOST-SUFFIX,lolespor.com,tag
-HOST-SUFFIX,lolesports.com,tag
-HOST-SUFFIX,lolfanart.net,tag
-HOST-SUFFIX,lolpcs.com,tag
-HOST-SUFFIX,lolshop.co.kr,tag
-HOST-SUFFIX,lolstatic-a.akamaihd.net,tag
-HOST-SUFFIX,lolstatic.com,tag
-HOST-SUFFIX,lolusercontent.com,tag
-HOST-SUFFIX,lpl.com.cn,tag
-HOST-SUFFIX,molesports.com,tag
-HOST-SUFFIX,playvalorant.com,tag
-HOST-SUFFIX,pvp.net,tag
-HOST-SUFFIX,pvp.tv,tag
-HOST-SUFFIX,rgpub.io,tag
-HOST-SUFFIX,riot-games.com,tag
-HOST-SUFFIX,riot.com,tag
-HOST-SUFFIX,riot.net,tag
-HOST-SUFFIX,riotcdn.net,tag
-HOST-SUFFIX,riotforgegames.com,tag
-HOST-SUFFIX,riotgames.co.kr,tag
-HOST-SUFFIX,riotgames.com,tag
-HOST-SUFFIX,riotgames.info,tag
-HOST-SUFFIX,riotgames.jp,tag
-HOST-SUFFIX,riotgames.net,tag
-HOST-SUFFIX,riotgames.tv,tag
-HOST-SUFFIX,riotgames.zendesk.com,tag
-HOST-SUFFIX,riotpin.com,tag
-HOST-SUFFIX,riotpoints.com,tag
-HOST-SUFFIX,rstatic.net,tag
-HOST-SUFFIX,ruinedking.com,tag
-HOST-SUFFIX,supremacy.com,tag
-HOST-SUFFIX,supremacy.net,tag
-HOST-SUFFIX,ulol.com,tag
-HOST-SUFFIX,ubi.com,tag
-HOST-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,tag
-HOST-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,tag
-HOST-SUFFIX,ubisoft.com,tag
-HOST-SUFFIX,uplay.com,tag
-HOST,img-prod-cms-rt-microsoft-com.akamaized.net,tag
-HOST,login.live.com,tag
-HOST,logincdn.msauth.net,tag
-HOST,store-images.s-microsoft.com,tag
-HOST-SUFFIX,beth.games,tag
-HOST-SUFFIX,bethesda.net,tag
-HOST-SUFFIX,bethesdagamestudios.com,tag
-HOST-SUFFIX,bethsoft.com,tag
-HOST-SUFFIX,callersbane.com,tag
-HOST-SUFFIX,doom.com,tag
-HOST-SUFFIX,elderscrolls.com,tag
-HOST-SUFFIX,forzamotorsport.net,tag
-HOST-SUFFIX,forzaracingchampionship.com,tag
-HOST-SUFFIX,forzarc.com,tag
-HOST-SUFFIX,gamepass.com,tag
-HOST-SUFFIX,minecraft.net,tag
-HOST-SUFFIX,minecraftshop.com,tag
-HOST-SUFFIX,mojang.com,tag
-HOST-SUFFIX,msgamestudios.com,tag
-HOST-SUFFIX,orithegame.com,tag
-HOST-SUFFIX,renovacionxboxlive.com,tag
-HOST-SUFFIX,tellmewhygame.com,tag
-HOST-SUFFIX,xbox.co,tag
-HOST-SUFFIX,xbox.com,tag
-HOST-SUFFIX,xbox.eu,tag
-HOST-SUFFIX,xbox.org,tag
-HOST-SUFFIX,xbox360.co,tag
-HOST-SUFFIX,xbox360.com,tag
-HOST-SUFFIX,xbox360.eu,tag
-HOST-SUFFIX,xbox360.org,tag
-HOST-SUFFIX,xboxab.com,tag
-HOST-SUFFIX,xboxab.net,tag
-HOST-SUFFIX,xboxgamepass.com,tag
-HOST-SUFFIX,xboxgamestudios.com,tag
-HOST-SUFFIX,xboxlive.cn,tag
-HOST-SUFFIX,xboxlive.com,tag
-HOST-SUFFIX,xboxone.co,tag
-HOST-SUFFIX,xboxone.com,tag
-HOST-SUFFIX,xboxone.eu,tag
-HOST-SUFFIX,xboxplayanywhere.com,tag
-HOST-SUFFIX,xboxservice.com,tag
-HOST-SUFFIX,xboxservices.com,tag
-HOST-SUFFIX,xboxstudios.com,tag
-HOST-SUFFIX,xbx.lv,tag
-HOST,sonyliveevents-nonssai.akamaized.net,tag
-HOST-SUFFIX,cn-playnow.com.cn,tag
-HOST-SUFFIX,ginzasonypark.jp,tag
-HOST-SUFFIX,imageworks.com,tag
-HOST-SUFFIX,motionpictureser.com,tag
-HOST-SUFFIX,playshow.io,tag
-HOST-SUFFIX,playshowtv.com,tag
-HOST-SUFFIX,playstation.com,tag
-HOST-SUFFIX,playstation.net,tag
-HOST-SUFFIX,playstationnetwork.com,tag
-HOST-SUFFIX,sony-africa.com,tag
-HOST-SUFFIX,sony-asia.com,tag
-HOST-SUFFIX,sony-europe.com,tag
-HOST-SUFFIX,sony-hes.co.jp,tag
-HOST-SUFFIX,sony-latin.com,tag
-HOST-SUFFIX,sony-mea.com,tag
-HOST-SUFFIX,sony-olympus-medical.com,tag
-HOST-SUFFIX,sony-promotion.eu,tag
-HOST-SUFFIX,sony-semicon.co.jp,tag
-HOST-SUFFIX,sony.at,tag
-HOST-SUFFIX,sony.ba,tag
-HOST-SUFFIX,sony.be,tag
-HOST-SUFFIX,sony.bg,tag
-HOST-SUFFIX,sony.ca,tag
-HOST-SUFFIX,sony.ch,tag
-HOST-SUFFIX,sony.cl,tag
-HOST-SUFFIX,sony.cn,tag
-HOST-SUFFIX,sony.co.cr,tag
-HOST-SUFFIX,sony.co.id,tag
-HOST-SUFFIX,sony.co.in,tag
-HOST-SUFFIX,sony.co.jp,tag
-HOST-SUFFIX,sony.co.kr,tag
-HOST-SUFFIX,sony.co.nz,tag
-HOST-SUFFIX,sony.co.th,tag
-HOST-SUFFIX,sony.co.uk,tag
-HOST-SUFFIX,sony.com,tag
-HOST-SUFFIX,sony.com.ar,tag
-HOST-SUFFIX,sony.com.au,tag
-HOST-SUFFIX,sony.com.bo,tag
-HOST-SUFFIX,sony.com.br,tag
-HOST-SUFFIX,sony.com.cn,tag
-HOST-SUFFIX,sony.com.co,tag
-HOST-SUFFIX,sony.com.do,tag
-HOST-SUFFIX,sony.com.ec,tag
-HOST-SUFFIX,sony.com.gt,tag
-HOST-SUFFIX,sony.com.hk,tag
-HOST-SUFFIX,sony.com.hn,tag
-HOST-SUFFIX,sony.com.mk,tag
-HOST-SUFFIX,sony.com.mx,tag
-HOST-SUFFIX,sony.com.my,tag
-HOST-SUFFIX,sony.com.ni,tag
-HOST-SUFFIX,sony.com.pa,tag
-HOST-SUFFIX,sony.com.pe,tag
-HOST-SUFFIX,sony.com.ph,tag
-HOST-SUFFIX,sony.com.sg,tag
-HOST-SUFFIX,sony.com.sv,tag
-HOST-SUFFIX,sony.com.tr,tag
-HOST-SUFFIX,sony.com.tw,tag
-HOST-SUFFIX,sony.com.vn,tag
-HOST-SUFFIX,sony.cz,tag
-HOST-SUFFIX,sony.de,tag
-HOST-SUFFIX,sony.dk,tag
-HOST-SUFFIX,sony.ee,tag
-HOST-SUFFIX,sony.es,tag
-HOST-SUFFIX,sony.eu,tag
-HOST-SUFFIX,sony.fi,tag
-HOST-SUFFIX,sony.fr,tag
-HOST-SUFFIX,sony.gr,tag
-HOST-SUFFIX,sony.hr,tag
-HOST-SUFFIX,sony.hu,tag
-HOST-SUFFIX,sony.ie,tag
-HOST-SUFFIX,sony.it,tag
-HOST-SUFFIX,sony.kz,tag
-HOST-SUFFIX,sony.lt,tag
-HOST-SUFFIX,sony.lu,tag
-HOST-SUFFIX,sony.lv,tag
-HOST-SUFFIX,sony.net,tag
-HOST-SUFFIX,sony.nl,tag
-HOST-SUFFIX,sony.no,tag
-HOST-SUFFIX,sony.pl,tag
-HOST-SUFFIX,sony.pt,tag
-HOST-SUFFIX,sony.ro,tag
-HOST-SUFFIX,sony.rs,tag
-HOST-SUFFIX,sony.ru,tag
-HOST-SUFFIX,sony.se,tag
-HOST-SUFFIX,sony.si,tag
-HOST-SUFFIX,sony.sk,tag
-HOST-SUFFIX,sony.ua,tag
-HOST-SUFFIX,sonybo.co.jp,tag
-HOST-SUFFIX,sonybsc.com,tag
-HOST-SUFFIX,sonybuilding.jp,tag
-HOST-SUFFIX,sonyclassics.com,tag
-HOST-SUFFIX,sonydesign.com,tag
-HOST-SUFFIX,sonydna.com,tag
-HOST-SUFFIX,sonyentertainmentnetwork.com,tag
-HOST-SUFFIX,sonyged.com.cn,tag
-HOST-SUFFIX,sonyglobalsolutions.jp,tag
-HOST-SUFFIX,sonykigyo.jp,tag
-HOST-SUFFIX,sonylatvija.com,tag
-HOST-SUFFIX,sonypcl.jp,tag
-HOST-SUFFIX,sonypictures.com,tag
-HOST-SUFFIX,sonypicturesanimation.com,tag
-HOST-SUFFIX,sonypicturesmuseum.com,tag
-HOST-SUFFIX,sonypicturesstudios.com,tag
-HOST-SUFFIX,sonypicturestelevision.com,tag
-HOST-SUFFIX,sonypicturestelevisiongames.com,tag
-HOST-SUFFIX,sonyprotechnosupport.co.jp,tag
-HOST-SUFFIX,sonyselect.cn,tag
-HOST-SUFFIX,sonyselect.com.cn,tag
-HOST-SUFFIX,sonystoragemedia.co.jp,tag
-HOST-SUFFIX,sonystyle.com.cn,tag
-HOST-SUFFIX,sonytc.co.jp,tag
-HOST-SUFFIX,sovec.net,tag
-HOST-SUFFIX,wheelpop.com,tag
-HOST-SUFFIX,wwtbam.com,tag
-HOST-SUFFIX,yourfantasybeginsnow.com,tag
-HOST,blizzard.nefficient.co.kr,tag
-HOST,blzddist1-a.akamaihd.net,tag
-HOST,blzddistkr1-a.akamaihd.net,tag
-HOST,bnetproduct-a.akamaihd.net,tag
-HOST,cdn.blz-contentstack.com,tag
-HOST-SUFFIX,battle.net,tag
-HOST-SUFFIX,blizzard.com,tag
-HOST,asia.battle.net,tag
-HOST,europe.battle.net,tag
-HOST,useast.battle.net,tag
-HOST,uswest.battle.net,tag
+HOST-SUFFIX,op.gg,🎮 游戏平台
+HOST-SUFFIX,opgg-static.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,api-priconne-redive.cygames.jp,🎮 游戏平台
+HOST-SUFFIX,omotenashi.cygames.jp,🎮 游戏平台
+HOST-SUFFIX,prd-priconne-redive.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,championshipseriesleague.com,🎮 游戏平台
+HOST-SUFFIX,convrgencegame.com,🎮 游戏平台
+HOST-SUFFIX,historyofdota.com,🎮 游戏平台
+HOST-SUFFIX,historyofdota.net,🎮 游戏平台
+HOST-SUFFIX,historyofdota.org,🎮 游戏平台
+HOST-SUFFIX,instituteofwar.org,🎮 游戏平台
+HOST-SUFFIX,lcsmerch.com,🎮 游戏平台
+HOST-SUFFIX,leaguehighschool.com,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.ca,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.cn,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.co.kr,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.com,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.info,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.kr,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.net,🎮 游戏平台
+HOST-SUFFIX,leagueoflegends.org,🎮 游戏平台
+HOST-SUFFIX,leagueoflegendsscripts.com,🎮 游戏平台
+HOST-SUFFIX,leaguesharp.info,🎮 游戏平台
+HOST-SUFFIX,leaguoflegends.com,🎮 游戏平台
+HOST-SUFFIX,learnwithleague.com,🎮 游戏平台
+HOST-SUFFIX,lol-europe.com,🎮 游戏平台
+HOST-SUFFIX,lolclub.org,🎮 游戏平台
+HOST-SUFFIX,lolespor.com,🎮 游戏平台
+HOST-SUFFIX,lolesports.com,🎮 游戏平台
+HOST-SUFFIX,lolfanart.net,🎮 游戏平台
+HOST-SUFFIX,lolpcs.com,🎮 游戏平台
+HOST-SUFFIX,lolshop.co.kr,🎮 游戏平台
+HOST-SUFFIX,lolstatic-a.akamaihd.net,🎮 游戏平台
+HOST-SUFFIX,lolstatic.com,🎮 游戏平台
+HOST-SUFFIX,lolusercontent.com,🎮 游戏平台
+HOST-SUFFIX,lpl.com.cn,🎮 游戏平台
+HOST-SUFFIX,molesports.com,🎮 游戏平台
+HOST-SUFFIX,playvalorant.com,🎮 游戏平台
+HOST-SUFFIX,pvp.net,🎮 游戏平台
+HOST-SUFFIX,pvp.tv,🎮 游戏平台
+HOST-SUFFIX,rgpub.io,🎮 游戏平台
+HOST-SUFFIX,riot-games.com,🎮 游戏平台
+HOST-SUFFIX,riot.com,🎮 游戏平台
+HOST-SUFFIX,riot.net,🎮 游戏平台
+HOST-SUFFIX,riotcdn.net,🎮 游戏平台
+HOST-SUFFIX,riotforgegames.com,🎮 游戏平台
+HOST-SUFFIX,riotgames.co.kr,🎮 游戏平台
+HOST-SUFFIX,riotgames.com,🎮 游戏平台
+HOST-SUFFIX,riotgames.info,🎮 游戏平台
+HOST-SUFFIX,riotgames.jp,🎮 游戏平台
+HOST-SUFFIX,riotgames.net,🎮 游戏平台
+HOST-SUFFIX,riotgames.tv,🎮 游戏平台
+HOST-SUFFIX,riotgames.zendesk.com,🎮 游戏平台
+HOST-SUFFIX,riotpin.com,🎮 游戏平台
+HOST-SUFFIX,riotpoints.com,🎮 游戏平台
+HOST-SUFFIX,rstatic.net,🎮 游戏平台
+HOST-SUFFIX,ruinedking.com,🎮 游戏平台
+HOST-SUFFIX,supremacy.com,🎮 游戏平台
+HOST-SUFFIX,supremacy.net,🎮 游戏平台
+HOST-SUFFIX,ulol.com,🎮 游戏平台
+HOST-SUFFIX,ubi.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com,🎮 游戏平台
+HOST-SUFFIX,ubisoft.com,🎮 游戏平台
+HOST-SUFFIX,uplay.com,🎮 游戏平台
+HOST,img-prod-cms-rt-microsoft-com.akamaized.net,🎮 游戏平台
+HOST,login.live.com,🎮 游戏平台
+HOST,logincdn.msauth.net,🎮 游戏平台
+HOST,store-images.s-microsoft.com,🎮 游戏平台
+HOST-SUFFIX,beth.games,🎮 游戏平台
+HOST-SUFFIX,bethesda.net,🎮 游戏平台
+HOST-SUFFIX,bethesdagamestudios.com,🎮 游戏平台
+HOST-SUFFIX,bethsoft.com,🎮 游戏平台
+HOST-SUFFIX,callersbane.com,🎮 游戏平台
+HOST-SUFFIX,doom.com,🎮 游戏平台
+HOST-SUFFIX,elderscrolls.com,🎮 游戏平台
+HOST-SUFFIX,forzamotorsport.net,🎮 游戏平台
+HOST-SUFFIX,forzaracingchampionship.com,🎮 游戏平台
+HOST-SUFFIX,forzarc.com,🎮 游戏平台
+HOST-SUFFIX,gamepass.com,🎮 游戏平台
+HOST-SUFFIX,minecraft.net,🎮 游戏平台
+HOST-SUFFIX,minecraftshop.com,🎮 游戏平台
+HOST-SUFFIX,mojang.com,🎮 游戏平台
+HOST-SUFFIX,msgamestudios.com,🎮 游戏平台
+HOST-SUFFIX,orithegame.com,🎮 游戏平台
+HOST-SUFFIX,renovacionxboxlive.com,🎮 游戏平台
+HOST-SUFFIX,tellmewhygame.com,🎮 游戏平台
+HOST-SUFFIX,xbox.co,🎮 游戏平台
+HOST-SUFFIX,xbox.com,🎮 游戏平台
+HOST-SUFFIX,xbox.eu,🎮 游戏平台
+HOST-SUFFIX,xbox.org,🎮 游戏平台
+HOST-SUFFIX,xbox360.co,🎮 游戏平台
+HOST-SUFFIX,xbox360.com,🎮 游戏平台
+HOST-SUFFIX,xbox360.eu,🎮 游戏平台
+HOST-SUFFIX,xbox360.org,🎮 游戏平台
+HOST-SUFFIX,xboxab.com,🎮 游戏平台
+HOST-SUFFIX,xboxab.net,🎮 游戏平台
+HOST-SUFFIX,xboxgamepass.com,🎮 游戏平台
+HOST-SUFFIX,xboxgamestudios.com,🎮 游戏平台
+HOST-SUFFIX,xboxlive.cn,🎮 游戏平台
+HOST-SUFFIX,xboxlive.com,🎮 游戏平台
+HOST-SUFFIX,xboxone.co,🎮 游戏平台
+HOST-SUFFIX,xboxone.com,🎮 游戏平台
+HOST-SUFFIX,xboxone.eu,🎮 游戏平台
+HOST-SUFFIX,xboxplayanywhere.com,🎮 游戏平台
+HOST-SUFFIX,xboxservice.com,🎮 游戏平台
+HOST-SUFFIX,xboxservices.com,🎮 游戏平台
+HOST-SUFFIX,xboxstudios.com,🎮 游戏平台
+HOST-SUFFIX,xbx.lv,🎮 游戏平台
+HOST,sonyliveevents-nonssai.akamaized.net,🎮 游戏平台
+HOST-SUFFIX,cn-playnow.com.cn,🎮 游戏平台
+HOST-SUFFIX,ginzasonypark.jp,🎮 游戏平台
+HOST-SUFFIX,imageworks.com,🎮 游戏平台
+HOST-SUFFIX,motionpictureser.com,🎮 游戏平台
+HOST-SUFFIX,playshow.io,🎮 游戏平台
+HOST-SUFFIX,playshowtv.com,🎮 游戏平台
+HOST-SUFFIX,playstation.com,🎮 游戏平台
+HOST-SUFFIX,playstation.net,🎮 游戏平台
+HOST-SUFFIX,playstationnetwork.com,🎮 游戏平台
+HOST-SUFFIX,sony-africa.com,🎮 游戏平台
+HOST-SUFFIX,sony-asia.com,🎮 游戏平台
+HOST-SUFFIX,sony-europe.com,🎮 游戏平台
+HOST-SUFFIX,sony-hes.co.jp,🎮 游戏平台
+HOST-SUFFIX,sony-latin.com,🎮 游戏平台
+HOST-SUFFIX,sony-mea.com,🎮 游戏平台
+HOST-SUFFIX,sony-olympus-medical.com,🎮 游戏平台
+HOST-SUFFIX,sony-promotion.eu,🎮 游戏平台
+HOST-SUFFIX,sony-semicon.co.jp,🎮 游戏平台
+HOST-SUFFIX,sony.at,🎮 游戏平台
+HOST-SUFFIX,sony.ba,🎮 游戏平台
+HOST-SUFFIX,sony.be,🎮 游戏平台
+HOST-SUFFIX,sony.bg,🎮 游戏平台
+HOST-SUFFIX,sony.ca,🎮 游戏平台
+HOST-SUFFIX,sony.ch,🎮 游戏平台
+HOST-SUFFIX,sony.cl,🎮 游戏平台
+HOST-SUFFIX,sony.cn,🎮 游戏平台
+HOST-SUFFIX,sony.co.cr,🎮 游戏平台
+HOST-SUFFIX,sony.co.id,🎮 游戏平台
+HOST-SUFFIX,sony.co.in,🎮 游戏平台
+HOST-SUFFIX,sony.co.jp,🎮 游戏平台
+HOST-SUFFIX,sony.co.kr,🎮 游戏平台
+HOST-SUFFIX,sony.co.nz,🎮 游戏平台
+HOST-SUFFIX,sony.co.th,🎮 游戏平台
+HOST-SUFFIX,sony.co.uk,🎮 游戏平台
+HOST-SUFFIX,sony.com,🎮 游戏平台
+HOST-SUFFIX,sony.com.ar,🎮 游戏平台
+HOST-SUFFIX,sony.com.au,🎮 游戏平台
+HOST-SUFFIX,sony.com.bo,🎮 游戏平台
+HOST-SUFFIX,sony.com.br,🎮 游戏平台
+HOST-SUFFIX,sony.com.cn,🎮 游戏平台
+HOST-SUFFIX,sony.com.co,🎮 游戏平台
+HOST-SUFFIX,sony.com.do,🎮 游戏平台
+HOST-SUFFIX,sony.com.ec,🎮 游戏平台
+HOST-SUFFIX,sony.com.gt,🎮 游戏平台
+HOST-SUFFIX,sony.com.hk,🎮 游戏平台
+HOST-SUFFIX,sony.com.hn,🎮 游戏平台
+HOST-SUFFIX,sony.com.mk,🎮 游戏平台
+HOST-SUFFIX,sony.com.mx,🎮 游戏平台
+HOST-SUFFIX,sony.com.my,🎮 游戏平台
+HOST-SUFFIX,sony.com.ni,🎮 游戏平台
+HOST-SUFFIX,sony.com.pa,🎮 游戏平台
+HOST-SUFFIX,sony.com.pe,🎮 游戏平台
+HOST-SUFFIX,sony.com.ph,🎮 游戏平台
+HOST-SUFFIX,sony.com.sg,🎮 游戏平台
+HOST-SUFFIX,sony.com.sv,🎮 游戏平台
+HOST-SUFFIX,sony.com.tr,🎮 游戏平台
+HOST-SUFFIX,sony.com.tw,🎮 游戏平台
+HOST-SUFFIX,sony.com.vn,🎮 游戏平台
+HOST-SUFFIX,sony.cz,🎮 游戏平台
+HOST-SUFFIX,sony.de,🎮 游戏平台
+HOST-SUFFIX,sony.dk,🎮 游戏平台
+HOST-SUFFIX,sony.ee,🎮 游戏平台
+HOST-SUFFIX,sony.es,🎮 游戏平台
+HOST-SUFFIX,sony.eu,🎮 游戏平台
+HOST-SUFFIX,sony.fi,🎮 游戏平台
+HOST-SUFFIX,sony.fr,🎮 游戏平台
+HOST-SUFFIX,sony.gr,🎮 游戏平台
+HOST-SUFFIX,sony.hr,🎮 游戏平台
+HOST-SUFFIX,sony.hu,🎮 游戏平台
+HOST-SUFFIX,sony.ie,🎮 游戏平台
+HOST-SUFFIX,sony.it,🎮 游戏平台
+HOST-SUFFIX,sony.kz,🎮 游戏平台
+HOST-SUFFIX,sony.lt,🎮 游戏平台
+HOST-SUFFIX,sony.lu,🎮 游戏平台
+HOST-SUFFIX,sony.lv,🎮 游戏平台
+HOST-SUFFIX,sony.net,🎮 游戏平台
+HOST-SUFFIX,sony.nl,🎮 游戏平台
+HOST-SUFFIX,sony.no,🎮 游戏平台
+HOST-SUFFIX,sony.pl,🎮 游戏平台
+HOST-SUFFIX,sony.pt,🎮 游戏平台
+HOST-SUFFIX,sony.ro,🎮 游戏平台
+HOST-SUFFIX,sony.rs,🎮 游戏平台
+HOST-SUFFIX,sony.ru,🎮 游戏平台
+HOST-SUFFIX,sony.se,🎮 游戏平台
+HOST-SUFFIX,sony.si,🎮 游戏平台
+HOST-SUFFIX,sony.sk,🎮 游戏平台
+HOST-SUFFIX,sony.ua,🎮 游戏平台
+HOST-SUFFIX,sonybo.co.jp,🎮 游戏平台
+HOST-SUFFIX,sonybsc.com,🎮 游戏平台
+HOST-SUFFIX,sonybuilding.jp,🎮 游戏平台
+HOST-SUFFIX,sonyclassics.com,🎮 游戏平台
+HOST-SUFFIX,sonydesign.com,🎮 游戏平台
+HOST-SUFFIX,sonydna.com,🎮 游戏平台
+HOST-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+HOST-SUFFIX,sonyged.com.cn,🎮 游戏平台
+HOST-SUFFIX,sonyglobalsolutions.jp,🎮 游戏平台
+HOST-SUFFIX,sonykigyo.jp,🎮 游戏平台
+HOST-SUFFIX,sonylatvija.com,🎮 游戏平台
+HOST-SUFFIX,sonypcl.jp,🎮 游戏平台
+HOST-SUFFIX,sonypictures.com,🎮 游戏平台
+HOST-SUFFIX,sonypicturesanimation.com,🎮 游戏平台
+HOST-SUFFIX,sonypicturesmuseum.com,🎮 游戏平台
+HOST-SUFFIX,sonypicturesstudios.com,🎮 游戏平台
+HOST-SUFFIX,sonypicturestelevision.com,🎮 游戏平台
+HOST-SUFFIX,sonypicturestelevisiongames.com,🎮 游戏平台
+HOST-SUFFIX,sonyprotechnosupport.co.jp,🎮 游戏平台
+HOST-SUFFIX,sonyselect.cn,🎮 游戏平台
+HOST-SUFFIX,sonyselect.com.cn,🎮 游戏平台
+HOST-SUFFIX,sonystoragemedia.co.jp,🎮 游戏平台
+HOST-SUFFIX,sonystyle.com.cn,🎮 游戏平台
+HOST-SUFFIX,sonytc.co.jp,🎮 游戏平台
+HOST-SUFFIX,sovec.net,🎮 游戏平台
+HOST-SUFFIX,wheelpop.com,🎮 游戏平台
+HOST-SUFFIX,wwtbam.com,🎮 游戏平台
+HOST-SUFFIX,yourfantasybeginsnow.com,🎮 游戏平台
+HOST,blizzard.nefficient.co.kr,🎮 游戏平台
+HOST,blzddist1-a.akamaihd.net,🎮 游戏平台
+HOST,blzddistkr1-a.akamaihd.net,🎮 游戏平台
+HOST,bnetproduct-a.akamaihd.net,🎮 游戏平台
+HOST,cdn.blz-contentstack.com,🎮 游戏平台
+HOST-SUFFIX,battle.net,🎮 游戏平台
+HOST-SUFFIX,blizzard.com,🎮 游戏平台
+HOST,asia.battle.net,🎮 游戏平台
+HOST,europe.battle.net,🎮 游戏平台
+HOST,useast.battle.net,🎮 游戏平台
+HOST,uswest.battle.net,🎮 游戏平台
 IP-CIDR,103.4.115.248/32,🎮 游戏平台,no-resolve
 IP-CIDR,182.162.135.1/32,🎮 游戏平台,no-resolve
 IP-CIDR,185.60.112.157/32,🎮 游戏平台,no-resolve
@@ -1346,28 +1346,28 @@ IP-CIDR,185.60.114.159/32,🎮 游戏平台,no-resolve
 IP-CIDR,210.71.148.11/32,🎮 游戏平台,no-resolve
 IP-CIDR,211.115.104.1/32,🎮 游戏平台,no-resolve
 IP-CIDR,24.105.62.129/32,🎮 游戏平台,no-resolve
-HOST,cloudsync-prod.s3.amazonaws.com,tag
-HOST,eaasserts-a.akamaihd.net,tag
-HOST,origin-a.akamaihd.net,tag
-HOST,originasserts.akamaized.net,tag
-HOST,rtm.tnt-ea.com,tag
-HOST-SUFFIX,dawngate.com,tag
-HOST-SUFFIX,ea.com,tag
-HOST-SUFFIX,eastore.com,tag
-HOST-SUFFIX,lordofultima.com,tag
-HOST-SUFFIX,origin.com,tag
-HOST-SUFFIX,origin.tv,tag
-HOST-SUFFIX,game.maj-soul.com,tag
-HOST-SUFFIX,gateway-cdn.maj-soul.com,tag
-HOST-SUFFIX,gateway-hw.maj-soul.com,tag
-HOST-SUFFIX,gateway-sy.catmjstudio.com,tag
-HOST-SUFFIX,gateway-sy.maj-soul.com,tag
-HOST-SUFFIX,gateway-v2.maj-soul.com,tag
-HOST-SUFFIX,lb-cdn.maj-soul.com,tag
-HOST-SUFFIX,lb-hw.maj-soul.com,tag
-HOST-SUFFIX,lb-sy.maj-soul.com,tag
-HOST-SUFFIX,lb-v2.maj-soul.com,tag
-HOST-SUFFIX,majsoul-hk-client.cn-hongkong.log.aliyuncs.com,tag
+HOST,cloudsync-prod.s3.amazonaws.com,🎮 游戏平台
+HOST,eaasserts-a.akamaihd.net,🎮 游戏平台
+HOST,origin-a.akamaihd.net,🎮 游戏平台
+HOST,originasserts.akamaized.net,🎮 游戏平台
+HOST,rtm.tnt-ea.com,🎮 游戏平台
+HOST-SUFFIX,dawngate.com,🎮 游戏平台
+HOST-SUFFIX,ea.com,🎮 游戏平台
+HOST-SUFFIX,eastore.com,🎮 游戏平台
+HOST-SUFFIX,lordofultima.com,🎮 游戏平台
+HOST-SUFFIX,origin.com,🎮 游戏平台
+HOST-SUFFIX,origin.tv,🎮 游戏平台
+HOST-SUFFIX,game.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,gateway-cdn.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,gateway-hw.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,gateway-sy.catmjstudio.com,🎮 游戏平台
+HOST-SUFFIX,gateway-sy.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,gateway-v2.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,lb-cdn.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,lb-hw.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,lb-sy.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,lb-v2.maj-soul.com,🎮 游戏平台
+HOST-SUFFIX,majsoul-hk-client.cn-hongkong.log.aliyuncs.com,🎮 游戏平台
 IP-CIDR,104.92.145.0/24,🎮 游戏平台,no-resolve
 IP-CIDR,216.98.48.0/24,🎮 游戏平台,no-resolve
 IP-CIDR,216.98.54.0/24,🎮 游戏平台,no-resolve
@@ -1399,52 +1399,52 @@ IP-CIDR,65.200.22.184/32,🎮 游戏平台,no-resolve
 IP-CIDR,65.200.22.202/32,🎮 游戏平台,no-resolve
 IP-CIDR,65.200.22.234/32,🎮 游戏平台,no-resolve
 IP-CIDR,67.15.100.252/32,🎮 游戏平台,no-resolve
-HOST-SUFFIX,178.com,tag
-HOST-SUFFIX,nga.cn,tag
-HOST-SUFFIX,ngabbs.com,tag
-HOST-SUFFIX,ngacn.cc,tag
-HOST,assets1.xboxlive.com,tag
-HOST,assets2.xboxlive.com,tag
-HOST,blizzard.gcdn.cloudn.co.kr,tag
-HOST,blzddist1-a.akamaihd.net,tag
-HOST,blzddistkr1-a.akamaihd.net,tag
-HOST,client.hikarifield.co.jp,tag
-HOST,content.cdp.bethesda.net,tag
-HOST,download.cdp.bethesda.net,tag
-HOST,download.dm.origin.com,tag
-HOST,download.epicgames.com,tag
-HOST,download.hikarifield.co.jp,tag
-HOST,download2.epicgames.com,tag
-HOST,download3.epicgames.com,tag
-HOST,download4.epicgames.com,tag
-HOST,edge.steam-dns.top.comcast.net,tag
-HOST,epicgames-download1.akamaized.net,tag
-HOST,eu.cdn.blizzard.com,tag
-HOST,fastly-download.epicgames.com,tag
-HOST,gamedownloads-rockstargames-com.akamaized.net,tag
-HOST,gog-cdn-lumen.secure2.footprint.net,tag
-HOST,kr.cdn.blizzard.com,tag
-HOST,level3.blizzard.com,tag
-HOST,origin-a.akamaihd.net,tag
-HOST,packagespc.xboxlive.com,tag
-HOST,ssl-lvlt.cdn.ea.com,tag
-HOST,steam.eca.qtlglb.com,tag
-HOST,steam.naeu.qtlglb.com,tag
-HOST,steam.ru.qtlglb.com,tag
-HOST,steampipe-kr.akamaized.net,tag
-HOST,steampipe-partner.akamaized.net,tag
-HOST,steampipe.akamaized.net,tag
-HOST,steamusercontent-a.akamaihd.net,tag
-HOST,uplaypc-s-ubisoft.cdn.ubionline.com.cn,tag
-HOST,us.cdn.blizzard.com,tag
-HOST,xvcf1.xboxlive.com,tag
-HOST,xvcf2.xboxlive.com,tag
-HOST-SUFFIX,cdn.ubi.com,tag
-HOST-SUFFIX,dyn.riotcdn.net,tag
-HOST-SUFFIX,steamcontent.com,tag
-HOST-KEYWORD,roblox,tag
-HOST,uplaypc-s-ubisoft.cdn.ubi.com,tag
-HOST-SUFFIX,2k.com,tag
-HOST-SUFFIX,2kcoretech.online,tag
-HOST-SUFFIX,2kgames.com,tag
-HOST-SUFFIX,take2games.com,tag
+HOST-SUFFIX,178.com,🎮 游戏平台
+HOST-SUFFIX,nga.cn,🎮 游戏平台
+HOST-SUFFIX,ngabbs.com,🎮 游戏平台
+HOST-SUFFIX,ngacn.cc,🎮 游戏平台
+HOST,assets1.xboxlive.com,🎮 游戏平台
+HOST,assets2.xboxlive.com,🎮 游戏平台
+HOST,blizzard.gcdn.cloudn.co.kr,🎮 游戏平台
+HOST,blzddist1-a.akamaihd.net,🎮 游戏平台
+HOST,blzddistkr1-a.akamaihd.net,🎮 游戏平台
+HOST,client.hikarifield.co.jp,🎮 游戏平台
+HOST,content.cdp.bethesda.net,🎮 游戏平台
+HOST,download.cdp.bethesda.net,🎮 游戏平台
+HOST,download.dm.origin.com,🎮 游戏平台
+HOST,download.epicgames.com,🎮 游戏平台
+HOST,download.hikarifield.co.jp,🎮 游戏平台
+HOST,download2.epicgames.com,🎮 游戏平台
+HOST,download3.epicgames.com,🎮 游戏平台
+HOST,download4.epicgames.com,🎮 游戏平台
+HOST,edge.steam-dns.top.comcast.net,🎮 游戏平台
+HOST,epicgames-download1.akamaized.net,🎮 游戏平台
+HOST,eu.cdn.blizzard.com,🎮 游戏平台
+HOST,fastly-download.epicgames.com,🎮 游戏平台
+HOST,gamedownloads-rockstargames-com.akamaized.net,🎮 游戏平台
+HOST,gog-cdn-lumen.secure2.footprint.net,🎮 游戏平台
+HOST,kr.cdn.blizzard.com,🎮 游戏平台
+HOST,level3.blizzard.com,🎮 游戏平台
+HOST,origin-a.akamaihd.net,🎮 游戏平台
+HOST,packagespc.xboxlive.com,🎮 游戏平台
+HOST,ssl-lvlt.cdn.ea.com,🎮 游戏平台
+HOST,steam.eca.qtlglb.com,🎮 游戏平台
+HOST,steam.naeu.qtlglb.com,🎮 游戏平台
+HOST,steam.ru.qtlglb.com,🎮 游戏平台
+HOST,steampipe-kr.akamaized.net,🎮 游戏平台
+HOST,steampipe-partner.akamaized.net,🎮 游戏平台
+HOST,steampipe.akamaized.net,🎮 游戏平台
+HOST,steamusercontent-a.akamaihd.net,🎮 游戏平台
+HOST,uplaypc-s-ubisoft.cdn.ubionline.com.cn,🎮 游戏平台
+HOST,us.cdn.blizzard.com,🎮 游戏平台
+HOST,xvcf1.xboxlive.com,🎮 游戏平台
+HOST,xvcf2.xboxlive.com,🎮 游戏平台
+HOST-SUFFIX,cdn.ubi.com,🎮 游戏平台
+HOST-SUFFIX,dyn.riotcdn.net,🎮 游戏平台
+HOST-SUFFIX,steamcontent.com,🎮 游戏平台
+HOST-KEYWORD,roblox,🎮 游戏平台
+HOST,uplaypc-s-ubisoft.cdn.ubi.com,🎮 游戏平台
+HOST-SUFFIX,2k.com,🎮 游戏平台
+HOST-SUFFIX,2kcoretech.online,🎮 游戏平台
+HOST-SUFFIX,2kgames.com,🎮 游戏平台
+HOST-SUFFIX,take2games.com,🎮 游戏平台
