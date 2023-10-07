@@ -1,0 +1,13 @@
+HOST-SUFFIX,ai.com,tag
+HOST-SUFFIX,auth0.com,tag
+HOST-SUFFIX,challenges.cloudflare.com,tag
+HOST-SUFFIX,client-api.arkoselabs.com,tag
+HOST-SUFFIX,events.statsigapi.net,tag
+HOST-SUFFIX,featuregates.org,tag
+HOST-SUFFIX,identrust.com,tag
+HOST-SUFFIX,intercom.io,tag
+HOST-SUFFIX,intercomcdn.com,tag
+HOST-SUFFIX,poe.com,tag
+HOST-SUFFIX,sentry.io,tag
+HOST-SUFFIX,stripe.com,tag
+HOST-KEYWORD,openai,tag
