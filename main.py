@@ -49,10 +49,10 @@ async def getProxies(attr: int):
 
 async def getRules(attr: int, qx=False):
     fn = ['globalDirect', 'pselect', 'ms', 'apple', 'openai',
-          'game', 'globalmedia', 'cnmedia', 'cqu'][attr]
+          'game', 'globalmedia', 'cnmedia', 'cqu', 'lan'][attr]
     rule = file_get(f"./rule/{fn}.list")
     if qx:
-        tag = ['🎯 全球直连','🚀 节点选择','Ⓜ️ 微软服务',' 苹果服务','💬 OpenAI','🎮 游戏平台','🌍 国外媒体','📺 国内媒体','🕋 重大服务'][attr]
+        tag = ['🎯 全球直连','🚀 节点选择','Ⓜ️ 微软服务',' 苹果服务','💬 OpenAI','🎮 游戏平台','🌍 国外媒体','📺 国内媒体','🕋 重大服务','Direct'][attr]
         resStr = ""
         rule = rule.replace("IP-CIDR6,","IP6-CIDR,")
         rule = rule.replace("DOMAIN,","HOST,")
