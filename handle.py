@@ -44,9 +44,9 @@ async def lan():
             if line[0] == "#":
                 continue
             resStr += f"  - {line}\n"
-    resStr = resStr.replace("DOMAIN-SUFFIX,10.in-addr.arpa\n", "")
-    resStr = resStr.replace("IP-CIDR,10.0.0.0/8,no-resolve\n", "")
-    resStr = resStr.replace("IP-CIDR,172.16.0.0/12,no-resolve\n", "")
+    resStr = resStr.replace("  - DOMAIN-SUFFIX,10.in-addr.arpa\n", "")
+    resStr = resStr.replace("  - IP-CIDR,10.0.0.0/8,no-resolve\n", "")
+    resStr = resStr.replace("  - IP-CIDR,172.16.0.0/12,no-resolve\n", "")
     fs = open("./rule/lan.list", "w")
     fs.write(resStr)
     fs.close()
@@ -80,9 +80,9 @@ async def globalDirect():
                 continue
             resStr += f"  - {line}\n"
 
-    resStr = resStr.replace("DOMAIN-SUFFIX,10.in-addr.arpa\n", "")
-    resStr = resStr.replace("IP-CIDR,10.0.0.0/8,no-resolve\n", "")
-    resStr = resStr.replace("IP-CIDR,172.16.0.0/12,no-resolve\n", "")
+    resStr = resStr.replace("  - DOMAIN-SUFFIX,10.in-addr.arpa\n", "")
+    resStr = resStr.replace("  - IP-CIDR,10.0.0.0/8,no-resolve\n", "")
+    resStr = resStr.replace("  - IP-CIDR,172.16.0.0/12,no-resolve\n", "")
     fs = open("./rule/globalDirect.list", "w")
     fs.write(resStr)
     fs.close()
