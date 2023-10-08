@@ -1,4 +1,4 @@
-﻿import aiohttp
+import aiohttp
 import asyncio
 import yaml
 import re
@@ -46,6 +46,22 @@ async def getProxies(attr: int):
     yamls = yaml.dump({"proxies": res}, allow_unicode=True)
     return yamls
 
+async def getRawProxies(attr: int):
+
+    url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
+    res = await httpGet(url)
+    data = yaml.safe_load(res)
+    rstr = ['.*', '美国', '日本', '台湾', '日本'][attr]
+
+    res = list()
+    for v in data['proxies']:
+        if re.search(rstr, v['name']) != None:
+            v["skip-cert-verify"] = True
+            res.append(v)
+
+    yamls = yaml.dump({"proxies": res}, allow_unicode=True)
+    return yamls
+
 
 async def getRules(attr: int, qx=False):
     fn = ['globalDirect', 'pselect', 'ms', 'apple', 'openai',
@@ -80,6 +96,9 @@ async def read_root(attr: int):
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr))
 
+@app.get("/rawrule")
+async def read_root(attr: int):
+    return PlainTextResponse(content=await getRawProxies(attr))
 
 @app.get("/qrule")
 async def read_root(attr: int):
