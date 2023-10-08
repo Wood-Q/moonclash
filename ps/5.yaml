@@ -1,0 +1,49 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14021
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14022
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14023
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14024
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true

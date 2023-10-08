@@ -2,6 +2,8 @@
 import aiohttp
 import asyncio
 import os
+import yaml
+import re
 
 
 def readMap(name) -> dict:
@@ -237,6 +239,7 @@ async def ai():
     fs.write(resStr)
     fs.close()
 
+
 async def cqu():
     resList = list()
     resStr = "payload:\n"
@@ -253,36 +256,68 @@ async def cqu():
     fs.write(resStr)
     fs.close()
 
+
 async def qhandle():
     fns = ['globalDirect', 'pselect', 'ms', 'apple', 'openai',
-          'game', 'globalmedia', 'cnmedia', 'cqu', 'lan']
-    tags = ['🎯 全球直连','🚀 节点选择','Ⓜ️ 微软服务',' 苹果服务','💬 OpenAI','🎮 游戏平台','🌍 国外媒体','📺 国内媒体','🕋 重大服务','Direct']
-    
-    for i in range(0,len(fns)):
+           'game', 'globalmedia', 'cnmedia', 'cqu', 'lan']
+    tags = ['🎯 全球直连', '🚀 节点选择', 'Ⓜ️ 微软服务', ' 苹果服务', '💬 OpenAI',
+            '🎮 游戏平台', '🌍 国外媒体', '📺 国内媒体', '🕋 重大服务', 'Direct']
+
+    for i in range(0, len(fns)):
         tag = tags[i]
         fn = fns[i]
         resStr = ""
         rule = file_get(f"./rule/{fn}.list")
-        rule = rule.replace("payload:\n","")
-        rule = rule.replace("  - ","")
-        rule = rule.replace("IP-CIDR6,","IP6-CIDR,")
-        rule = rule.replace("DOMAIN,","HOST,")
-        rule = rule.replace("DOMAIN-SUFFIX,","HOST-SUFFIX,")
-        rule = rule.replace("DOMAIN-KEYWORD,","HOST-KEYWORD,")
+        rule = rule.replace("payload:\n", "")
+        rule = rule.replace("  - ", "")
+        rule = rule.replace("IP-CIDR6,", "IP6-CIDR,")
+        rule = rule.replace("DOMAIN,", "HOST,")
+        rule = rule.replace("DOMAIN-SUFFIX,", "HOST-SUFFIX,")
+        rule = rule.replace("DOMAIN-KEYWORD,", "HOST-KEYWORD,")
         for line in rule.split("\n"):
             if line == "":
                 continue
             params = line.split(",")
-            if(params[0] == 'PROCESS-NAME'):
+            if (params[0] == 'PROCESS-NAME'):
                 continue
-            if(len(params) == 3):
+            if (len(params) == 3):
                 resStr += f"{params[0]},{params[1]},{tag},no-resolve\n"
             else:
                 resStr += f"{line},{tag}\n"
-        fs = open(f"./qrule/{fn}.list","w")
+        fs = open(f"./qrule/{fn}.list", "w")
         fs.write(resStr)
         fs.close()
-        
+
+
+async def pshandle():
+    url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
+    res = await httpGet(url)
+    data = yaml.safe_load(res)
+
+    rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
+            '标准.*日本', '标准.*台湾', '标准.*日本', '标准.*韩国', '阿根廷']
+    for i in range(0, len(rstr)):
+        res = list()
+        for v in data['proxies']:
+            if re.search(rstr[i], v['name']) != None:
+                v["skip-cert-verify"] = True
+                res.append(v)
+        yamls = yaml.dump({"proxies": res}, allow_unicode=True)
+        fs = open(f"./ps/{i}.yaml", "w")
+        fs.write(yamls)
+        fs.close()
+    
+    rstr = ['.*', '香港', '美国', '台湾', '日本']
+    for i in range(0, len(rstr)):
+        res = list()
+        for v in data['proxies']:
+            if re.search(rstr[i], v['name']) != None:
+                v["skip-cert-verify"] = True
+                res.append(v)
+        yamls = yaml.dump({"proxies": res}, allow_unicode=True)
+        fs = open(f"./ps/my{i}.yaml", "w")
+        fs.write(yamls)
+        fs.close()
 
 
 async def main():
@@ -297,5 +332,6 @@ async def main():
     await cqu()
     await lan()
     await qhandle()
+    await pshandle()
 
 asyncio.run(main())

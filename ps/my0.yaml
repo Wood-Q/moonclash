@@ -1,0 +1,1081 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 'Traffic: 17.12 GB | 200 GB'
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14091
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 'Expire: 2024-04-02'
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14091
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 日用 专线 香港 [0.2]
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14091
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 日用 专线 狮城 [0.2]
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14092
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日用 专线 日本 [0.2]
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14093
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 日用 专线 美国 [0.2]
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14094
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14101
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14102
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14103
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14104
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14105
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 06
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14106
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 07
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14107
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 高级 专线 香港 08
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14108
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 高级 专线 狮城 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14111
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 高级 专线 狮城 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14112
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 高级 专线 狮城 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14113
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 高级 专线 狮城 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14114
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 高级 专线 狮城 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14115
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14131
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14132
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14133
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14134
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14135
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 06
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14136
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 07
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14137
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 08
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14138
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 09
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14139
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 高级 专线 美国 10
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14140
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 高级 专线 韩国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14141
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 高级 专线 韩国 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14142
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 高级 专线 台湾 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14151
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 高级 专线 台湾 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14152
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14121
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14122
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14123
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14124
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14125
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 06
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14126
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 07
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14127
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 高级 专线 日本 08
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14128
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 标准 专线 香港 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14001
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 标准 专线 香港 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14002
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 标准 专线 香港 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14003
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 标准 专线 狮城 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14011
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 标准 专线 狮城 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14012
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 标准 专线 狮城 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14013
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14031
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14032
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14033
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14034
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14035
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 06
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14036
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 标准 专线 韩国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14041
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14021
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14022
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14023
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 标准 专线 日本 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14024
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 标准 专线 台湾 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14051
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 特殊 专线 伦敦 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14201
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 特殊 专线 伦敦 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14202
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 特殊 专线 德国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14200
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 特殊 专线 德国 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14207
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 特殊 专线 巴西 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14205
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 特殊 专线 巴西 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14212
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 特殊 专线 加拿大 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14206
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 特殊 专线 加拿大 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14208
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 特殊 专线 土耳其 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14198
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 特殊 专线 土耳其 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14218
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇭 特殊 专线 泰国
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14161
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇻🇳 特殊 专线 越南
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14162
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 特殊 专线 印度
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14194
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇺 特殊 专线 悉尼
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14199
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇪 特殊 专线 迪拜
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14203
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 特殊 专线 法国
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14204
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 特殊 专线 荷兰
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14213
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇩 特殊 专线 印尼
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14214
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇿🇦 特殊 专线 南非
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14215
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇬 特殊 专线 埃及
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14220
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇭 特殊 专线 菲律宾
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14191
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇹 特殊 专线 意大利
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14193
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇸 特殊 专线 西班牙
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14192
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇺 特殊 专线 匈牙利
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14196
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇱 特殊 专线 以色列
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14209
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦 特殊 专线 乌克兰
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14211
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 特殊 专线 俄罗斯
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14195
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇲🇾 特殊 专线 马来西亚
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14219
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇰 特殊 专线 巴基斯坦
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14216
+  server: gzbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇲🇩 特殊 专线 摩尔多瓦
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14217
+  server: bjbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇷 购物 专线 阿根廷
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14197
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true

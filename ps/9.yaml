@@ -1,0 +1,13 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇦🇷 购物 专线 阿根廷
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14197
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true

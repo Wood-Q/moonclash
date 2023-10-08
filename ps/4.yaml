@@ -1,0 +1,73 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 01
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14031
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 02
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14032
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 03
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14033
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 04
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14034
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 05
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14035
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 标准 专线 美国 06
+  password: lE9uL5fR3yR9
+  plugin: obfs
+  plugin-opts:
+    host: fe8d40ce6e.iqiyi.com
+    mode: http
+  port: 14036
+  server: shbgp01.00117163.xyz
+  skip-cert-verify: true
+  type: ss
+  udp: true

@@ -30,7 +30,9 @@ async def httpGet(url):
                 return None
 
 
-async def getProxies(attr: int):
+async def getProxies(attr: int, forcerefrush=False):
+    if not forcerefrush:
+        return file_get(f"./ps/{attr}.yaml")
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
     res = await httpGet(url)
     data = yaml.safe_load(res)
@@ -46,8 +48,10 @@ async def getProxies(attr: int):
     yamls = yaml.dump({"proxies": res}, allow_unicode=True)
     return yamls
 
-async def getRawProxies(attr: int):
 
+async def getRawProxies(attr: int, forcerefrush=False):
+    if not forcerefrush:
+        return file_get(f"./ps/my{attr}.yaml")
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
     res = await httpGet(url)
     data = yaml.safe_load(res)
@@ -88,17 +92,19 @@ async def read_root():
 
 
 @app.get("/ps")
-async def read_root(attr: int):
-    return PlainTextResponse(content=await getProxies(attr))
+async def read_root(attr: int, forcerefrush: bool = False):
+    return PlainTextResponse(content=await getProxies(attr, forcerefrush))
 
 
 @app.get("/rule")
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr))
 
+
 @app.get("/rawps")
-async def read_root(attr: int):
+async def read_root(attr: int, forcerefrush: bool = False):
     return PlainTextResponse(content=await getRawProxies(attr))
+
 
 @app.get("/qrule")
 async def read_root(attr: int):
