@@ -96,7 +96,7 @@ async def read_root(attr: int):
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr))
 
-@app.get("/rawrule")
+@app.get("/rawps")
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRawProxies(attr))
 
