@@ -51,7 +51,7 @@ async def getRawProxies(attr: int):
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
     res = await httpGet(url)
     data = yaml.safe_load(res)
-    rstr = ['.*', '美国', '日本', '台湾', '日本'][attr]
+    rstr = ['.*', '香港', '美国', '台湾', '日本'][attr]
 
     res = list()
     for v in data['proxies']:
