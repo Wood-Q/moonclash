@@ -335,7 +335,7 @@ async def render_clash_rule():
     for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple']:
         rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
         res = res + rawdata['payload']
-    res.insert(0, "DOMAIN-SUFFIX,cquluna.top,🏫 网络模式")
+    res.insert(0, "DOMAIN,tun.cquluna.top,🏫 网络模式")
     res.append("GEOIP,CN,🏫 网络模式")
     res.append("MATCH,🚀 加速模式")
     fs = open('./rule/clash.list', "w")
