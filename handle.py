@@ -23,17 +23,7 @@ def file_get(path):
     return res
 
 
-async def httpGet(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            if resp.status == 200:  # Check if the response status is OK
-                data = await resp.text()  # Parse JSON from the response
-                return data
-            else:
-                return None
-
-
-async def httpGet_head(url, head):
+async def httpGet(url, head={}):
     async with aiohttp.ClientSession(headers=head) as session:
         async with session.get(url) as resp:
             if resp.status == 200:  # Check if the response status is OK
@@ -301,7 +291,7 @@ async def qhandle():
 
 async def pshandle():
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = await httpGet(url)
+    res = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"})
     data = yaml.safe_load(res)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
@@ -332,9 +322,15 @@ async def pshandle():
 
 async def render_clash_rule():
     res = list()
+    id = 0
+    tag = ['☮️ 局域网地址', '🕋 重大服务', '💬 ChatGPT',
+           'Ⓜ️ 微软服务', '🌍 国外媒体', '🎮 游戏平台', '🍎 苹果服务']
     for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple']:
         rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
+        for url_id in range(0, len(rawdata['payload'])):
+            rawdata['payload'][url_id] += f",{tag[id]}"
         res = res + rawdata['payload']
+        id += 1
     res.insert(0, "DOMAIN,tun.cquluna.top,🏫 网络模式")
     res.append("GEOIP,CN,🏫 网络模式")
     res.append("MATCH,🚀 加速模式")
