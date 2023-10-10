@@ -328,7 +328,11 @@ async def render_clash_rule():
     for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple']:
         rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
         for url_id in range(0, len(rawdata['payload'])):
-            rawdata['payload'][url_id] += f",{tag[id]}"
+            url = rawdata['payload'][url_id].split(",")
+            if len(url) == 2:
+                rawdata['payload'][url_id] += f",{tag[id]}"
+            else:
+                rawdata['payload'][url_id] = f"{url[0]},{url[1]},{tag[id]},{url[2]}"
         res = res + rawdata['payload']
         id += 1
     res.insert(0, "DOMAIN,tun.cquluna.top,🏫 网络模式")
