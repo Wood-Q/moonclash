@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 'Traffic: 17.12 GB | 200 GB'
+  name: 'Traffic: 50.72 GB | 200 GB'
   password: lE9uL5fR3yR9
   plugin: obfs
   plugin-opts:

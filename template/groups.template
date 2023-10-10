@@ -1,0 +1,15 @@
+groups:
+  - { name: "🏫 网络模式", type: select, proxies: ["regex校内.*直连","DIRECT"] }
+  - { name: "🚀 加速模式", type: select, proxies:["♿️ 校内加速节点","🛄 校外加速节点"] }
+  - { name: "♿️ 校内加速节点", type: select, proxies:["🈁 自动选择(校内)","regex校内.*(美国|日本|香港|阿根廷|以色列|西班牙|韩国|台湾)"] }
+  - { name: "🛄 校外加速节点", type: select, proxies:["🚮 自动选择(校外)","regex校外.*(美国|日本|香港|阿根廷|以色列|西班牙|韩国|台湾)"] }
+  - { name: "💬 ChatGPT", type: url-test, proxies:["regex美国"], url: "https://www.google.com/",interval: 300}
+  - { name: "🕋 重大服务", type: url-test, proxies: ["DIRECT","regex校外.*直连"], url: "http://10.253.33.252",interval: 300 }
+  - { name: "☮️ 局域网地址", type: select, proxies: ["DIRECT","regex校外.*直连"] }
+  - { name: "Ⓜ️ 微软服务", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
+  - { name: "🍎 苹果服务", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
+  - { name: "🎮 游戏平台", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
+  - { name: "🌍 国外媒体", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
+  - { name: "🈁 自动选择(校内)", type: url-test, proxies:["regex校内(?!.*直连)"], url: "https://www.google.com/",interval: 300}
+  - { name: "🚮 自动选择(校外)", type: url-test, proxies:["regex校外(?!.*直连)"], url: "https://www.google.com/" ,interval: 300}
+  

@@ -33,6 +33,16 @@ async def httpGet(url):
                 return None
 
 
+async def httpGet_head(url, head):
+    async with aiohttp.ClientSession(headers=head) as session:
+        async with session.get(url) as resp:
+            if resp.status == 200:  # Check if the response status is OK
+                data = await resp.text()  # Parse JSON from the response
+                return data
+            else:
+                return None
+
+
 async def lan():
     resList = list()
     resStr = "payload:\n"
@@ -306,7 +316,7 @@ async def pshandle():
         fs = open(f"./ps/{i}.yaml", "w")
         fs.write(yamls)
         fs.close()
-    
+
     rstr = ['.*', '香港', '美国', '台湾', '日本']
     for i in range(0, len(rstr)):
         res = list()
@@ -318,6 +328,19 @@ async def pshandle():
         fs = open(f"./ps/my{i}.yaml", "w")
         fs.write(yamls)
         fs.close()
+
+
+async def render_clash_rule():
+    res = list()
+    for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple']:
+        rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
+        res = res + rawdata['payload']
+    res.insert(0, "DOMAIN-SUFFIX,cquluna.top,🏫 网络模式")
+    res.append("GEOIP,CN,🏫 网络模式")
+    res.append("MATCH,🚀 加速模式")
+    fs = open('./rule/clash.list', "w")
+    fs.write(yaml.dump({"rules": res}, allow_unicode=True))
+    fs.close()
 
 
 async def main():
@@ -333,5 +356,6 @@ async def main():
     await lan()
     await qhandle()
     await pshandle()
+    await render_clash_rule()
 
 asyncio.run(main())

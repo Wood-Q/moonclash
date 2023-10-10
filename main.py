@@ -3,9 +3,10 @@ import asyncio
 import yaml
 import re
 import json
+import re
 import os
 from typing import Union
-from fastapi import FastAPI, Response, status
+from fastapi import FastAPI, Request, Response, status
 from fastapi.responses import RedirectResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -20,8 +21,8 @@ def file_get(path):
     return res
 
 
-async def httpGet(url):
-    async with aiohttp.ClientSession() as session:
+async def httpGet(url, head={}):
+    async with aiohttp.ClientSession(headers=head) as session:
         async with session.get(url) as resp:
             if resp.status == 200:  # Check if the response status is OK
                 data = await resp.text()  # Parse JSON from the response
@@ -109,3 +110,34 @@ async def read_root(attr: int, forcerefrush: bool = False):
 @app.get("/qrule")
 async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr, True))
+
+
+@app.get("/api/v1/client/subscribe")
+async def read_root(token: str):
+    url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
+
+    data = yaml.safe_load(await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}))
+    if len(data['proxies']) == 0:
+        return PlainTextResponse(content="")
+
+    groups = yaml.safe_load(file_get("./template/groups.template"))
+    for group in groups['groups']:
+        new_proxies = list()
+        want_proxies = group['proxies']
+        for id in range(0, len(want_proxies)):
+            if want_proxies[id].find("regex") != -1:
+                patt = want_proxies[id].replace('regex', '')
+                for proxy in data['proxies']:
+                    if re.search(patt, proxy['name']) != None:
+                        new_proxies.append(proxy['name'])
+            else:
+                new_proxies.append(want_proxies[id])
+        group['proxies'] = new_proxies
+
+    rules = yaml.safe_load(file_get("./rule/clash.list"))
+
+    data['proxy-groups'] = groups['groups']
+    data['rules'] = rules['rules']
+
+    resp = yaml.safe_dump(data, allow_unicode=True)
+    return PlainTextResponse(content=resp)
