@@ -1,3 +1,4 @@
 ﻿res.list
 .DS_Store
 .idea
+*.test
