@@ -57,21 +57,11 @@ async def lan():
 async def globalDirect():
     resList = list()
     resStr = "payload:\n"
-    mainland = readMap("mainland")
-    cnmedia = readMap("mainlandmedia").keys()
-    other = readMap("other")
     game = readMap("game")
     resList.append(game["SteamCN"])
     resList.append(game["GameDownloadCN"])
     resList.append(game["米哈游HoYoverse"])
     resList.append(game["腾讯英雄联盟手游"])
-    for key in other.keys():
-        if key.find("云计算") != -1:
-            resList.append(other[key])
-
-    for key in mainland.keys():
-        if key not in cnmedia:
-            resList.append(mainland[key])
 
     for url in resList:
         data = file_get(url)
@@ -324,8 +314,8 @@ async def render_clash_rule():
     res = list()
     id = 0
     tag = ['☮️ 局域网地址', '🕋 重大服务', '💬 ChatGPT',
-           'Ⓜ️ 微软服务', '🌍 国外媒体', '🎮 游戏平台', '🍎 苹果服务']
-    for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple']:
+           'Ⓜ️ 微软服务', '🌍 国外媒体', '🎮 游戏平台', '🍎 苹果服务',"🏫 网络模式"]
+    for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple',"globalDirect"]:
         rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
         for url_id in range(0, len(rawdata['payload'])):
             url = rawdata['payload'][url_id].split(",")
