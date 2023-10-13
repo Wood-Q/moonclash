@@ -116,7 +116,7 @@ async def read_root(attr: int):
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
 
-    data = yaml.safe_load(await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}))
+    data:dict = yaml.safe_load(await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}))
     if len(data['proxies']) == 0:
         return PlainTextResponse(content="")
 
@@ -138,6 +138,6 @@ async def read_root(token: str):
 
     data['proxy-groups'] = groups['groups']
     data['rules'] = rules['rules']
-
+    data.pop('rule-providers')
     resp = yaml.safe_dump(data, allow_unicode=True)
     return PlainTextResponse(content=resp)
