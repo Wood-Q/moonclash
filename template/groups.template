@@ -6,7 +6,7 @@ groups:
   - { name: "💬 ChatGPT", type: url-test, proxies:["regex美国"], url: "https://www.google.com/",interval: 300}
   - { name: "🕋 重大服务", type: url-test, proxies: ["DIRECT","regex校外.*直连"], url: "http://10.253.33.252",interval: 300 }
   - { name: "☮️ 局域网地址", type: select, proxies: ["DIRECT","regex校外.*直连"] }
-  - { name: "Ⓜ️ 微软服务", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
+  - { name: "Ⓜ️ 微软服务", type: select, proxies:["🏫 网络模式","🚀 加速模式"] }
   - { name: "🍎 苹果服务", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
   - { name: "🎮 游戏平台", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
   - { name: "🌍 国外媒体", type: select, proxies:["🚀 加速模式","🏫 网络模式"] }
