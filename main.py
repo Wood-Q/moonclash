@@ -10,7 +10,6 @@ from fastapi import FastAPI, Request, Response, status
 from fastapi.responses import RedirectResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
 
-
 def file_get(path):
     if (not os.path.exists(path)):
         print(f"{path} does not exist")
