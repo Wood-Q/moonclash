@@ -80,7 +80,6 @@ async def globalDirect():
     fs.write(resStr)
     fs.close()
 
-
 async def pselect():
     resList = list()
     resStr = "payload:\n"
