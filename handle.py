@@ -58,7 +58,6 @@ async def globalDirect():
     resList = list()
     resStr = "payload:\n"
     game = readMap("game")
-    gd = readMap("")
     resList.append(game["SteamCN"])
     resList.append(game["GameDownloadCN"])
     resList.append(game["米哈游HoYoverse"])
