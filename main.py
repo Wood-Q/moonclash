@@ -10,6 +10,7 @@ from fastapi import FastAPI, Request, Response, status
 from fastapi.responses import RedirectResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
 
+
 def file_get(path):
     if (not os.path.exists(path)):
         print(f"{path} does not exist")
@@ -20,11 +21,13 @@ def file_get(path):
     return res
 
 
-async def httpGet(url, head={}):
+async def httpGet(url, head={}, type=0):
     async with aiohttp.ClientSession(headers=head) as session:
         async with session.get(url) as resp:
             if resp.status == 200:  # Check if the response status is OK
                 data = await resp.text()  # Parse JSON from the response
+                if type == 1:
+                    return {"data": data, "header": dict(resp.headers)}
                 return data
             else:
                 return None
@@ -111,11 +114,22 @@ async def read_root(attr: int):
     return PlainTextResponse(content=await getRules(attr, True))
 
 
+@app.head("/api/v1/client/subscribe")
+async def read_root(token: str):
+    url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"},1)
+    rawhead = rawinfo['header']
+    resp = Response()
+    resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
+    resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
+    return resp
+
 @app.get("/api/v1/client/subscribe")
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-
-    data:dict = yaml.safe_load(await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}))
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"},1)
+    rawhead = rawinfo['header']
+    data: dict = yaml.safe_load(rawinfo['data'])
     if len(data['proxies']) == 0:
         return PlainTextResponse(content="")
 
@@ -139,4 +153,5 @@ async def read_root(token: str):
     data['rules'] = rules['rules']
     data.pop('rule-providers')
     resp = yaml.safe_dump(data, allow_unicode=True)
-    return PlainTextResponse(content=resp)
+
+    return PlainTextResponse(content=resp,headers={"subscription-userinfo":rawhead['subscription-userinfo'],"Content-Disposition":"attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})
