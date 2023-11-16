@@ -218,6 +218,7 @@ async def ai():
     resStr = "payload:\n"
     gb = readMap("global")
     resList.append(gb['OpenAI'])
+    resList.append("./files/openai.list")
     for url in resList:
         data = file_get(url)
         for line in data.split("\n"):
