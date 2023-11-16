@@ -117,22 +117,29 @@ async def read_root(attr: int):
 @app.head("/api/v1/client/subscribe")
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"},1)
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawhead = rawinfo['header']
     resp = Response()
     resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
     resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
     return resp
 
+
 @app.get("/api/v1/client/subscribe")
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"},1)
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawhead = rawinfo['header']
     data: dict = yaml.safe_load(rawinfo['data'])
     if len(data['proxies']) == 0:
         return PlainTextResponse(content="")
 
+    for v in data['proxies']:
+        if v['name'] == "校外使用【直连】":
+            v.pop('cipher')
+            v.pop('password')
+            v['type'] = 'socks5'
+    
     groups = yaml.safe_load(file_get("./template/groups.template"))
     for group in groups['groups']:
         new_proxies = list()
@@ -148,10 +155,9 @@ async def read_root(token: str):
         group['proxies'] = new_proxies
 
     rules = yaml.safe_load(file_get("./rule/clash.list"))
-
     data['proxy-groups'] = groups['groups']
     data['rules'] = rules['rules']
     data.pop('rule-providers')
     resp = yaml.safe_dump(data, allow_unicode=True)
 
-    return PlainTextResponse(content=resp,headers={"subscription-userinfo":rawhead['subscription-userinfo'],"Content-Disposition":"attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})
+    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": "attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})

@@ -197,6 +197,7 @@ async def ms():
     resList = list()
     resStr = "payload:\n"
     ms = readMap("Microsoft")
+    ms = ms.pop("GitHub")
     for key in ms.keys():
         resList.append(ms[key])
     for url in resList:
