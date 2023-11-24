@@ -178,7 +178,7 @@ async def read_root(token: str, custom: str):
 @app.get("/api/v2/client/subscribe")
 async def read_root(token: str, custom: str):
     # 获取自购机场的节点信息
-    url = base64.b64decode(custom).decode()
+    url = base64.b64decode(custom).decode("utf-8")
     rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawhead = rawinfo['header']
     data: dict = yaml.safe_load(rawinfo['data'])
