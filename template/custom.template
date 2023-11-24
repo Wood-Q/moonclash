@@ -4,7 +4,7 @@ groups:
   - { name: "🛒 自购节点", type: select, proxies:["custom.*"] }
   - { name: "♿️ 校内加速节点", type: select, proxies:["🈁 自动选择(校内)","🔀 自购节点-校内中继","regex校内.*(美国|日本|香港|阿根廷|以色列|西班牙|韩国|台湾)"] }
   - { name: "🛄 校外加速节点", type: select, proxies:["🚮 自动选择(校外)","🛒 自购节点","regex校外.*(美国|日本|香港|阿根廷|以色列|西班牙|韩国|台湾)"] }
-  - { name: "💬 ChatGPT", type: url-test, proxies:["🛒 自购节点","regex美国"], url: "https://www.google.com/",interval: 300}
+  - { name: "💬 ChatGPT", type: url-test, proxies:["regex美国","🛒 自购节点","🔀 自购节点-校内中继"], url: "https://www.google.com/",interval: 300}
   - { name: "🕋 重大服务", type: select, proxies: ["DIRECT","regex校外.*直连"] }
   - { name: "☮️ 局域网地址", type: select, proxies: ["DIRECT","regex校外.*直连"] }
   - { name: "Ⓜ️ 微软服务", type: select, proxies:["🏫 网络模式","🚀 加速模式"] }
