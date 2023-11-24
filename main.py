@@ -165,7 +165,7 @@ async def read_root(token: str):
 
 
 @app.head("/api/v2/client/subscribe")
-async def read_root(token: str):
+async def read_root(token: str, custom: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
     rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawhead = rawinfo['header']
