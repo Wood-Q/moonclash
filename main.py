@@ -3,6 +3,7 @@ import asyncio
 import yaml
 import re
 import json
+import base64
 import re
 import os
 from typing import Union
@@ -139,7 +140,7 @@ async def read_root(token: str):
             v.pop('cipher')
             v.pop('password')
             v['type'] = 'socks5'
-    
+
     groups = yaml.safe_load(file_get("./template/groups.template"))
     for group in groups['groups']:
         new_proxies = list()
@@ -153,6 +154,78 @@ async def read_root(token: str):
             else:
                 new_proxies.append(want_proxies[id])
         group['proxies'] = new_proxies
+
+    rules = yaml.safe_load(file_get("./rule/clash.list"))
+    data['proxy-groups'] = groups['groups']
+    data['rules'] = rules['rules']
+    data.pop('rule-providers')
+    resp = yaml.safe_dump(data, allow_unicode=True)
+
+    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": "attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})
+
+
+@app.head("/api/v2/client/subscribe")
+async def read_root(token: str):
+    url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawhead = rawinfo['header']
+    resp = Response()
+    resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
+    resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
+    return resp
+
+
+@app.get("/api/v2/client/subscribe")
+async def read_root(token: str, custom: str):
+    # 获取自购机场的节点信息
+    url = base64.b64decode(custom).decode()
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawhead = rawinfo['header']
+    data: dict = yaml.safe_load(rawinfo['data'])
+    if len(data['proxies']) == 0:
+        print("自购机场节点获取失败")
+        return PlainTextResponse(content="")
+    else:
+        selfProxies = data['proxies']
+
+    # 获取往月门节点信息
+    url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
+    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawhead = rawinfo['header']
+    data: dict = yaml.safe_load(rawinfo['data'])
+    if len(data['proxies']) == 0:
+        # 获取往月门节点信息失败
+        return PlainTextResponse(content="")
+
+    for v in data['proxies']:
+        if v['name'] == "校外使用【直连】":
+            v.pop('cipher')
+            v.pop('password')
+            v['type'] = 'socks5'
+
+    groups = yaml.safe_load(file_get("./template/custom.template"))
+    for group in groups['groups']:
+        new_proxies = list()
+        want_proxies = group['proxies']
+        for id in range(0, len(want_proxies)):
+            if want_proxies[id].find("regex") != -1:
+                patt = want_proxies[id].replace('regex', '')
+                for proxy in data['proxies']:
+                    if re.search(patt, proxy['name']) != None:
+                        new_proxies.append(proxy['name'])
+            elif want_proxies[id].find("custom") != -1:
+                patt = want_proxies[id].replace('custom', '')
+                for proxy in selfProxies:
+                    if re.search(patt, proxy['name']) != None:
+                        new_proxies.append(proxy['name'])
+            else:
+                new_proxies.append(want_proxies[id])
+        group['proxies'] = new_proxies
+
+    # 将所有的自购机场节点加入到节点列表中
+    for v in selfProxies:
+        v["skip-cert-verify"] = True
+        data['proxies'].append(v)
 
     rules = yaml.safe_load(file_get("./rule/clash.list"))
     data['proxy-groups'] = groups['groups']
