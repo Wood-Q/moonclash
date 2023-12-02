@@ -53,6 +53,10 @@ async def getProxies(attr: int, forcerefrush=False):
     return yamls
 
 
+async def getWarp():
+    return file_get(f"./ps/warp.yaml")
+
+
 async def getRawProxies(attr: int, forcerefrush=False):
     if not forcerefrush:
         return file_get(f"./ps/my{attr}.yaml")
@@ -98,6 +102,11 @@ async def read_root():
 @app.get("/ps")
 async def read_root(attr: int, forcerefrush: bool = False):
     return PlainTextResponse(content=await getProxies(attr, forcerefrush))
+
+
+@app.get("/warp")
+async def read_warp():
+    return PlainTextResponse(content=await getWarp())
 
 
 @app.get("/rule")

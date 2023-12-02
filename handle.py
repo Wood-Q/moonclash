@@ -287,7 +287,7 @@ async def pshandle():
     data = yaml.safe_load(res)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
-            '标准.*日本', '标准.*台湾', '标准.*日本', '标准.*韩国', '阿根廷','高级.*美国 0(1|2|3)','高级.*美国 0(4|5|6)','高级.*美国 0(7|8|9)']
+            '标准.*日本', '标准.*台湾', '标准.*日本', '标准.*韩国', '阿根廷', '高级.*美国 0(1|2|3)', '高级.*美国 0(4|5|6)', '高级.*美国 0(7|8|9)']
     for i in range(0, len(rstr)):
         res = list()
         for v in data['proxies']:
@@ -312,12 +312,28 @@ async def pshandle():
         fs.close()
 
 
+async def warphandle():
+    # url = 'https://neko-warp.nloli.xyz/neko_warp.yaml'
+    # res = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    # data = yaml.safe_load(res)
+    res = file_get("./files/warp1.yaml")
+    data = yaml.safe_load(res)
+    nodes = []
+    for v in data['proxies']:
+        v["skip-cert-verify"] = True
+        nodes.append(v)
+    yamls = yaml.dump({"proxies": nodes}, allow_unicode=True)
+    fs = open(f"./ps/warp.yaml", "w")
+    fs.write(yamls)
+    fs.close()
+
+
 async def render_clash_rule():
     res = list()
     id = 0
     tag = ['☮️ 局域网地址', '🕋 重大服务', '💬 ChatGPT',
-           'Ⓜ️ 微软服务', '🌍 国外媒体', '🎮 游戏平台', '🍎 苹果服务',"🏫 网络模式"]
-    for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple',"globalDirect"]:
+           'Ⓜ️ 微软服务', '🌍 国外媒体', '🎮 游戏平台', '🍎 苹果服 务',"🏫 网络模式"]
+    for v in ['lan', 'cqu', 'openai', 'ms', 'globalmedia', 'game', 'apple', "globalDirect"]:
         rawdata = yaml.safe_load(file_get(f"./rule/{v}.list"))
         for url_id in range(0, len(rawdata['payload'])):
             url = rawdata['payload'][url_id].split(",")
@@ -349,5 +365,6 @@ async def main():
     await qhandle()
     await pshandle()
     await render_clash_rule()
+    await warphandle()
 
 asyncio.run(main())
