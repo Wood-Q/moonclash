@@ -146,6 +146,8 @@ async def media():
                 continue
             if line[0] == "#":
                 continue
+            if "bili" in line:
+                continue
             resStr += f"  - {line}\n"
     fs = open("./rule/globalmedia.list", "w")
     fs.write(resStr)
