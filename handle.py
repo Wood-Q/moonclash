@@ -136,6 +136,7 @@ async def media():
     resList = list()
     resStr = "payload:\n"
     globalmedia = readMap("globalmedia")
+    globalmedia.pop("BiliBiliIntl")
     for key in globalmedia.keys():
         resList.append(globalmedia[key])
     for url in resList:
