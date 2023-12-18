@@ -137,6 +137,7 @@ async def media():
     resStr = "payload:\n"
     globalmedia = readMap("globalmedia")
     globalmedia.pop("BiliBiliIntl")
+    globalmedia.pop("AsianMedia")
     for key in globalmedia.keys():
         resList.append(globalmedia[key])
     for url in resList:
@@ -145,8 +146,6 @@ async def media():
             if len(line) == 0:
                 continue
             if line[0] == "#":
-                continue
-            if "bili" in line:
                 continue
             resStr += f"  - {line}\n"
     fs = open("./rule/globalmedia.list", "w")
