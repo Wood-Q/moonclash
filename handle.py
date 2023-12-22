@@ -348,6 +348,7 @@ async def render_clash_rule():
     res.insert(0, "DOMAIN,tun.cquluna.top,🏫 网络模式")
     res.insert(0, "DOMAIN,tun6.cquluna.top,🏫 网络模式")
     res.insert(0, "DOMAIN-SUFFIX,doeca.cc,🏫 网络模式")
+    res.insert(0, "DOMAIN-SUFFIX,test-ipv6.com,🏫 网络模式")
     res.append("GEOIP,CN,🏫 网络模式")
     res.append("MATCH,🚀 加速模式")
     fs = open('./rule/clash.list', "w")
