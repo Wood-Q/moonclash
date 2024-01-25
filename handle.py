@@ -1,5 +1,5 @@
 ﻿import json
-import aiohttp
+import requests
 import asyncio
 import os
 import yaml
@@ -23,14 +23,6 @@ def file_get(path):
     return res
 
 
-async def httpGet(url, head={}):
-    async with aiohttp.ClientSession(headers=head) as session:
-        async with session.get(url) as resp:
-            if resp.status == 200:  # Check if the response status is OK
-                data = await resp.text()  # Parse JSON from the response
-                return data
-            else:
-                return None
 
 
 async def lan():
@@ -285,8 +277,8 @@ async def qhandle():
 
 async def pshandle():
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"})
-    data = yaml.safe_load(res)
+    res = requests.get(url)
+    data = yaml.safe_load(res.text)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
             '标准.*日本', '标准.*台湾', '标准.*日本', '标准.*韩国', '阿根廷', '高级.*美国 0(1|2|3)', '高级.*美国 0(4|5|6)', '高级.*美国 0(7|8|9)']
