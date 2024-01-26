@@ -1,4 +1,4 @@
-import aiohttp
+import requests
 import asyncio
 import yaml
 import re
@@ -22,23 +22,11 @@ def file_get(path):
     return res
 
 
-async def httpGet(url, head={}, type=0):
-    async with aiohttp.ClientSession(headers=head) as session:
-        async with session.get(url) as resp:
-            if resp.status == 200:  # Check if the response status is OK
-                data = await resp.text()  # Parse JSON from the response
-                if type == 1:
-                    return {"data": data, "header": dict(resp.headers)}
-                return data
-            else:
-                return None
-
-
 async def getProxies(attr: int, forcerefrush=False):
     if not forcerefrush:
         return file_get(f"./ps/{attr}.yaml")
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = await httpGet(url)
+    res = requests.get(url).text
     data = yaml.safe_load(res)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
@@ -61,7 +49,7 @@ async def getRawProxies(attr: int, forcerefrush=False):
     if not forcerefrush:
         return file_get(f"./ps/my{attr}.yaml")
     url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = await httpGet(url)
+    res = requests.get(url).text
     data = yaml.safe_load(res)
     rstr = ['.*', '香港', '美国', '台湾', '日本'][attr]
 
@@ -127,8 +115,10 @@ async def read_root(attr: int):
 @app.head("/api/v1/client/subscribe")
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
-    rawhead = rawinfo['header']
+    # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawinfo = requests.get(
+        url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    rawhead = rawinfo.headers
     resp = Response()
     resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
     resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
@@ -138,9 +128,11 @@ async def read_root(token: str):
 @app.get("/api/v1/client/subscribe")
 async def read_root(token: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
-    rawhead = rawinfo['header']
-    data: dict = yaml.safe_load(rawinfo['data'])
+    # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawinfo = requests.get(
+        url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    rawhead = rawinfo.headers
+    data: dict = yaml.safe_load(rawinfo.text)
     if len(data['proxies']) == 0:
         return PlainTextResponse(content="")
 
@@ -176,8 +168,10 @@ async def read_root(token: str):
 @app.head("/api/v2/client/subscribe")
 async def read_root(token: str, custom: str):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
-    rawhead = rawinfo['header']
+    # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawinfo = requests.get(
+        url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    rawhead = rawinfo.headers
     resp = Response()
     resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
     resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
@@ -188,9 +182,11 @@ async def read_root(token: str, custom: str):
 async def read_root(token: str, custom: str):
     # 获取自购机场的节点信息
     url = base64.b64decode(custom).decode("utf-8")
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
-    rawhead = rawinfo['header']
-    data: dict = yaml.safe_load(rawinfo['data'])
+    # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawinfo = requests.get(
+        url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    rawhead = rawinfo.headers
+    data: dict = yaml.safe_load(rawinfo.text)
     if len(data['proxies']) == 0:
         print("自购机场节点获取失败")
         return PlainTextResponse(content="")
@@ -199,9 +195,11 @@ async def read_root(token: str, custom: str):
 
     # 获取往月门节点信息
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
-    rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
-    rawhead = rawinfo['header']
-    data: dict = yaml.safe_load(rawinfo['data'])
+    # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
+    rawinfo = requests.get(
+        url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
+    rawhead = rawinfo.headers
+    data: dict = yaml.safe_load(rawinfo.text)
     if len(data['proxies']) == 0:
         # 获取往月门节点信息失败
         return PlainTextResponse(content="")
