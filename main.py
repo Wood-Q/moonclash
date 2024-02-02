@@ -10,6 +10,7 @@ from typing import Union
 from fastapi import FastAPI, Request, Response, status
 from fastapi.responses import RedirectResponse, PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
+from ytoo import ytoo_url
 
 
 def file_get(path):
@@ -25,8 +26,7 @@ def file_get(path):
 async def getProxies(attr: int, forcerefrush=False):
     if not forcerefrush:
         return file_get(f"./ps/{attr}.yaml")
-    url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = requests.get(url).text
+    res = requests.get(ytoo_url).text
     data = yaml.safe_load(res)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
@@ -48,8 +48,7 @@ async def getWarp():
 async def getRawProxies(attr: int, forcerefrush=False):
     if not forcerefrush:
         return file_get(f"./ps/my{attr}.yaml")
-    url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = requests.get(url).text
+    res = requests.get(ytoo_url).text
     data = yaml.safe_load(res)
     rstr = ['.*', '香港', '美国', '台湾', '日本'][attr]
 
@@ -113,20 +112,24 @@ async def read_root(attr: int):
 
 
 @app.head("/api/v1/client/subscribe")
-async def read_root(token: str):
+async def read_root(token: str, req: Request):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
     # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawinfo = requests.get(
         url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
     rawhead = rawinfo.headers
+    host = req.headers.get('host')
+    ipv4 = (host == "tun4.cquluna.top")
     resp = Response()
     resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
-    resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
+    resp.headers['Content-Disposition'] = rawhead['Content-Disposition'] + \
+        f"{'v4' if ipv4 else 'v6'}"
     return resp
 
 
 @app.get("/api/v1/client/subscribe")
-async def read_root(token: str):
+async def read_root(token: str, req: Request):
+
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
     # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawinfo = requests.get(
@@ -136,11 +139,13 @@ async def read_root(token: str):
     if len(data['proxies']) == 0:
         return PlainTextResponse(content="")
 
-    for v in data['proxies']:
-        if v['name'] == "校外使用【直连】":
-            v.pop('cipher')
-            v.pop('password')
-            v['type'] = 'socks5'
+    host = req.headers.get('host')
+    ipv4 = False
+    if host == "tun4.cquluna.top":
+        ipv4 = True
+        for v in data['proxies']:
+            v['server'] = v['server'].replace(
+                "cqu.cquluna.top", "tun4.cquluna.top")
 
     groups = yaml.safe_load(file_get("./template/groups.template"))
     for group in groups['groups']:
@@ -162,24 +167,29 @@ async def read_root(token: str):
     data.pop('rule-providers')
     resp = yaml.safe_dump(data, allow_unicode=True)
 
-    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": "attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})
+    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": f"attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8{'v4' if ipv4 else 'v6'}"})
 
 
 @app.head("/api/v2/client/subscribe")
-async def read_root(token: str, custom: str):
+async def read_root(token: str, custom: str, req: Request):
     url = f"https://board6.cquluna.top/api/v1/client/subscribe?token={token}"
     # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
     rawinfo = requests.get(
         url, headers={"user-agent": "Stash/2.4.6 Clash/1.9.0"})
     rawhead = rawinfo.headers
+
+    host = req.headers.get('host')
+    ipv4 = (host == "tun4.cquluna.top")
     resp = Response()
     resp.headers['subscription-userinfo'] = rawhead['subscription-userinfo']
-    resp.headers['Content-Disposition'] = rawhead['Content-Disposition']
+    resp.headers['Content-Disposition'] = rawhead['Content-Disposition'] + \
+        f"{'v4' if ipv4 else 'v6'}"
     return resp
 
 
 @app.get("/api/v2/client/subscribe")
-async def read_root(token: str, custom: str):
+async def read_root(token: str, custom: str, req: Request):
+    print(f"使用域名：{req.headers.get('host')}")
     # 获取自购机场的节点信息
     url = base64.b64decode(custom).decode("utf-8")
     # rawinfo = await httpGet(url, {"user-agent": "Stash/2.4.6 Clash/1.9.0"}, 1)
@@ -204,11 +214,13 @@ async def read_root(token: str, custom: str):
         # 获取往月门节点信息失败
         return PlainTextResponse(content="")
 
-    for v in data['proxies']:
-        if v['name'] == "校外使用【直连】":
-            v.pop('cipher')
-            v.pop('password')
-            v['type'] = 'socks5'
+    host = req.headers.get('host')
+    ipv4 = False
+    if host == "tun4.cquluna.top":
+        ipv4 = True
+        for v in data['proxies']:
+            v['server'] = v['server'].replace(
+                "cqu.cquluna.top", "tun4.cquluna.top")
 
     groups = yaml.safe_load(file_get("./template/custom.template"))
     for group in groups['groups']:
@@ -240,4 +252,4 @@ async def read_root(token: str, custom: str):
     data.pop('rule-providers')
     resp = yaml.safe_dump(data, allow_unicode=True)
 
-    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": "attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8"})
+    return PlainTextResponse(content=resp, headers={"subscription-userinfo": rawhead['subscription-userinfo'], "Content-Disposition": f"attachment;filename*=UTF-8''%E5%BE%80%E6%9C%88%E9%97%A8{'v4' if ipv4 else 'v6'}"})

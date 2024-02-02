@@ -1,0 +1,1 @@
+ytoo_url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D50406%26token%3DLSaBOZhwqUcd%26sip002%3D1"

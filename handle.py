@@ -4,7 +4,7 @@ import asyncio
 import os
 import yaml
 import re
-
+from ytoo import ytoo_url
 
 def readMap(name) -> dict:
     fs = open(f"./maps/{name}.map", "r")
@@ -276,8 +276,7 @@ async def qhandle():
 
 
 async def pshandle():
-    url = "https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D37854%26token%3Di9S5KxiwJZgx%26sip002%3D1"
-    res = requests.get(url)
+    res = requests.get(ytoo_url)
     data = yaml.safe_load(res.text)
 
     rstr = ['日用.*香港', '日用.*美国', '日用.*日本', '标准.*香港', '标准.*美国',
